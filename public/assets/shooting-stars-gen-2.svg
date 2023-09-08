@@ -1,0 +1,164 @@
+<svg viewBox="100% 100%" xmlns="http://www.w3.org/2000/svg" 
+    style="background-color: #1e1e1d;"
+>
+    <defs>
+        <symbol id="commet" viewBox="0 0 40 5">
+                <polygon points="2,2.3 39,3 2,3.7" fill="#e4dec7"></polygon>
+                <circle cx="2" cy="3" fill="#bfc16c" r="1.1" />
+        </symbol>
+    </defs>
+    <!-- ZIPPY -->
+    <use href="#commet" transform="rotate(-20)"
+            y="60%" width="60" height="60" 
+        ><animate attributeName="x" repeatCount="indefinite" 
+                from="2300%" to="-70%" dur="5.7s"
+    /></use>   
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="-5.1588749850476106%" width="130.13342438767359" height="130.13342438767359" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="154.67972098292552%" to="-106.08018840981497%" dur="3.022339909423223s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="102.92365040744542%" width="104.37909073025364" height="104.37909073025364" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="106.74223344675119%" to="-75.89691319079614%" dur="3.8212530285385324s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="-39.163832034525264%" width="148.79759984172364" height="148.79759984172364" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="111.67976309056117%" to="-93.95916903607018%" dur="4.281411681913036s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="36.78072926448952%" width="63.57489008544468" height="63.57489008544468" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="149.4475745274687%" to="-100.86387945250759%" dur="4.420562457771254s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="113.74249529591552%" width="131.73859604152437" height="131.73859604152437" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="182.3111346610694%" to="-77.61453708817993%" dur="5.708045377128515s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="93.37311125356203%" width="96.79850450975596" height="96.79850450975596" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="156.67901407153286%" to="-50.41662956388615%" dur="5.1553959514490195s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="-2.0143676212222488%" width="104.44859379374734" height="104.44859379374734" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="116.20672310950805%" to="-139.59166479700627%" dur="3.8246918137514094s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="124.42843282844302%" width="113.51141919983112" height="113.51141919983112" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="121.62591492200134%" to="-117.06905877853511%" dur="3.9413048833805906s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="34.05148525982999%" width="80.0693525620766" height="80.0693525620766" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="189.95675950022815%" to="-62.80406306863429%" dur="4.40572583932578s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="-31.134882223334174%" width="91.2118356693951" height="91.2118356693951" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="124.10147217815981%" to="-130.5193729923747%" dur="3.389343856478792s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="18.721456185088712%" width="125.89077833998516" height="125.89077833998516" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="144.20475350132784%" to="-51.83264132089718%" dur="5.64418777340798s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="108.5824568637727%" width="73.10021289267058" height="73.10021289267058" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="127.64129622400097%" to="-136.94127134592134%" dur="3.0510733439573947s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="48.723039606908785%" width="112.04244760408824" height="112.04244760408824" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="176.55509210718725%" to="-58.38194195300437%" dur="3.7689826900631154s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="116.8535289866285%" width="118.94788437753382" height="118.94788437753382" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="168.07699191117413%" to="-86.24954745850293%" dur="4.247124565281598s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="-19.201686277544262%" width="77.80015809353803" height="77.80015809353803" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="177.38232844029008%" to="-137.79298174508529%" dur="5.964174359790853s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="105.88611082894633%" width="99.89026922981138" height="99.89026922981138" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="137.7923763060465%" to="-128.11825802495542%" dur="5.57105345668062s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="-44.726532686156006%" width="127.26497798167405" height="127.26497798167405" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="121.83041899094688%" to="-110.24821566610848%" dur="5.0691368290590955s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="-40.911382956987126%" width="148.80561407693415" height="148.80561407693415" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="150.79743787822161%" to="-78.07386942708065%" dur="3.7616455824593302s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="-43.2788928558545%" width="61.025858874661594" height="61.025858874661594" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="153.64219093451635%" to="-142.3679767838791%" dur="3.5815131885664933s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="-16.548334818144163%" width="108.15105558322381" height="108.15105558322381" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="159.33439081830505%" to="-124.61600565921371%" dur="5.347036645481548s"
+    /></use>
+
+
+    <use href="#commet" transform="rotate(-20)"
+        y="22.6472065552433%" width="113.87543036415363" height="113.87543036415363" 
+    ><animate attributeName="x" repeatCount="indefinite" 
+            from="143.54230010603456%" to="-63.72336445660045%" dur="4.832761370645087s"
+    /></use>
+
+</svg>

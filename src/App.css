@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* h1, h2, h3, h4, h5, h6, button { */
+* {
+    font-family: Fredoka;
+    /* font-family: 'Macondo'; */
+}
+.font-macondo {
+    font-family: Macondo;
+}
+*::selection {
+    background: #eeee92;
+}
+
+.bg-space {
+    background-color: #1e1e1d;
+}
+.bg-void {
+    background-color: #dfcde9;
+}
+
+.card {
+    background-color: #fff;
+    /* border: white solid;
+    border-width: 10px;
+    border-right: none; */
+}
+
+.card > div, .card > img {
+    transform: translateX(10px) translateY(-10px);
+	border: solid #282626;
+	border-width: 2px;
+}
+.card.card-sm > div {
+    transform: translateX(5px) translateY(-5px);
+}
+
+.card > img {
+    min-height: 20rem;
+}
+
+.bg-stripped {
+    background: repeating-linear-gradient(
+        -45deg,
+        #858484,
+        #858484 1px,
+        #fff 1px,
+        #fff 6px
+    );
+}
+
+.part-of-speech-badge{
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	padding: 0.3rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin: 0px;
+    margin-right: -30px;
+    margin-left: auto;
+    display: block ;
+}
+
+bold {
+    font-weight: 600;
+    font-style: italic;
+}
+
+i {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+quote {
+    display: inline-block;
+}
+quote::before, quote::after {
+    content: '"';
+    font-weight: bold;
+}
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+    padding-right: 0.135rem;
+}

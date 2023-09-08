@@ -1,0 +1,22 @@
+@keyframes pop-up {
+    0% {
+        top: 11rem;
+    }
+    40% {
+        top: 4rem;
+    }
+    50% {
+        top: 4rem;
+    }
+    60% {
+        top: 11rem;
+    }
+    100% {
+        top: 11rem
+    }
+}
+
+.peek-a-boo {
+    animation: 15s infinite pop-up;
+    animation-delay: 2.5s;
+}
