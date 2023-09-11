@@ -30,6 +30,10 @@ router.get("/gif", async (ctx) => {
     ctx.response.body = await searchGiphy(term);
 });
 
+router.get("/dict", async(ctx) => {
+    ctx.response.redirect('/');
+});
+
 // Define /version route
 router.get("/version", async (ctx) => {
     ctx.response.status = 200;
