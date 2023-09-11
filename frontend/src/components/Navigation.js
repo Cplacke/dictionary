@@ -22,13 +22,14 @@ export const Navigation = () => {
                     ariaHideApp={false}
                     // onAfterOpen={afterOpenModal}
                     // onRequestClose={closeModal}
+                    className="w-full md:w-9/12"
                     style={{
                         content: {
                             margin: 'auto',
                             marginTop: '8rem',
                             marginBottom: '2rem',
-                            padding: '0',
-                            width: '70%',
+                            // padding: '0',
+                            // width: '70%',
                         },
                         overlay: {
                             backgroundColor: 'rgba(0, 0, 0, 0.75)',
