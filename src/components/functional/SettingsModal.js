@@ -1,5 +1,6 @@
-import { useState, useContext} from 'react'
+import { useContext} from 'react'
 import { AppContext } from '../../App'
+import { Icon } from './index'
 
 export const SettingsModal = ({
     close
@@ -27,39 +28,38 @@ export const SettingsModal = ({
                     onClick={() => close()}
                 > close </span>
             </div>
+
             <div className="py-2 mt-2 text-gray-800">
                 <div className="py-1 mb-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
                     onClick={() => { setAndClose(''); }}
                 > 
-                    <span className="inline material-symbols-outlined text-4xl px-2"> search </span>
+                    <Icon icon="search" className="text-4xl px-2" />
                     Search
-                    {/* <span className="px-2 mx-1 shadow-sm rounded-full bg-green-400 text-white text-sm">GRAND OPENING</span> */}
-                    <span className="px-2 mx-1 shadow-sm rounded-full bg-red-400 text-white text-sm">NEW</span>
+                    <Flare className="bg-red-400" text="New"/>
                 </div>
                 <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
                     onClick={() => { setAndClose('Principal'); }}
                 > 
-                    <span className="inline material-symbols-outlined text-4xl px-2"> today </span>
+                    <Icon icon="today" className="text-4xl px-2" />
                     Word of the Day
-                    <span className="px-2 mx-1 shadow-sm rounded-full bg-red-400 text-white text-sm">NEW</span>
-                    <span className="px-2 mx-1 shadow-sm rounded-full bg-purple-400 text-white text-sm">BETA</span>
-
+                    <Flare className="bg-red-400" text="New"/>
+                    <Flare className="bg-purple-400" text="Beta"/>
                 </div>
                 <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"> 
-                    <span className="inline material-symbols-outlined text-4xl px-2"> joystick </span>
+                    <Icon icon="joystick" className="text-4xl px-2" />
                     Games
-                    <span className="px-2 mx-1 shadow-sm rounded-full bg-red-400 text-white text-sm">NEW</span>
-                    <span className="px-2 mx-1 shadow-sm rounded-full bg-blue-400 text-white text-sm">COMING SOON!</span>
+                    <Flare className="bg-red-400" text="New"/>
+                    <Flare className="bg-blue-400" text="Coming Soon!"/>
                 </div>
                 <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"> 
-                    <span className="inline material-symbols-outlined text-4xl px-2"> bookmark </span>
+                    <Icon icon="bookmark" className="text-4xl px-2" />
                     My Words
-                    <span className="px-2 mx-1 shadow-sm rounded-full bg-blue-400 text-white text-sm">COMING SOON!</span>
+                    <Flare className="bg-blue-400" text="Coming Soon!"/>
                 </div>
                 <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
                     onClick={() => { setThemeColor('yellow') }}
                 > 
-                    <span className="inline material-symbols-outlined text-4xl px-2"> settings </span>
+                    <Icon icon="settings" className="text-4xl px-2" />
                     Settings
                 </div>
             </div>
@@ -68,5 +68,13 @@ export const SettingsModal = ({
                 <div className="w-full mx-auto font-mono text-gray-800 mt-24"> version: v0.1.0 </div>
             </div>
         </div>
+    )
+}
+
+const Flare = ({ className, text }) => {
+    return (
+        <span className={"px-2 mx-1 shadow-sm rounded-full text-white text-sm uppercase "+className}>
+            { text }
+        </span>
     )
 }

@@ -1,24 +1,33 @@
-import { createContext, useState } from "react";
 
-// const [searchTerm, setSearchTerm] = useState('Hurricane')
-
-export const DictionaryContext = createContext({
-    searchTerm: 'hurricane'
-})
-
+// TODO: extract to Deno.env
 const learners_KEY = '514e5d2b-4e51-4a56-8d66-914194734e7b'
 const collegiate_KEY = '94aded42-91b6-463a-a130-0ebd277ca607'
+
 export const searchDictionaryResults = async (term, learners = false) => {
-    const res = await fetch(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/${term}?key=${learners ? learners_KEY : collegiate_KEY}&limit=50`, { 
-        method: 'GET'
-    });
-    const data = await res.json();
-    return parseDictionaryResponse(data);
+    try {
+        const res = await fetch(
+            `http://www.dictionaryapi.com/api/v3/references/collegiate/json/${term}` +
+            `?key=${learners ? learners_KEY : collegiate_KEY}&limit=50`,
+        { 
+            method: 'GET',
+        });
+        const data = await res.json();
+        return parseDictionaryResponse(data);
+    } catch (err) {
+        console.error('Error in dictionaryapi', { err })
+    }
 }
 
-export const parseDictionaryResponse = (response) => {
+
+/**
+ *  DATA PARSING AND CLEANSING METHODS
+ *  - matrix response to json
+ *  - styling tokens to html
+ *  - validation
+ */
+const parseDictionaryResponse = (response) => {
     const parsed = [];
-    console.info('DICTIONARY :: ', { response });
+    // console.info('DICTIONARY :: ', { response });
     response.forEach((record) => {
         if (typeof record === 'string') {
             return parsed.push({ 
@@ -69,7 +78,6 @@ const parseDefinitions = (record) => {
                         case 'text':
                             definition.text = sanitizeTextString(d[1])
                             break;
-
                         case 'vis':
                             d[1].forEach((uit) => {
                                 definition.samples.push(
@@ -82,12 +90,10 @@ const parseDefinitions = (record) => {
                                 // console.info({u});
                                 u.forEach((ui) => {
                                     // console.info({ui});
-
                                     switch (ui[0]) {
                                         case 'text':
                                             definition.text = sanitizeTextString(ui[1])
                                             break;
-                
                                         case 'vis':
                                             ui[1].forEach((uit) => {
                                                 definition.samples.push(
@@ -100,9 +106,9 @@ const parseDefinitions = (record) => {
                                 })
                             })
                             break;
-
                         default:
-                            console.warn('no config for ', d[0], {d}); 
+                            // TODO: can be improved to include `snote` and `ca` 
+                            // console.warn('no config for ', d[0], {d}); 
                             break;
                     }
                 })
@@ -159,7 +165,7 @@ const sanitizeTextString = (string = '') => {
             replace: '</bold>'
         },
         // {
-        //     pattern: /\{gloss}/g, // meanings of idioms, quote breakdown
+        //     pattern: /\{gloss}/g, // meanings of idioms, quote breakdown, uncommon
         //     replace: ''
         // },{
         //     pattern: /\{\/gloss}/g,

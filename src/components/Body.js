@@ -1,8 +1,7 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import { useDebounce } from 'usehooks-ts';
 import { WordCard, ImageCard, SearchBar } from "./functional"
-import { searchDictionaryResults } from '../services/dictionary-service'
-import { searchGiphy } from '../services/giphy-service'
+import { searchDictionaryResults, searchGiphy } from '../services/backend-service'
 import { AppContext } from '../App'
 
 const Body = () => {
