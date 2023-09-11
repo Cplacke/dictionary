@@ -9,8 +9,7 @@ export const searchGiphy = async (term) => {
         q: term,
         limit: 20,
         offset: 0,
-    })
-    // console.info('Found gif matches :: ', result.data.length);
+    });
     return [
         ... result.data.map((i) => (i.id))
     ];

@@ -1,10 +1,7 @@
-// import { serve } from "https://deno.land/std@0.116.0/http/server.ts";
-// import staticFiles from "https://deno.land/x/static_files@1.1.6/mod.ts";
-import { Application, Router, send } from "https://deno.land/x/oak/mod.ts";
+import { Application, Context, Router, send } from "https://deno.land/x/oak/mod.ts";
 import { oakCors } from "https://deno.land/x/cors/mod.ts";
 import { searchDictionaryResults } from "./dictionary.ts"
 import { searchGiphy } from "./giphy.ts"
-
 
 const app = new Application();
 const router = new Router();
@@ -33,12 +30,14 @@ router.get("/gif", async (ctx) => {
     ctx.response.body = await searchGiphy(term);
 });
 
+// Define /version route
 router.get("/version", async (ctx) => {
     ctx.response.status = 200;
     ctx.response.body = `v0.1.0`;
 });
 
-const serveStatic = async (ctx) => {
+// Define / for client requests and static files
+const serveStatic = async (ctx: Context) => {
     console.info('SERVING STATIC FILE .... ', ctx.request.url.pathname);
     await send(ctx, ctx.request.url.pathname, {
         root: "../frontend/build",
@@ -46,8 +45,8 @@ const serveStatic = async (ctx) => {
     });
 }
 router.get('/', serveStatic);
-router.get('/assets/:path*', serveStatic);
-router.get('/static/:path*', serveStatic);
+router.get('/:file*', serveStatic);
+
 
 app.use(router.routes());
 app.use(router.allowedMethods());
