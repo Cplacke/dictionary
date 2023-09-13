@@ -2,7 +2,7 @@ import { Application, Context, Router, send } from "https://deno.land/x/oak/mod.
 import { oakCors } from "https://deno.land/x/cors/mod.ts";
 import { searchDictionaryResults } from "./dictionary.ts"
 import { searchGiphy } from "./giphy.ts"
-import { VERSION } from "../version.ts"
+import { VERSION } from "../../version.ts"
 
 const app = new Application();
 const router = new Router();
