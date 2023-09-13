@@ -30,7 +30,7 @@ const Body = () => {
     const getContent = () => {
         if (data[0] && data[0].partOfSpeech === null) {
             return (
-                <div class="mx-auto w-7/12">
+                <div className="mx-auto w-7/12">
                     <div className="text-5xl text-gray-200 mt-8"> Maybe you meant ... </div>
                     {
                         data.map((w,i) => {
@@ -44,7 +44,7 @@ const Body = () => {
                     }
                     <ImageCard 
                         className={"mx-auto lg:w-1/2 md:w-3/4 md:mx-auto ml-4 mr-6 my-8"} 
-                        url={`https://media.giphy.com/media/${src[0]}/giphy.gif`}
+                        src={src} startIndex="0"
                     />
                 </div>
             )
@@ -65,7 +65,7 @@ const Body = () => {
                         card.push(
                             <ImageCard key={src[i]}
                                 className={"lg:w-1/2 md:w-3/4 md:mx-auto ml-4 mr-6 my-8"}
-                                url={`https://media.giphy.com/media/${src[i]}/giphy.gif`}
+                                src={src} startIndex={i}
                             />
                         )
                     }
@@ -81,7 +81,7 @@ const Body = () => {
                 !searchTerm &&
                 <ImageCard 
                     className={"mx-auto lg:w-1/2 md:w-3/4 md:mx-auto ml-4 mr-6 mt-8"} 
-                    url={`https://media.giphy.com/media/${src[0]}/giphy.gif`}
+                    src={src} startIndex="0"
                 />
             }
             <SearchBar />
@@ -114,7 +114,7 @@ const paperLayout = (data, src) => {
                             return (
                                 <ImageCard key={src[i]}
                                     className={"w-full h-auto ml-4 mr-6 my-4"}
-                                    url={`https://media.giphy.com/media/${src[i]}/giphy.gif`}
+                                    src={src} startIndex={i}
                                 />
                             )
                         }

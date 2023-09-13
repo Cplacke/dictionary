@@ -57,7 +57,7 @@ export const Navigation = () => {
                 "rounded-lg transition-colors duration-500"
             }
                 onClick={() => setShowMenu(true)}
-            > home </span>
+            > menu </span>
                 <Modal
                     className="card bg-stripped"
                     isOpen={showMenu}

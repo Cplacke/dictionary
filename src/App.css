@@ -30,12 +30,12 @@
 
 .card > div, .card > img {
     /* transform: translateX(10px) translateY(-10px); */
-    transform: translateX(5px) translateY(-5px);
+    transform: translateX(7px) translateY(-7px);
 	border: solid #282626;
-	border-width: 2px;
+	border-width: 1px;
 }
 .card.card-sm > div {
-    transform: translateX(2.5px) translateY(-2.5px);
+    transform: translateX(4px) translateY(-4px);
 }
 
 .card > img {

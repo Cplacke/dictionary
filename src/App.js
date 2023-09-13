@@ -25,15 +25,9 @@ const router = createBrowserRouter([
 const App = () => {
 
   const [ searchTerm, setSearchTerm ] = useState('dictionary');
-  const [ searchStack, setSearchStack ] = useState(new Set());
   const [ data, setData ] = useState([]);
   const [ src, setSrc ] = useState('');
   const [ themeColor, setThemeColor ] = useState('pink');
-
-  useEffect(() => {
-    searchStack.add(searchTerm);
-    console.info({ searchStack });
-  }, [ searchTerm ]);
 
 
   return (

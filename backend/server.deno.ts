@@ -17,7 +17,7 @@ app.use(
 
 // Define /search route
 router.get("/search", async (ctx) => {
-    const term  = ctx.request.url.searchParams.get('term');
+    const term: string | null = ctx.request.url.searchParams.get('term');
     console.info(`Processing request to ${ctx.request.url.pathname} :: term=${term}`);
     ctx.response.status = 200;
     ctx.response.body = await searchDictionaryResults(term);
@@ -25,10 +25,10 @@ router.get("/search", async (ctx) => {
 
 // Define /gif route
 router.get("/gif", async (ctx) => {
-    const term  = ctx.request.url.searchParams.get('term');
+    const term: string | null = ctx.request.url.searchParams.get('term');
     console.info(`Processing request to ${ctx.request.url.pathname} :: term=${term}`);
     ctx.response.status = 200;
-    ctx.response.body = await searchGiphy(term);
+    ctx.response.body = await searchGiphy(term || 'missing');
 });
 
 router.get("/dict", async(ctx) => {
