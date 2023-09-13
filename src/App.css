@@ -29,12 +29,13 @@
 }
 
 .card > div, .card > img {
-    transform: translateX(10px) translateY(-10px);
+    /* transform: translateX(10px) translateY(-10px); */
+    transform: translateX(5px) translateY(-5px);
 	border: solid #282626;
 	border-width: 2px;
 }
 .card.card-sm > div {
-    transform: translateX(5px) translateY(-5px);
+    transform: translateX(2.5px) translateY(-2.5px);
 }
 
 .card > img {

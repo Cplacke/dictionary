@@ -18,9 +18,9 @@ export const WordCard = ({
             <div className="shadow-xl w-full p-4 bg-pink-100 ">
 
                 <div> 
-                    <div className="flex text-5xl uppercase text-pink-600 my-2"> 
-                        <div className="w-9/12 font-macondo"> { word } </div>
-                        <div className="w-auto ml-auto text-base text-gray-700 pb-2 pl-auto align-top"> 
+                    <div className="flex uppercase text-pink-600 my-2 relative"> 
+                        <div className="w-9/12 text-4xl md:text-5xl font-macondo"> { word } </div>
+                        <div className="w-auto ml-auto text-base text-gray-700 pb-2 pl-auto align-top absolute right-0 -top-5"> 
                             { defs.length } Definition{ defs.length > 1 ? 's' : '' }
                         </div>
                     </div>

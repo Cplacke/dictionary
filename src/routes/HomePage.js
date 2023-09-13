@@ -1,4 +1,5 @@
 import { Navigation } from '../components/Navigation'
+import { Footer } from '../components/Footer'
 import Body from '../components/Body'
 
 export const HomePage = () => { 
@@ -6,6 +7,7 @@ export const HomePage = () => {
         <div>
             <Navigation/>
             <Body/>
+            <Footer/>
         </div>
     );
 }

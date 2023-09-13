@@ -8,9 +8,9 @@ export const SearchBar = () => {
 
     return (
         <div className="flex text-2xl text-pink-500">
-            <div className="card card-sm bg-stripped inline-block md:w-4/6 mt-8 mx-auto">
-                <div className="flex align-center bg-white">
-                    <Icon icon="search" className="text-3xl p-1 mr-1" />
+            <div className="inline-block w-full md:w-1/2 mt-8 ml-4 mx-4 md:mx-auto">
+                <div className="flex align-center bg-white rounded-full pr-6">
+                    <Icon icon="search" className="text-3xl p-1 pl-2" />
                     <input className="pl-1 w-full" 
                         type="text" placeholder="search ..."
                         value={searchTerm}

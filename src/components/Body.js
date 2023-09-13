@@ -43,7 +43,7 @@ const Body = () => {
                         })
                     }
                     <ImageCard 
-                        className={"mx-auto lg:w-1/2 md:w-3/4 md:mx-auto ml-2 mr-4 my-8"} 
+                        className={"mx-auto lg:w-1/2 md:w-3/4 md:mx-auto ml-4 mr-6 my-8"} 
                         url={`https://media.giphy.com/media/${src[0]}/giphy.gif`}
                     />
                 </div>
@@ -54,7 +54,7 @@ const Body = () => {
                 data.map((w, i) => {
                     const card = [
                         <WordCard key={i+'_wrd'}
-                            className="lg:w-1/2 md:w-3/4 md:mx-auto ml-2 mr-4 my-8"
+                            className="lg:w-1/2 md:w-3/4 md:mx-auto ml-4 mr-6 my-8"
                             defs={w.defs} word={w.word}
                             syllabic={w.syllabic} stems={w.stems}
                             partOfSpeech={w.partOfSpeech}
@@ -64,7 +64,7 @@ const Body = () => {
                     if (i%4 === 0 && src.length) {
                         card.push(
                             <ImageCard key={src[i]}
-                                className={"lg:w-1/2 md:w-3/4 md:mx-auto ml-2 mr-4 my-8"}
+                                className={"lg:w-1/2 md:w-3/4 md:mx-auto ml-4 mr-6 my-8"}
                                 url={`https://media.giphy.com/media/${src[i]}/giphy.gif`}
                             />
                         )
@@ -80,7 +80,7 @@ const Body = () => {
             {
                 !searchTerm &&
                 <ImageCard 
-                    className={"mx-auto lg:w-1/2 md:w-3/4 md:mx-auto ml-2 mr-4 mt-8"} 
+                    className={"mx-auto lg:w-1/2 md:w-3/4 md:mx-auto ml-4 mr-6 mt-8"} 
                     url={`https://media.giphy.com/media/${src[0]}/giphy.gif`}
                 />
             }
@@ -99,7 +99,7 @@ const paperLayout = (data, src) => {
             <div className="flex w-full flex-wrap">{
                 data.map((w, i) => {
                     return <WordCard key={i+'_wrd'}
-                            className="w-full ml-2 mr-4 my-4"
+                            className="w-full ml-4 mr-6 my-4"
                             defs={w.defs} word={w.word}
                             syllabic={w.syllabic} stems={w.stems}
                             partOfSpeech={w.partOfSpeech}
@@ -113,7 +113,7 @@ const paperLayout = (data, src) => {
                         if (i%2 === 0 && src.length) {
                             return (
                                 <ImageCard key={src[i]}
-                                    className={"w-full h-auto ml-2 mr-4 my-4"}
+                                    className={"w-full h-auto ml-4 mr-6 my-4"}
                                     url={`https://media.giphy.com/media/${src[i]}/giphy.gif`}
                                 />
                             )

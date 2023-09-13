@@ -2,6 +2,7 @@ import { Application, Context, Router, send } from "https://deno.land/x/oak/mod.
 import { oakCors } from "https://deno.land/x/cors/mod.ts";
 import { searchDictionaryResults } from "./dictionary.ts"
 import { searchGiphy } from "./giphy.ts"
+import { VERSION } from "../version.ts"
 
 const app = new Application();
 const router = new Router();
@@ -37,7 +38,7 @@ router.get("/dict", async(ctx) => {
 // Define /version route
 router.get("/version", async (ctx) => {
     ctx.response.status = 200;
-    ctx.response.body = `v0.1.0`;
+    ctx.response.body = VERSION;
 });
 
 // Define / for client requests and static files

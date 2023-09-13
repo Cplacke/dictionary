@@ -1,6 +1,7 @@
 import { useContext} from 'react'
 import { AppContext } from '../../App'
 import { Icon } from './index'
+import { getWordOfDay } from '../../services/word-of-day.service'
 
 export const SettingsModal = ({
     close
@@ -21,7 +22,7 @@ export const SettingsModal = ({
     }
 
     return (
-        <div className="text-4xl p-4 bg-gray-50">
+        <div className="text-4xl p-4 bg-gray-50 h-full w-full">
             <div className="flex text-5xl text-pink-500"> 
                 <span className="w-full"> Control Panel </span>
                 <span className="inline material-symbols-outlined px-2 text-5xl ml-auto cursor-pointer hover:bg-pink-100 rounded-full"
@@ -38,17 +39,18 @@ export const SettingsModal = ({
                     <Flare className="bg-red-400" text="New"/>
                 </div>
                 <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
-                    onClick={() => { setAndClose('Principal'); }}
+                    onClick={() => { 
+                        setAndClose(getWordOfDay()); 
+                    }}
                 > 
                     <Icon icon="today" className="text-4xl px-2" />
                     Word of the Day
-                    <Flare className="bg-red-400" text="New"/>
                     <Flare className="bg-purple-400" text="Beta"/>
                 </div>
                 <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"> 
                     <Icon icon="joystick" className="text-4xl px-2" />
                     Games
-                    <Flare className="bg-red-400" text="New"/>
+                    <Flare className="bg-yellow-500" text="FUN"/>
                     <Flare className="bg-blue-400" text="Coming Soon!"/>
                 </div>
                 <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"> 

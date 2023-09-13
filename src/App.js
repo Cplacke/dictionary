@@ -3,32 +3,21 @@ import {
   redirect,
   RouterProvider,
 } from "react-router-dom";
-import Footer from './components/Footer'
-import { HomePage } from './routes/HomePage'
+import { HomePage, AboutPage } from './routes'
 import './App.css';
 import './Animation.css';
-import { createContext, Component, useState, useContext, useEffect } from "react";
+import { createContext, useState, useEffect } from "react";
 
 export const AppContext = createContext({})
 
 const router = createBrowserRouter([
   {
     path: '/',
-    loader: () => (redirect('/dict')) ,
-  },
-  {
-    path: '/word-of-the-day',
-    element: <HomePage />,
-  },
-  {
-    path: '/dict',
     element: <HomePage />,
   },
   {
     path: '/about',
-    // element: (
-      
-    // ),
+    element: <AboutPage />,
   },
 ])
 
@@ -56,7 +45,6 @@ const App = () => {
         themeColor, setThemeColor
       }}>
         <RouterProvider router={router} />
-        <Footer />
       </AppContext.Provider>
     </div>
   );
