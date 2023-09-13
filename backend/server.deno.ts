@@ -44,7 +44,7 @@ router.get("/version", async (ctx) => {
 const serveStatic = async (ctx: Context) => {
     console.info('SERVING STATIC FILE .... ', ctx.request.url.pathname);
     await send(ctx, ctx.request.url.pathname, {
-        root: "./frontend/build",
+        root: "./build",
         index: "index.html", // Optional: specify an index file
     });
 }

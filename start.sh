@@ -1,0 +1,1 @@
+deno run --allow-all ./backend/server.deno.ts
