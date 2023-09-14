@@ -1,12 +1,12 @@
 import { Navigation } from '../components/Navigation'
 import { Footer } from '../components/Footer'
-import Body from '../components/Body'
+import SearchResults from '../components/SearchResults'
 
-export const HomePage = () => { 
+export const SearchPage = () => { 
     return (
         <div>
             <Navigation/>
-            <Body/>
+            <SearchResults/>
             <Footer/>
         </div>
     );

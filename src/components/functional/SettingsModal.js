@@ -1,4 +1,5 @@
 import { useContext} from 'react'
+import { NavLink} from 'react-router-dom'
 import { AppContext } from '../../App'
 import { Icon } from './index'
 import { getWordOfDay } from '../../services/word-of-day.service'
@@ -31,39 +32,43 @@ export const SettingsModal = ({
             </div>
 
             <div className="py-2 mt-2 text-gray-800 text-3xl md:text-4xl">
-                <div className="py-1 mb-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
-                    onClick={() => { setAndClose(''); }}
+                <NavLink className="py-1 mb-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
+                    to="/" onClick={() => {
+                        setAndClose(''); 
+                    }}
                 > 
                     <Icon icon="search" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Search
                     <Flare className="bg-red-400" text="New"/>
-                </div>
-                <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
-                    onClick={() => { 
+                </NavLink>
+                <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
+                    to="/" onClick={() => { 
                         setAndClose(getWordOfDay()); 
                     }}
                 > 
                     <Icon icon="today" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Word of the Day
                     <Flare className="bg-purple-400" text="Beta"/>
-                </div>
-                <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"> 
+                </NavLink>
+                <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
+                    to="/game"
+                > 
                     <Icon icon="joystick" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Games
                     <Flare className="bg-yellow-500" text="FUN"/>
                     <Flare className="bg-blue-400" text="Coming Soon!"/>
-                </div>
-                <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"> 
+                </NavLink>
+                <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"> 
                     <Icon icon="bookmark" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     My Words
                     <Flare className="bg-blue-400" text="Coming Soon!"/>
-                </div>
-                <div className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
+                </NavLink>
+                <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
                     onClick={() => { setThemeColor('yellow') }}
                 > 
                     <Icon icon="settings" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Settings
-                </div>
+                </NavLink>
             </div>
 
             <div className="text-center text-base md:text-lg mt-auto">

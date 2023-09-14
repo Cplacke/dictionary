@@ -4,7 +4,7 @@ import { WordCard, ImageCard, SearchBar } from "./functional"
 import { searchDictionaryResults, searchGiphy } from '../services/backend-service'
 import { AppContext } from '../App'
 
-const Body = () => {
+const SearchResults = () => {
 
     const {
         searchTerm, setSearchTerm,
@@ -90,7 +90,7 @@ const Body = () => {
     );
 }
 
-export default Body;
+export default SearchResults;
 
 
 const paperLayout = (data, src) => {

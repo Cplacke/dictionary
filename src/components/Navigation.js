@@ -44,7 +44,7 @@ export const Navigation = () => {
         return (
             <span>
                 <span>{ selection.title }</span>
-                <span className="text-gray-600 text-base"> : { selection.subtitle }</span>
+                <span className="hidden md:inline text-gray-600 text-base"> : { selection.subtitle }</span>
             </span>
         )
     }
