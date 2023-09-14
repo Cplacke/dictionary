@@ -14,7 +14,7 @@ export const GamePage = () => {
                     description="A simple, no-time-limit, challenging ride of selecting the work that best matches the shown definition. Do you know what the word means and look for clues?"
                 />
                 <GameCard 
-                    title="Sentence Sherlock" icon="travel_explore"
+                    title="Sentence Sherlock" icon="extension"
                     description="For those that fancy themselves 'academics' and 'English experts' alike, to match a given phrase with context clues and identify the part of speech."
                 />
                 <GameCard 
