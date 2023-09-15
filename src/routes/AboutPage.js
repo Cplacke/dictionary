@@ -1,4 +1,4 @@
-import { Navigation } from "../components/Navigation";
+import { Navigation } from "../components/functional/Navigation";
 import { useEffect, useState } from "react"
 import { getVersion } from "../services/backend-service";
 

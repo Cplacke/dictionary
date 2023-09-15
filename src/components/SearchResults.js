@@ -1,10 +1,10 @@
 import React, { useContext, useEffect } from "react";
 import { useDebounce } from 'usehooks-ts';
-import { WordCard, ImageCard, SearchBar } from "./functional"
+import { WordCard, ImageCard, SearchBar } from "."
 import { searchDictionaryResults, searchGiphy } from '../services/backend-service'
 import { AppContext } from '../App'
 
-const SearchResults = () => {
+export const SearchResults = () => {
 
     const {
         searchTerm, setSearchTerm,
@@ -90,38 +90,36 @@ const SearchResults = () => {
     );
 }
 
-export default SearchResults;
 
-
-const paperLayout = (data, src) => {
-    return (
-        <div className="flex mt-8">
-            <div className="flex w-full flex-wrap">{
-                data.map((w, i) => {
-                    return <WordCard key={i+'_wrd'}
-                            className="w-full ml-4 mr-6 my-4"
-                            defs={w.defs} word={w.word}
-                            syllabic={w.syllabic} stems={w.stems}
-                            partOfSpeech={w.partOfSpeech}
-                            shortDef={w.shortDef}
-                        />
-                })
-            }</div>
-            <div className="flex w-3/4 flex-wrap items-center">
-                {
-                    data.map((w, i) => {
-                        if (i%2 === 0 && src.length) {
-                            return (
-                                <ImageCard key={src[i]}
-                                    className={"w-full h-auto ml-4 mr-6 my-4"}
-                                    src={src} startIndex={i}
-                                />
-                            )
-                        }
-                        return undefined
-                    })
-                }
-            </div>
-        </div>
-    )
-}
+// const paperLayout = (data, src) => {
+//     return (
+//         <div className="flex mt-8">
+//             <div className="flex w-full flex-wrap">{
+//                 data.map((w, i) => {
+//                     return <WordCard key={i+'_wrd'}
+//                             className="w-full ml-4 mr-6 my-4"
+//                             defs={w.defs} word={w.word}
+//                             syllabic={w.syllabic} stems={w.stems}
+//                             partOfSpeech={w.partOfSpeech}
+//                             shortDef={w.shortDef}
+//                         />
+//                 })
+//             }</div>
+//             <div className="flex w-3/4 flex-wrap items-center">
+//                 {
+//                     data.map((w, i) => {
+//                         if (i%2 === 0 && src.length) {
+//                             return (
+//                                 <ImageCard key={src[i]}
+//                                     className={"w-full h-auto ml-4 mr-6 my-4"}
+//                                     src={src} startIndex={i}
+//                                 />
+//                             )
+//                         }
+//                         return undefined
+//                     })
+//                 }
+//             </div>
+//         </div>
+//     )
+// }

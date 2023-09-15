@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { AppContext } from "../../App"
-import { Icon } from './index'
+import { Icon } from '../index'
 
 export const SearchBar = () => {
     

@@ -1,6 +1,8 @@
-import { Navigation } from '../components/Navigation'
-import { Footer } from '../components/Footer'
-import SearchResults from '../components/SearchResults'
+import {  
+    Navigation,
+    Footer,
+    SearchResults,
+} from '../components'
 
 export const SearchPage = () => { 
     return (

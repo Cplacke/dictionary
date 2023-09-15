@@ -11,6 +11,9 @@ export const searchDictionaryResults = async (term, learners = false) => {
         { 
             method: 'GET',
         });
+        if ( res.headers.get('Content-Type')?.includes('html') ) {
+            Deno.writeTextFileSync('./error.html', await res.text())
+        }
         const data = await res.json();
         return parseDictionaryResponse(data);
     } catch (err) {

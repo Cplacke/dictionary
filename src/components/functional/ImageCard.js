@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Icon } from '../functional'
+import { Icon } from '../index'
 
 export const ImageCard = ({ 
     src, className, 

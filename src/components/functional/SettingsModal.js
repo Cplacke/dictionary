@@ -1,7 +1,7 @@
 import { useContext} from 'react'
 import { NavLink} from 'react-router-dom'
 import { AppContext } from '../../App'
-import { Icon } from './index'
+import { Icon } from '../index'
 import { getWordOfDay } from '../../services/word-of-day.service'
 
 export const SettingsModal = ({
