@@ -1,5 +1,5 @@
-// const BASE_URL = 'https://diction.deno.dev'
-const BASE_URL = 'http://localhost:8000'
+const BASE_URL = 'https://diction.deno.dev'
+// const BASE_URL = 'http://localhost:8000'
 const GET_OPTIONS = { 
     method: 'GET',
     // headers: {
