@@ -115,7 +115,7 @@ const badgeColor = (pos) => {
     }
 }
 
-const Definition = ({ definition, sample }) => {
+export const Definition = ({ definition, sample }) => {
 
     const { setSearchTerm } = useContext(AppContext);
     const handleLink = (event) => {

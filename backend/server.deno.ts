@@ -2,6 +2,7 @@ import { Application, Context, Router, send } from "https://deno.land/x/oak/mod.
 import { oakCors } from "https://deno.land/x/cors/mod.ts";
 import { searchDictionaryResults } from "./dictionary.ts"
 import { searchGiphy } from "./giphy.ts"
+import { getDataSet, listDataSet } from "./game-data/index.ts";
 export const VERSION = 'v0.2.0'
 
 const app = new Application();
@@ -21,6 +22,20 @@ router.get("/search", async (ctx) => {
     console.info(`Processing request to ${ctx.request.url.pathname} :: term=${term}`);
     ctx.response.status = 200;
     ctx.response.body = await searchDictionaryResults(term);
+});
+
+// Define /game route
+router.get("/game-data", async (ctx) => {
+    const set: string | null = ctx.request.url.searchParams.get('set');
+    if (set) {
+        console.info(`Processing request to ${ctx.request.url.pathname} :: set=${set}`);
+        ctx.response.status = 200;
+        ctx.response.body = getDataSet(set)
+    } else {
+        console.info(`Processing request to ${ctx.request.url.pathname} :: returning all sets on file`);
+        ctx.response.status = 200;
+        ctx.response.body = listDataSet()
+    }
 });
 
 // Define /gif route
