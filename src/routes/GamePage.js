@@ -37,6 +37,13 @@ export const GamePage = () => {
     const [ page, setPage ] = useState('level-select');
     const [ selectedLevel, setSelectedLevel ] = useState(null);
     const [ data, setData ] = useState([]);
+    const [ answerIndexes, setAnswerIndexes ] = useState([]);
+
+    useEffect(() => {
+        setAnswerIndexes(
+            data.map((d) => ( Math.round(Math.random()*3) ))
+        );
+    },[ data ])
 
     useEffect(() => {
         const getGameSet = async() => {
@@ -92,6 +99,7 @@ export const GamePage = () => {
                     page, setPage,
                     data, setData,
                     selectedLevel, setSelectedLevel,
+                    answerIndexes, setAnswerIndexes
                 }}
             >
                 <Navigation />

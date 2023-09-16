@@ -21,13 +21,6 @@
     background-color: #dfcde9;
 }
 
-.card {
-    background-color: #fff;
-    /* border: white solid;
-    border-width: 10px;
-    border-right: none; */
-}
-
 .card > div, .card > img {
     /* transform: translateX(10px) translateY(-10px); */
     transform: translateX(7px) translateY(-7px);
@@ -36,6 +29,10 @@
 }
 .card.card-sm > div {
     transform: translateX(4px) translateY(-4px);
+}
+.card.card-sm > div:hover {
+    transition: all 500ms;
+    transform: rotate3d(1, 1, 0, 5deg) scale(1.02)  translateX(5px) translateY(-5px);
 }
 
 .card > img {

@@ -28,7 +28,7 @@ export const WordCard = ({
                     <div className="flex text-base text-gray-900 mt-4"> 
                         <div className="w-full">
                             { stems.map((stem) => (
-                                <span key={stem} className="card card-sm inline-block font-mono mr-2 my-0.5 bg-gray-100"
+                                <span key={stem} className="card card-sm bg-pink-200 inline-block font-mono mr-2 my-0.5"
                                     onClick={(e) => { setSearchTerm(e.target.innerText) }}
                                 >
                                     <div className={
@@ -42,7 +42,7 @@ export const WordCard = ({
 
                         <div className="w-auto mr-2 ml-auto">
                             <div className={
-                                "card card-sm inline-block opacity-1 uppercase" 
+                                "card card-sm inline-block bg-pink-200 uppercase" 
                             }>
                                 <div className={
                                     "p-1 text-2xl" + 

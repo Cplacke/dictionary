@@ -18,7 +18,7 @@ export const ImageCard = ({
     
     return (
         <div className={"flex "+className}>
-            <div className={"card bg-stripped mx-auto relative"}>
+            <div className={"card bg-stripped bg-red  mx-auto relative"}>
                 <img key={src[index]} alt="loading experience ..."
                     className="w-full rounded-sm"
                     src={`https://media.giphy.com/media/${src[index]}/giphy.gif`}
