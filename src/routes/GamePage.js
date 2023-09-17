@@ -41,14 +41,14 @@ export const GamePage = () => {
 
     useEffect(() => {
         setAnswerIndexes(
-            data.map((d) => ( Math.round(Math.random()*3) ))
+            data.map((d) => ( Math.round(Math.random()*0) ))
         );
     },[ data ])
 
     useEffect(() => {
         const getGameSet = async() => {
             const opts = await getDataSets()
-            const set = await getDataSetByName(opts[4])
+            const set = await getDataSetByName(opts[6])
             setData(set);
         }
         getGameSet();

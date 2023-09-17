@@ -62,17 +62,10 @@ export const Navigation = () => {
                     className="card bg-stripped"
                     isOpen={showMenu}
                     ariaHideApp={false}
-                    // onAfterOpen={afterOpenModal}
-                    // onRequestClose={closeModal}
                     className="w-11/12 sm:w-8/12 md:w-6/12"
                     style={{
                         content: {
-                            // margin: 'auto',
-                            // marginTop: '8rem',
                             height: '100vh',
-                            // marginBottom: '2rem',
-                            // padding: '0',
-                            // width: '100%',
                         },
                         overlay: {
                             backgroundColor: 'rgba(0, 0, 0, 0.75)',

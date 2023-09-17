@@ -39,7 +39,7 @@ export const SettingsModal = ({
                 > 
                     <Icon icon="search" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Search
-                    <Flare className="bg-red-400" text="New"/>
+                    <Flare className="bg-red-400 ml-auto" text="New"/>
                 </NavLink>
                 <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
                     to="/" onClick={() => { 
@@ -48,20 +48,21 @@ export const SettingsModal = ({
                 > 
                     <Icon icon="today" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Word of the Day
-                    <Flare className="bg-purple-400" text="Beta"/>
+                    <Flare className="bg-purple-400 ml-auto" text="Beta"/>
                 </NavLink>
                 <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
                     to="/game"
                 > 
                     <Icon icon="joystick" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Games
-                    <Flare className="bg-yellow-500" text="FUN"/>
-                    <Flare className="bg-blue-400" text="Coming Soon!"/>
+                    <Flare className="bg-red-400 ml-auto mr-0.5" text="New"/>
+                    <Flare className="bg-yellow-400" text="fun"/>
+                    <Flare className="bg-green-400" text="dev"/>
                 </NavLink>
                 <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"> 
                     <Icon icon="bookmark" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     My Words
-                    <Flare className="bg-blue-400" text="Coming Soon!"/>
+                    <Flare className="bg-blue-400 ml-auto" text="Coming Soon!"/>
                 </NavLink>
                 <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
                     onClick={() => { setThemeColor('yellow') }}
@@ -80,7 +81,7 @@ export const SettingsModal = ({
 
 const Flare = ({ className, text }) => {
     return (
-        <span className={"px-2 mx-1 shadow-sm rounded-full text-white text-xs md:text-sm uppercase "+className}>
+        <span className={"px-2 shadow-sm rounded-full text-white text-xs md:text-sm uppercase "+className}>
             { text }
         </span>
     )
