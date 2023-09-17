@@ -3,6 +3,7 @@ import { NavLink} from 'react-router-dom'
 import { AppContext } from '../../App'
 import { Icon } from '../index'
 import { getWordOfDay } from '../../services/word-of-day.service'
+import { ThemeColors } from '../../routes'
 
 export const SettingsModal = ({
     close
@@ -26,7 +27,7 @@ export const SettingsModal = ({
         <div className="p-2 bg-gray-50 h-full w-full">
             <div className="flex text-primary-500"> 
                 <span className="w-full md:ml-3 text-4xl md:text-5xl"> Control Panel </span>
-                <span className="inline material-symbols-outlined px-2 text-4xl ml-auto cursor-pointer hover:bg-primary-100 rounded-full"
+                <span className="inline material-symbols-outlined text-4xl ml-auto cursor-pointer hover:bg-primary-100 rounded-full"
                     onClick={() => close()}
                 > close </span>
             </div>
@@ -55,9 +56,9 @@ export const SettingsModal = ({
                 > 
                     <Icon icon="joystick" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Games
-                    <Flare className="bg-red-400 ml-auto mr-0.5" text="New"/>
-                    <Flare className="bg-yellow-400" text="fun"/>
-                    <Flare className="bg-green-400" text="dev"/>
+                    <Flare className="bg-yellow-400 ml-auto mr-0.5" text="fun"/>
+                    <Flare className="bg-red-400 mr-0.5" text="New"/>
+                    <Flare className="bg-purple-400" text="beta"/>
                 </NavLink>
                 <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"> 
                     <Icon icon="bookmark" className="text-3xl md:text-4xl mr-2 md:ml-3" />
@@ -70,6 +71,33 @@ export const SettingsModal = ({
                     <Icon icon="settings" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Settings
                 </NavLink>
+                <div className="ml-10 mr-1">
+                    <div className="text-xl text-primary-500"> Theme Color </div>
+                    <select className="p-2 px-4 w-full bg-primary-100">
+                        {
+                            ThemeColors.map((color) => {
+                                return <option onClick={() => setThemeColor(color)}>{
+                                    color   
+                                }</option>
+                            })
+                        }
+                    </select>
+                    <div className="text-xl mt-1 text-primary-500"> Word Set </div>
+                    <select className="p-2 px-4 w-full bg-primary-100">
+                        {
+                            [ 'SAT Terms', 'Elementary Terms', 'Medical Terms' ].map((set) => {
+                                return <option>{
+                                    set   
+                                }</option>
+                            })
+                        }
+                    </select>
+                    <div className="text-xl mt-1 text-primary-500"> Urban Dictionary Enabled </div>
+                    <div className="flex pl-2 mt-1 cursor-not-allowed">
+                        <input type="checkbox" disabled className="p-2 px-4 scale-2 bg-primary-100 cursor-not-allowed" style={{ scale: '2.2' }}/>
+                        <span className="ml-5"> Disabled </span>
+                    </div>
+                </div>
             </div>
 
             <div className="text-center text-base md:text-lg mt-auto">
