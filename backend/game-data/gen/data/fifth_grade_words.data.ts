@@ -14,7 +14,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "existing or occurring in large amounts <a class=\"term-link cursor-pointer text-pink-600 underline\">ample</a> ",
+        "text": "existing or occurring in large amounts <a class=\"term-link cursor-pointer text-primary-600 underline\">ample</a> ",
         "samples": [
           "<bold>abundant</bold> rainfall",
           "<bold>abundant</bold> food"
@@ -27,7 +27,7 @@ export default [
         ]
       },
       {
-        "text": "amply supplied <a class=\"term-link cursor-pointer text-pink-600 underline\">abounding</a> ",
+        "text": "amply supplied <a class=\"term-link cursor-pointer text-primary-600 underline\">abounding</a> ",
         "samples": [
           "an area <bold>abundant</bold> with bird life"
         ]
@@ -57,7 +57,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to study or determine the nature and relationship of the parts of (something) by <a class=\"term-link cursor-pointer text-pink-600 underline\">analysis</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>analysis</a>",
+        "text": "to study or determine the nature and relationship of the parts of (something) by <a class=\"term-link cursor-pointer text-primary-600 underline\">analysis</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>analysis</a>",
         "samples": []
       },
       {
@@ -68,7 +68,7 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">psychoanalyze</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">psychoanalyze</a>",
         "samples": []
       }
     ]
@@ -90,17 +90,17 @@ export default [
     ],
     "defs": [
       {
-        "text": "viewing the future with anxiety or alarm feeling or showing fear or <a class=\"term-link cursor-pointer text-pink-600 underline\">apprehension</a> about the future ",
+        "text": "viewing the future with anxiety or alarm feeling or showing fear or <a class=\"term-link cursor-pointer text-primary-600 underline\">apprehension</a> about the future ",
         "samples": [
           "… many adults who do not think twice about the risks of driving an automobile are <bold>apprehensive</bold> about flying."
         ]
       },
       {
-        "text": "capable of understanding or quick to do so <a class=\"term-link cursor-pointer text-pink-600 underline\">discerning</a>",
+        "text": "capable of understanding or quick to do so <a class=\"term-link cursor-pointer text-primary-600 underline\">discerning</a>",
         "samples": []
       },
       {
-        "text": "having awareness or knowledge of something <a class=\"term-link cursor-pointer text-pink-600 underline\">cognizant</a>",
+        "text": "having awareness or knowledge of something <a class=\"term-link cursor-pointer text-primary-600 underline\">cognizant</a>",
         "samples": []
       }
     ]
@@ -141,7 +141,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "extremely or excessively <a class=\"term-link cursor-pointer text-pink-600 underline\">cautious</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>cautious</a> ",
+        "text": "extremely or excessively <a class=\"term-link cursor-pointer text-primary-600 underline\">cautious</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>cautious</a> ",
         "samples": [
           "With all the polls closed and most of the results in, it's down to Florida. … Having been burned once by prematurely calling the state, the networks are now <bold>hypercautious</bold>.",
           "In theory, at least, a <bold>hypercautious</bold> individual should be able to avoid almost all illness by not doing certain things."
@@ -166,23 +166,23 @@ export default [
     ],
     "defs": [
       {
-        "text": "to form by putting together <a class=\"term-link cursor-pointer text-pink-600 underline\">fashion</a> ",
+        "text": "to form by putting together <a class=\"term-link cursor-pointer text-primary-600 underline\">fashion</a> ",
         "samples": [
           "a committee <bold>composed</bold> of three representatives"
         ]
       },
       {
-        "text": "to form the substance of <a class=\"term-link cursor-pointer text-pink-600 underline\">constitute</a> ",
+        "text": "to form the substance of <a class=\"term-link cursor-pointer text-primary-600 underline\">constitute</a> ",
         "samples": [
           "<bold>composed</bold> of many ingredients"
         ]
       },
       {
-        "text": "to produce (columns, pages of type, etc.) by <a class=\"term-link cursor-pointer text-pink-600 underline\">composition</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>composition</a>",
+        "text": "to produce (columns, pages of type, etc.) by <a class=\"term-link cursor-pointer text-primary-600 underline\">composition</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>composition</a>",
         "samples": []
       },
       {
-        "text": "to create by mental or artistic labor <a class=\"term-link cursor-pointer text-pink-600 underline\">produce</a> ",
+        "text": "to create by mental or artistic labor <a class=\"term-link cursor-pointer text-primary-600 underline\">produce</a> ",
         "samples": [
           "<bold>compose</bold> a sonnet"
         ]
@@ -204,7 +204,7 @@ export default [
         ]
       },
       {
-        "text": "to free from agitation <a class=\"term-link cursor-pointer text-pink-600 underline\">calm</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">settle</a> ",
+        "text": "to free from agitation <a class=\"term-link cursor-pointer text-primary-600 underline\">calm</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">settle</a> ",
         "samples": [
           "<bold>composed</bold> himself",
           "Life moves on, … and one must <bold>compose</bold> oneself to meet it …"
@@ -249,28 +249,28 @@ export default [
         ]
       },
       {
-        "text": "to make a decision about <a class=\"term-link cursor-pointer text-pink-600 underline\">decide</a> ",
+        "text": "to make a decision about <a class=\"term-link cursor-pointer text-primary-600 underline\">decide</a> ",
         "samples": [
           "<bold>concluded</bold> he would wait a little longer"
         ]
       },
       {
-        "text": "to come to an agreement on <a class=\"term-link cursor-pointer text-pink-600 underline\">effect</a> ",
+        "text": "to come to an agreement on <a class=\"term-link cursor-pointer text-primary-600 underline\">effect</a> ",
         "samples": [
           "<bold>conclude</bold> a sale",
           "<bold>concluded</bold> a peace treaty"
         ]
       },
       {
-        "text": "to bring about as a result <a class=\"term-link cursor-pointer text-pink-600 underline\">complete</a>",
+        "text": "to bring about as a result <a class=\"term-link cursor-pointer text-primary-600 underline\">complete</a>",
         "samples": []
       },
       {
-        "text": "to shut up <a class=\"term-link cursor-pointer text-pink-600 underline\">enclose</a>",
+        "text": "to shut up <a class=\"term-link cursor-pointer text-primary-600 underline\">enclose</a>",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">end</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">end</a> ",
         "samples": [
           "The festivities <bold>concluded</bold> at midnight."
         ]
@@ -300,7 +300,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "full of conviction <a class=\"term-link cursor-pointer text-pink-600 underline\">certain</a> ",
+        "text": "full of conviction <a class=\"term-link cursor-pointer text-primary-600 underline\">certain</a> ",
         "samples": [
           "<bold>confident</bold> of success",
           "<bold>confident</bold> that conditions will improve"
@@ -314,7 +314,7 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">trustful</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">confiding</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">trustful</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">confiding</a>",
         "samples": []
       }
     ]
@@ -355,7 +355,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a conclusion derived through logic <a class=\"term-link cursor-pointer text-pink-600 underline\">inference</a> ",
+        "text": "a conclusion derived through logic <a class=\"term-link cursor-pointer text-primary-600 underline\">inference</a> ",
         "samples": [
           "… we can deduce … many <bold>consequences</bold> each of which can be tested by experiment."
         ]
@@ -399,7 +399,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">self-importance</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">self-importance</a>",
         "samples": []
       }
     ]
@@ -445,7 +445,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to assert the <a class=\"term-link cursor-pointer text-pink-600 underline\">contrary</a> of take issue with ",
+        "text": "to assert the <a class=\"term-link cursor-pointer text-primary-600 underline\">contrary</a> of take issue with ",
         "samples": [
           "<bold>contradict</bold> a rumor",
           "She <bold>contradicted</bold> her brother's account of what happened."
@@ -527,7 +527,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to determine by reasoning or <a class=\"term-link cursor-pointer text-pink-600 underline\">deduction</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>deduction</a> ",
+        "text": "to determine by reasoning or <a class=\"term-link cursor-pointer text-primary-600 underline\">deduction</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>deduction</a> ",
         "samples": [
           "<bold>deduce</bold> the age of ancient artifacts",
           "She <bold>deduced</bold>, from the fur stuck to his clothes, that he owned a cat."
@@ -563,7 +563,7 @@ export default [
         ]
       },
       {
-        "text": "to think about <a class=\"term-link cursor-pointer text-pink-600 underline\">deliberately</a> and often with formal discussion before reaching a decision ",
+        "text": "to think about <a class=\"term-link cursor-pointer text-primary-600 underline\">deliberately</a> and often with formal discussion before reaching a decision ",
         "samples": [
           "<bold>deliberate</bold> the question",
           "was <i>deliberating</i> whether or not to accept the offer"
@@ -632,7 +632,7 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">describe</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>1</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">describe</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>1</a> ",
         "samples": [
           "the way the novelist <bold>depicts</bold> his female characters"
         ]
@@ -674,20 +674,20 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">resolve</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">resolve</a> ",
         "samples": [
           "she <i>determined</i> to do better"
         ]
       },
       {
-        "text": "to fix the form, position, or character of beforehand <a class=\"term-link cursor-pointer text-pink-600 underline\">ordain</a> ",
+        "text": "to fix the form, position, or character of beforehand <a class=\"term-link cursor-pointer text-primary-600 underline\">ordain</a> ",
         "samples": [
           "two points <bold>determine</bold> a straight line",
           "the extent to which genetics <bold>determines</bold> one's personality"
         ]
       },
       {
-        "text": "to bring about as a result <a class=\"term-link cursor-pointer text-pink-600 underline\">regulate</a> ",
+        "text": "to bring about as a result <a class=\"term-link cursor-pointer text-primary-600 underline\">regulate</a> ",
         "samples": [
           "demand <bold>determines</bold> the price"
         ]
@@ -701,7 +701,7 @@ export default [
         "samples": []
       },
       {
-        "text": "to put or set an end to <a class=\"term-link cursor-pointer text-pink-600 underline\">terminate</a> ",
+        "text": "to put or set an end to <a class=\"term-link cursor-pointer text-primary-600 underline\">terminate</a> ",
         "samples": [
           "<bold>determine</bold> an estate"
         ]
@@ -714,7 +714,7 @@ export default [
         ]
       },
       {
-        "text": "to bring about the determination see <a class=\"term-link cursor-pointer text-pink-900 italic\">determination</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>7</a> of ",
+        "text": "to bring about the determination see <a class=\"term-link cursor-pointer text-primary-900 italic\">determination</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>7</a> of ",
         "samples": [
           "<bold>determine</bold> the fate of a cell"
         ]
@@ -746,7 +746,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "religious <a class=\"term-link cursor-pointer text-pink-600 underline\">fervor</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>fervor</a> <a class=\"term-link cursor-pointer text-pink-600 underline\">piety</a>",
+        "text": "religious <a class=\"term-link cursor-pointer text-primary-600 underline\">fervor</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>fervor</a> <a class=\"term-link cursor-pointer text-primary-600 underline\">piety</a>",
         "samples": []
       },
       {
@@ -756,11 +756,11 @@ export default [
         ]
       },
       {
-        "text": "a religious exercise or practice other than the regular corporate see <a class=\"term-link cursor-pointer text-pink-900 italic\">corporate</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>2</a> worship of a congregation",
+        "text": "a religious exercise or practice other than the regular corporate see <a class=\"term-link cursor-pointer text-primary-900 italic\">corporate</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>2</a> worship of a congregation",
         "samples": []
       },
       {
-        "text": "the act of dedicating something to a cause, enterprise, or activity the act of <a class=\"term-link cursor-pointer text-pink-600 underline\">devoting</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>devote</a> ",
+        "text": "the act of dedicating something to a cause, enterprise, or activity the act of <a class=\"term-link cursor-pointer text-primary-600 underline\">devoting</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>devote</a> ",
         "samples": [
           "the <bold>devotion</bold> of a great deal of time and energy"
         ]
@@ -806,7 +806,7 @@ export default [
         "samples": []
       },
       {
-        "text": "to inquire into carefully <a class=\"term-link cursor-pointer text-pink-600 underline\">investigate</a>",
+        "text": "to inquire into carefully <a class=\"term-link cursor-pointer text-primary-600 underline\">investigate</a>",
         "samples": []
       },
       {
@@ -820,7 +820,7 @@ export default [
         "samples": []
       },
       {
-        "text": "to make or give an <a class=\"term-link cursor-pointer text-pink-600 underline\">examination</a>",
+        "text": "to make or give an <a class=\"term-link cursor-pointer text-primary-600 underline\">examination</a>",
         "samples": []
       }
     ]
@@ -844,7 +844,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the examination of a witness who has already testified in order to check or discredit the witness's testimony, knowledge, or credibility <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">direct examination</a></compare>",
+        "text": "the examination of a witness who has already testified in order to check or discredit the witness's testimony, knowledge, or credibility <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">direct examination</a></compare>",
         "samples": []
       }
     ]
@@ -869,7 +869,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to <a class=\"term-link cursor-pointer text-pink-600 underline\">examine</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>examine</a> (someone or something) again especially from a different point of view ",
+        "text": "to <a class=\"term-link cursor-pointer text-primary-600 underline\">examine</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>examine</a> (someone or something) again especially from a different point of view ",
         "samples": [
           "<bold>reexamine</bold> the patient/evidence",
           "<bold>reexamining</bold> our assumptions",
@@ -899,11 +899,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "the act or process of <a class=\"term-link cursor-pointer text-pink-600 underline\">explaining</a>",
+        "text": "the act or process of <a class=\"term-link cursor-pointer text-primary-600 underline\">explaining</a>",
         "samples": []
       },
       {
-        "text": "something that <a class=\"term-link cursor-pointer text-pink-600 underline\">explains</a> ",
+        "text": "something that <a class=\"term-link cursor-pointer text-primary-600 underline\">explains</a> ",
         "samples": [
           "gave no <bold>explanation</bold>"
         ]
@@ -950,11 +950,11 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">procreate</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">beget</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">procreate</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">beget</a>",
         "samples": []
       },
       {
-        "text": "to originate by a vital, chemical, or physical process <a class=\"term-link cursor-pointer text-pink-600 underline\">produce</a> ",
+        "text": "to originate by a vital, chemical, or physical process <a class=\"term-link cursor-pointer text-primary-600 underline\">produce</a> ",
         "samples": [
           "<bold>generate</bold> electricity"
         ]
@@ -986,7 +986,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to <a class=\"term-link cursor-pointer text-pink-600 underline\">generate</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>generate</a> (something, such as electricity or funds) by or for oneself ",
+        "text": "to <a class=\"term-link cursor-pointer text-primary-600 underline\">generate</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>generate</a> (something, such as electricity or funds) by or for oneself ",
         "samples": [
           "… allowing the school the capability to <bold>self-generate</bold> power until the power grid is restored.",
           "Gregory Smith, associate dean for business and financial affairs for the Law Center, said the tuition increase is something the Law Center applied for through LSU out of a need to <bold>self-generate</bold> revenue after state appropriations were cut by about 25 percent.",
@@ -1050,13 +1050,13 @@ export default [
         ]
       },
       {
-        "text": "to delay momentarily <a class=\"term-link cursor-pointer text-pink-600 underline\">pause</a> ",
+        "text": "to delay momentarily <a class=\"term-link cursor-pointer text-primary-600 underline\">pause</a> ",
         "samples": [
           "He <i>hesitated</i> and waited for her to say something."
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">stammer</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">stammer</a>",
         "samples": []
       },
       {
@@ -1103,17 +1103,17 @@ export default [
         "samples": []
       },
       {
-        "text": "to make clear <a class=\"term-link cursor-pointer text-pink-600 underline\">elucidate</a>",
+        "text": "to make clear <a class=\"term-link cursor-pointer text-primary-600 underline\">elucidate</a>",
         "samples": []
       },
       {
-        "text": "to bring to the fore <a class=\"term-link cursor-pointer text-pink-600 underline\">highlight</a> ",
+        "text": "to bring to the fore <a class=\"term-link cursor-pointer text-primary-600 underline\">highlight</a> ",
         "samples": [
           "a crisis can <bold>illuminate</bold> how interdependent we all are"
         ]
       },
       {
-        "text": "to make <a class=\"term-link cursor-pointer text-pink-600 underline\">illustrious</a> or resplendent",
+        "text": "to make <a class=\"term-link cursor-pointer text-primary-600 underline\">illustrious</a> or resplendent",
         "samples": []
       },
       {
@@ -1196,7 +1196,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">enfold</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">entwine</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">enfold</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">entwine</a>",
         "samples": []
       }
     ]
@@ -1263,13 +1263,13 @@ export default [
     ],
     "defs": [
       {
-        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">imply</a></compare>",
+        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">imply</a></compare>",
         "samples": [
           "we see smoke and <bold>infer</bold> fire"
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">guess</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">surmise</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">guess</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">surmise</a> ",
         "samples": [
           "your letter … allows me to <bold>infer</bold> that you are as well as ever"
         ]
@@ -1279,20 +1279,20 @@ export default [
         "samples": []
       },
       {
-        "text": "to point out <a class=\"term-link cursor-pointer text-pink-600 underline\">indicate</a> ",
+        "text": "to point out <a class=\"term-link cursor-pointer text-primary-600 underline\">indicate</a> ",
         "samples": [
           "this doth <bold>infer</bold> the zeal I had to see him",
           "another survey … <bold>infers</bold> that two-thirds of all present computer installations are not paying for themselves"
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">suggest</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">hint</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">suggest</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">hint</a> ",
         "samples": [
           "are you <i>inferring</i> I'm incompetent?"
         ]
       },
       {
-        "text": "to draw <a class=\"term-link cursor-pointer text-pink-600 underline\">inferences</a> ",
+        "text": "to draw <a class=\"term-link cursor-pointer text-primary-600 underline\">inferences</a> ",
         "samples": [
           "men … have observed, <i>inferred</i>, and reasoned … to all kinds of results"
         ]
@@ -1314,15 +1314,15 @@ export default [
     ],
     "defs": [
       {
-        "text": "firm <a class=\"term-link cursor-pointer text-pink-600 underline\">adherence</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>adherence</a> to a code of especially moral or artistic values <a class=\"term-link cursor-pointer text-pink-600 underline\">incorruptibility</a>",
+        "text": "firm <a class=\"term-link cursor-pointer text-primary-600 underline\">adherence</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>adherence</a> to a code of especially moral or artistic values <a class=\"term-link cursor-pointer text-primary-600 underline\">incorruptibility</a>",
         "samples": []
       },
       {
-        "text": "an unimpaired condition <a class=\"term-link cursor-pointer text-pink-600 underline\">soundness</a>",
+        "text": "an unimpaired condition <a class=\"term-link cursor-pointer text-primary-600 underline\">soundness</a>",
         "samples": []
       },
       {
-        "text": "the quality or state of being complete or undivided <a class=\"term-link cursor-pointer text-pink-600 underline\">completeness</a>",
+        "text": "the quality or state of being complete or undivided <a class=\"term-link cursor-pointer text-primary-600 underline\">completeness</a>",
         "samples": []
       }
     ]
@@ -1354,7 +1354,7 @@ export default [
         ]
       },
       {
-        "text": "to conceive in the light of individual belief, judgment, or circumstance <a class=\"term-link cursor-pointer text-pink-600 underline\">construe</a> ",
+        "text": "to conceive in the light of individual belief, judgment, or circumstance <a class=\"term-link cursor-pointer text-primary-600 underline\">construe</a> ",
         "samples": [
           "<bold>interpret</bold> a contract"
         ]
@@ -1366,7 +1366,7 @@ export default [
         ]
       },
       {
-        "text": "to act as an <a class=\"term-link cursor-pointer text-pink-600 underline\">interpreter</a> between speakers of different languages",
+        "text": "to act as an <a class=\"term-link cursor-pointer text-primary-600 underline\">interpreter</a> between speakers of different languages",
         "samples": []
       }
     ]
@@ -1419,7 +1419,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to prove or show to be <a class=\"term-link cursor-pointer text-pink-600 underline\">just</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>just:1</a>, right, or reasonable ",
+        "text": "to prove or show to be <a class=\"term-link cursor-pointer text-primary-600 underline\">just</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>just:1</a>, right, or reasonable ",
         "samples": [
           "trying to <bold>justify</bold> his selfish behavior",
           "I shouldn't have to <bold>justify</bold> myself to them.",
@@ -1431,7 +1431,7 @@ export default [
         "samples": []
       },
       {
-        "text": "to judge, regard, or treat as <a class=\"term-link cursor-pointer text-pink-600 underline\">righteous</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>righteous</a> and worthy of salvation ",
+        "text": "to judge, regard, or treat as <a class=\"term-link cursor-pointer text-primary-600 underline\">righteous</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>righteous</a> and worthy of salvation ",
         "samples": [
           "God <i>justifies</i> with his forgiveness and grace the man who comes to him"
         ]
@@ -1441,7 +1441,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">absolve</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">absolve</a>",
         "samples": []
       },
       {
@@ -1506,7 +1506,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "marked by <a class=\"term-link cursor-pointer text-pink-600 underline\">extreme</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>extreme:1</a> or excessive care in the consideration or treatment of details ",
+        "text": "marked by <a class=\"term-link cursor-pointer text-primary-600 underline\">extreme</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>extreme:1</a> or excessive care in the consideration or treatment of details ",
         "samples": [
           "a <bold>meticulous</bold> researcher"
         ]

@@ -155,10 +155,10 @@ const sanitizeTextString = (string = '') => {
         },
         {
             pattern: /\{l(d|s)quo}/g,
-            replace: '<bold class="text-pink-800">"</bold>'
+            replace: '<bold class="text-primary-800">"</bold>'
         },{
             pattern: /\{r(d|s)quo}/g,
-            replace: '<bold class="text-pink-800">"</bold>'
+            replace: '<bold class="text-primary-800">"</bold>'
         },
         {
             pattern: /\{phrase}/g,
@@ -196,7 +196,7 @@ const sanitizeTextString = (string = '') => {
 
     // const patternSx = /\{sx\|([\w|\s]*)(\S+)?\|\|(\S+)?\}/g;
     const patternSx = /\{(sx\|).*?\}/g;
-    const templateSx = `<a class="term-link cursor-pointer text-pink-600 underline">$1</a>`;
+    const templateSx = `<a class="term-link cursor-pointer text-primary-600 underline">$1</a>`;
 
     string = replaceWithTag(patternSx, string, templateSx);
     string = replaceWithTag(patternSx, string, templateSx);
@@ -205,7 +205,7 @@ const sanitizeTextString = (string = '') => {
 
     // const patternDxt = /\{dxt\|([\w|\s|-]*)(\:\S+)?\|\|(\S+)?\}/g;
     const patternDxt = /\{(dxt\|).*?\}/g;
-    const templateDxt = `<a class="term-link cursor-pointer text-pink-900 italic">$1</a>`;
+    const templateDxt = `<a class="term-link cursor-pointer text-primary-900 italic">$1</a>`;
 
     string = replaceWithTag(patternDxt, string, templateDxt);
     string = replaceWithTag(patternDxt, string, templateDxt);
@@ -213,7 +213,7 @@ const sanitizeTextString = (string = '') => {
     string = replaceWithTag(patternDxt, string, templateDxt);
 
     const patternLink = /\{([adi]_link\|).*?\}/g
-    const templateLink = `<a class="term-link cursor-pointer text-pink-600 underline">$1</a>`;
+    const templateLink = `<a class="term-link cursor-pointer text-primary-600 underline">$1</a>`;
     string = replaceWithTag(patternLink, string, templateLink)
     string = replaceWithTag(patternLink, string, templateLink)
     string = replaceWithTag(patternLink, string, templateLink)

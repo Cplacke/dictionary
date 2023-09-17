@@ -16,7 +16,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "not to be persuaded, moved, or stopped <a class=\"term-link cursor-pointer text-pink-600 underline\">relentless</a> ",
+        "text": "not to be persuaded, moved, or stopped <a class=\"term-link cursor-pointer text-primary-600 underline\">relentless</a> ",
         "samples": [
           "<bold>inexorable</bold> progress"
         ]
@@ -40,7 +40,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "marked by <a class=\"term-link cursor-pointer text-pink-600 underline\">extreme</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>extreme:1</a> or excessive care in the consideration or treatment of details ",
+        "text": "marked by <a class=\"term-link cursor-pointer text-primary-600 underline\">extreme</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>extreme:1</a> or excessive care in the consideration or treatment of details ",
         "samples": [
           "a <bold>meticulous</bold> researcher"
         ]
@@ -61,11 +61,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "done, made, or acquired by stealth <a class=\"term-link cursor-pointer text-pink-600 underline\">clandestine</a>",
+        "text": "done, made, or acquired by stealth <a class=\"term-link cursor-pointer text-primary-600 underline\">clandestine</a>",
         "samples": []
       },
       {
-        "text": "acting or doing something clandestinely <a class=\"term-link cursor-pointer text-pink-600 underline\">stealthy</a> ",
+        "text": "acting or doing something clandestinely <a class=\"term-link cursor-pointer text-primary-600 underline\">stealthy</a> ",
         "samples": [
           "a <bold>surreptitious</bold> glance"
         ]
@@ -90,7 +90,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to use <a class=\"term-link cursor-pointer text-pink-600 underline\">equivocal</a> language especially with intent to deceive",
+        "text": "to use <a class=\"term-link cursor-pointer text-primary-600 underline\">equivocal</a> language especially with intent to deceive",
         "samples": []
       },
       {
@@ -116,7 +116,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to make more violent, <a class=\"term-link cursor-pointer text-pink-600 underline\">bitter</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>bitter:1</a>, or severe ",
+        "text": "to make more violent, <a class=\"term-link cursor-pointer text-primary-600 underline\">bitter</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>bitter:1</a>, or severe ",
         "samples": [
           "The new law only <bold>exacerbates</bold> the problem."
         ]
@@ -142,14 +142,14 @@ export default [
     ],
     "defs": [
       {
-        "text": "to describe, <a class=\"term-link cursor-pointer text-pink-600 underline\">portray</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>portray</a>, or set forth with accuracy or in <a class=\"term-link cursor-pointer text-pink-600 underline\">detail</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>detail:1</a> ",
+        "text": "to describe, <a class=\"term-link cursor-pointer text-primary-600 underline\">portray</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>portray</a>, or set forth with accuracy or in <a class=\"term-link cursor-pointer text-primary-600 underline\">detail</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>detail:1</a> ",
         "samples": [
           "<bold>delineate</bold> a character in the story",
           "<bold>delineate</bold> the steps to be taken by the government"
         ]
       },
       {
-        "text": "to <a class=\"term-link cursor-pointer text-pink-600 underline\">indicate</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>indicate</a> or represent by drawn or painted lines",
+        "text": "to <a class=\"term-link cursor-pointer text-primary-600 underline\">indicate</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>indicate</a> or represent by drawn or painted lines",
         "samples": []
       },
       {
@@ -183,13 +183,13 @@ export default [
         ]
       },
       {
-        "text": "to cease resisting <a class=\"term-link cursor-pointer text-pink-600 underline\">acquiesce</a> ",
+        "text": "to cease resisting <a class=\"term-link cursor-pointer text-primary-600 underline\">acquiesce</a> ",
         "samples": [
           "The company <i>capitulated</i> to the labor union to avoid a strike."
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">parley</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">negotiate</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">parley</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">negotiate</a>",
         "samples": []
       }
     ]
@@ -214,7 +214,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">fretful</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">whining</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">fretful</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">whining</a> ",
         "samples": [
           "a <bold>querulous</bold> voice"
         ]
@@ -256,7 +256,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "of, relating to, or characterized by <a class=\"term-link cursor-pointer text-pink-600 underline\">perfidy</a>",
+        "text": "of, relating to, or characterized by <a class=\"term-link cursor-pointer text-primary-600 underline\">perfidy</a>",
         "samples": []
       }
     ]
@@ -277,11 +277,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "highly <a class=\"term-link cursor-pointer text-pink-600 underline\">injurious</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>injurious</a> or destructive <a class=\"term-link cursor-pointer text-pink-600 underline\">deadly</a>",
+        "text": "highly <a class=\"term-link cursor-pointer text-primary-600 underline\">injurious</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>injurious</a> or destructive <a class=\"term-link cursor-pointer text-primary-600 underline\">deadly</a>",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">wicked</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">wicked</a>",
         "samples": []
       }
     ]
@@ -326,7 +326,7 @@ export default [
         ]
       },
       {
-        "text": "characterized by a lack of security or <a class=\"term-link cursor-pointer text-pink-600 underline\">stability</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>stability</a> that threatens with danger ",
+        "text": "characterized by a lack of security or <a class=\"term-link cursor-pointer text-primary-600 underline\">stability</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>stability</a> that threatens with danger ",
         "samples": [
           "His balance looks <bold>precarious</bold>, and I try to talk him down …",
           "In spite of his <bold>precarious</bold> emotional state, he wrote more than two dozen books …",
@@ -336,7 +336,7 @@ export default [
         ]
       },
       {
-        "text": "dependent on <a class=\"term-link cursor-pointer text-pink-600 underline\">uncertain</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>uncertain</a> premises <a class=\"term-link cursor-pointer text-pink-600 underline\">dubious</a> ",
+        "text": "dependent on <a class=\"term-link cursor-pointer text-primary-600 underline\">uncertain</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>uncertain</a> premises <a class=\"term-link cursor-pointer text-primary-600 underline\">dubious</a> ",
         "samples": [
           "… the student of psychology who cares little for brilliant <bold>precarious</bold> generalizations …"
         ]
@@ -366,7 +366,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "worthy of or deserving <a class=\"term-link cursor-pointer text-pink-600 underline\">reprehension</a> <a class=\"term-link cursor-pointer text-pink-600 underline\">culpable</a>",
+        "text": "worthy of or deserving <a class=\"term-link cursor-pointer text-primary-600 underline\">reprehension</a> <a class=\"term-link cursor-pointer text-primary-600 underline\">culpable</a>",
         "samples": []
       }
     ]
@@ -386,17 +386,17 @@ export default [
     ],
     "defs": [
       {
-        "text": "inclined to be silent or uncommunicative in speech <a class=\"term-link cursor-pointer text-pink-600 underline\">reserved</a>",
+        "text": "inclined to be silent or uncommunicative in speech <a class=\"term-link cursor-pointer text-primary-600 underline\">reserved</a>",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">restrained</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>restrained</a> in expression, presentation, or appearance ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">restrained</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>restrained</a> in expression, presentation, or appearance ",
         "samples": [
           "the room has an aspect of <bold>reticent</bold> dignity"
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">reluctant</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">reluctant</a>",
         "samples": []
       }
     ]
@@ -418,15 +418,15 @@ export default [
     ],
     "defs": [
       {
-        "text": "exceeding what is <a class=\"term-link cursor-pointer text-pink-600 underline\">sufficient</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>sufficient</a> or necessary <a class=\"term-link cursor-pointer text-pink-600 underline\">extra</a>",
+        "text": "exceeding what is <a class=\"term-link cursor-pointer text-primary-600 underline\">sufficient</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>sufficient</a> or necessary <a class=\"term-link cursor-pointer text-primary-600 underline\">extra</a>",
         "samples": []
       },
       {
-        "text": "not needed <a class=\"term-link cursor-pointer text-pink-600 underline\">unnecessary</a>",
+        "text": "not needed <a class=\"term-link cursor-pointer text-primary-600 underline\">unnecessary</a>",
         "samples": []
       },
       {
-        "text": "marked by wastefulness <a class=\"term-link cursor-pointer text-pink-600 underline\">extravagant</a>",
+        "text": "marked by wastefulness <a class=\"term-link cursor-pointer text-primary-600 underline\">extravagant</a>",
         "samples": []
       }
     ]
@@ -445,13 +445,13 @@ export default [
     ],
     "defs": [
       {
-        "text": "a nervous or fearful feeling of uncertain agitation <a class=\"term-link cursor-pointer text-pink-600 underline\">apprehension</a> ",
+        "text": "a nervous or fearful feeling of uncertain agitation <a class=\"term-link cursor-pointer text-primary-600 underline\">apprehension</a> ",
         "samples": [
           "<bold>trepidation</bold> about starting a new job"
         ]
       },
       {
-        "text": "a <a class=\"term-link cursor-pointer text-pink-600 underline\">tremulous</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>tremulous</a> motion <a class=\"term-link cursor-pointer text-pink-600 underline\">tremor</a>",
+        "text": "a <a class=\"term-link cursor-pointer text-primary-600 underline\">tremulous</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>tremulous</a> motion <a class=\"term-link cursor-pointer text-primary-600 underline\">tremor</a>",
         "samples": []
       }
     ]
@@ -470,7 +470,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "characterized by refusal to compromise or to abandon an often extreme position or attitude <a class=\"term-link cursor-pointer text-pink-600 underline\">uncompromising</a> ",
+        "text": "characterized by refusal to compromise or to abandon an often extreme position or attitude <a class=\"term-link cursor-pointer text-primary-600 underline\">uncompromising</a> ",
         "samples": [
           "<bold>intransigent</bold> in their opposition",
           "an <bold>intransigent</bold> attitude"
@@ -494,13 +494,13 @@ export default [
     ],
     "defs": [
       {
-        "text": "very liberal in giving or bestowing see <a class=\"term-link cursor-pointer text-pink-900 italic\">bestow</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>4</a> <a class=\"term-link cursor-pointer text-pink-600 underline\">lavish</a> ",
+        "text": "very liberal in giving or bestowing see <a class=\"term-link cursor-pointer text-primary-900 italic\">bestow</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>4</a> <a class=\"term-link cursor-pointer text-primary-600 underline\">lavish</a> ",
         "samples": [
           "<bold>munificent</bold> donors"
         ]
       },
       {
-        "text": "characterized by great <a class=\"term-link cursor-pointer text-pink-600 underline\">liberality</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>liberality</a> or generosity ",
+        "text": "characterized by great <a class=\"term-link cursor-pointer text-primary-600 underline\">liberality</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>liberality</a> or generosity ",
         "samples": [
           "a <bold>munificent</bold> gift"
         ]
@@ -559,7 +559,7 @@ export default [
         ]
       },
       {
-        "text": "relating to or being in accordance with philosophical <a class=\"term-link cursor-pointer text-pink-600 underline\">pragmatism</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>pragmatism</a>",
+        "text": "relating to or being in accordance with philosophical <a class=\"term-link cursor-pointer text-primary-600 underline\">pragmatism</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>pragmatism</a>",
         "samples": []
       },
       {
@@ -571,7 +571,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">opinionated</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">opinionated</a>",
         "samples": []
       }
     ]
@@ -609,13 +609,13 @@ export default [
     ],
     "defs": [
       {
-        "text": "an <a class=\"term-link cursor-pointer text-pink-600 underline\">intricate</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>intricate</a> and difficult problem ",
+        "text": "an <a class=\"term-link cursor-pointer text-primary-600 underline\">intricate</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>intricate</a> and difficult problem ",
         "samples": [
           "He is faced with the <bold>conundrum</bold> of trying to find a job without having experience."
         ]
       },
       {
-        "text": "a question or problem having only a <a class=\"term-link cursor-pointer text-pink-600 underline\">conjectural</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>conjectural</a> answer ",
+        "text": "a question or problem having only a <a class=\"term-link cursor-pointer text-primary-600 underline\">conjectural</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>conjectural</a> answer ",
         "samples": [
           "… the political <bold>conundrums</bold> involved, particularly the problem of how the richer areas … can be made to subsidize the poorer."
         ]
@@ -648,7 +648,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to make better or more <a class=\"term-link cursor-pointer text-pink-600 underline\">tolerable</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>tolerable</a> ",
+        "text": "to make better or more <a class=\"term-link cursor-pointer text-primary-600 underline\">tolerable</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>tolerable</a> ",
         "samples": [
           "medicine to <bold>ameliorate</bold> the pain"
         ]
@@ -672,7 +672,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "marked by <a class=\"term-link cursor-pointer text-pink-600 underline\">cacophony</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>cacophony</a> harsh-sounding ",
+        "text": "marked by <a class=\"term-link cursor-pointer text-primary-600 underline\">cacophony</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>cacophony</a> harsh-sounding ",
         "samples": [
           "like an old battlefield, once <bold>cacophonous</bold> with the clash of steel, the roar of cannon, the screams of wounded and dying men"
         ]
@@ -696,19 +696,19 @@ export default [
     ],
     "defs": [
       {
-        "text": "of keen and farsighted <a class=\"term-link cursor-pointer text-pink-600 underline\">penetration</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>penetration</a> and judgment <a class=\"term-link cursor-pointer text-pink-600 underline\">discerning</a> ",
+        "text": "of keen and farsighted <a class=\"term-link cursor-pointer text-primary-600 underline\">penetration</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>penetration</a> and judgment <a class=\"term-link cursor-pointer text-primary-600 underline\">discerning</a> ",
         "samples": [
           "<bold>sagacious</bold> judge of character"
         ]
       },
       {
-        "text": "caused by or indicating acute <a class=\"term-link cursor-pointer text-pink-600 underline\">discernment</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>discernment</a> ",
+        "text": "caused by or indicating acute <a class=\"term-link cursor-pointer text-primary-600 underline\">discernment</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>discernment</a> ",
         "samples": [
           "<bold>sagacious</bold> purchase of stock"
         ]
       },
       {
-        "text": "keen in sense <a class=\"term-link cursor-pointer text-pink-600 underline\">perception</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>perception</a>",
+        "text": "keen in sense <a class=\"term-link cursor-pointer text-primary-600 underline\">perception</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>perception</a>",
         "samples": []
       }
     ]
@@ -727,13 +727,13 @@ export default [
     ],
     "defs": [
       {
-        "text": "of, relating to, or characterized by laziness or lack of energy feeling or affected by <a class=\"term-link cursor-pointer text-pink-600 underline\">lethargy</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>lethargy</a> <a class=\"term-link cursor-pointer text-pink-600 underline\">sluggish</a> ",
+        "text": "of, relating to, or characterized by laziness or lack of energy feeling or affected by <a class=\"term-link cursor-pointer text-primary-600 underline\">lethargy</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>lethargy</a> <a class=\"term-link cursor-pointer text-primary-600 underline\">sluggish</a> ",
         "samples": [
           "The patient was weak and <bold>lethargic</bold>."
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">indifferent</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">apathetic</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">indifferent</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">apathetic</a> ",
         "samples": [
           "The legislature was <bold>lethargic</bold> in considering the bill."
         ]
@@ -759,11 +759,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "producing young or fruit especially freely <a class=\"term-link cursor-pointer text-pink-600 underline\">fruitful</a>",
+        "text": "producing young or fruit especially freely <a class=\"term-link cursor-pointer text-primary-600 underline\">fruitful</a>",
         "samples": []
       },
       {
-        "text": "causing <a class=\"term-link cursor-pointer text-pink-600 underline\">abundant</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>abundant</a> growth, generation, or reproduction",
+        "text": "causing <a class=\"term-link cursor-pointer text-primary-600 underline\">abundant</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>abundant</a> growth, generation, or reproduction",
         "samples": []
       },
       {
@@ -790,11 +790,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "having a huge appetite <a class=\"term-link cursor-pointer text-pink-600 underline\">ravenous</a>",
+        "text": "having a huge appetite <a class=\"term-link cursor-pointer text-primary-600 underline\">ravenous</a>",
         "samples": []
       },
       {
-        "text": "excessively eager <a class=\"term-link cursor-pointer text-pink-600 underline\">insatiable</a> ",
+        "text": "excessively eager <a class=\"term-link cursor-pointer text-primary-600 underline\">insatiable</a> ",
         "samples": [
           "a <bold>voracious</bold> reader"
         ]
@@ -863,7 +863,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "marked by, held in, or conducted with <a class=\"term-link cursor-pointer text-pink-600 underline\">secrecy</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>secrecy</a> <a class=\"term-link cursor-pointer text-pink-600 underline\">surreptitious</a> ",
+        "text": "marked by, held in, or conducted with <a class=\"term-link cursor-pointer text-primary-600 underline\">secrecy</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>secrecy</a> <a class=\"term-link cursor-pointer text-primary-600 underline\">surreptitious</a> ",
         "samples": [
           "a <bold>clandestine</bold> love affair"
         ]
@@ -885,7 +885,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "existing or being everywhere at the same time constantly <a class=\"term-link cursor-pointer text-pink-600 underline\">encountered</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>encounter:1</a> <a class=\"term-link cursor-pointer text-pink-600 underline\">widespread</a> ",
+        "text": "existing or being everywhere at the same time constantly <a class=\"term-link cursor-pointer text-primary-600 underline\">encountered</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>encounter:1</a> <a class=\"term-link cursor-pointer text-primary-600 underline\">widespread</a> ",
         "samples": [
           "a <bold>ubiquitous</bold> fashion"
         ]

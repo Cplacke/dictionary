@@ -15,10 +15,9 @@ export const WordCard = ({
         
     return (
         <div className={"card bg-stripped flex "+className}>
-            <div className="shadow-xl w-full px-2 md:p-4 bg-pink-100 ">
-
+            <div className="shadow-xl w-full pb-4 px-2 md:p-4 bg-primary-100 ">
                 <div> 
-                    <div className="flex uppercase text-pink-600 my-2 relative"> 
+                    <div className="flex uppercase text-primary-600 my-2 mt-6 relative"> 
                         <div className="w-9/12 text-4xl md:text-5xl font-macondo"> { word } </div>
                         <div className="w-auto ml-auto text-base text-gray-700 pb-2 pl-auto align-top absolute right-0 -top-5"> 
                             { defs.length } Definition{ defs.length > 1 ? 's' : '' }
@@ -28,7 +27,7 @@ export const WordCard = ({
                     <div className="flex text-base text-gray-900 mt-4"> 
                         <div className="w-full">
                             { stems.map((stem) => (
-                                <span key={stem} className="card card-sm bg-pink-200 inline-block font-mono mr-2 my-0.5"
+                                <span key={stem} className="card card-sm bg-primary-200 inline-block font-mono mr-2 my-0.5"
                                     onClick={(e) => { setSearchTerm(e.target.innerText) }}
                                 >
                                     <div className={
@@ -42,7 +41,7 @@ export const WordCard = ({
 
                         <div className="w-auto mr-2 ml-auto">
                             <div className={
-                                "card card-sm inline-block bg-pink-200 uppercase" 
+                                "card card-sm inline-block bg-primary-200 uppercase" 
                             }>
                                 <div className={
                                     "p-1 text-2xl" + 

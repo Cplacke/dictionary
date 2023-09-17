@@ -29,7 +29,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "town in the <a class=\"term-link cursor-pointer text-pink-600 underline\">Ardennes</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>Ardennes:g</a> region of Wallonia, southeastern Belgium <i>population</i> 5393",
+        "text": "town in the <a class=\"term-link cursor-pointer text-primary-600 underline\">Ardennes</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>Ardennes:g</a> region of Wallonia, southeastern Belgium <i>population</i> 5393",
         "samples": []
       }
     ]
@@ -100,7 +100,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the process of heating sugar (such as granulated white sugar or the sugar contained in a food) at high temperature so that water is removed and the sugar is broken down (as into glucose and fructose) and then reformed into complex polymers producing a sweet, nutty, or buttery flavor and golden-brown to dark brown color the nonenzymatic process of changing sugar or the sugar content of a food into caramel see <a class=\"term-link cursor-pointer text-pink-900 italic\">caramel</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1</a> ",
+        "text": "the process of heating sugar (such as granulated white sugar or the sugar contained in a food) at high temperature so that water is removed and the sugar is broken down (as into glucose and fructose) and then reformed into complex polymers producing a sweet, nutty, or buttery flavor and golden-brown to dark brown color the nonenzymatic process of changing sugar or the sugar content of a food into caramel see <a class=\"term-link cursor-pointer text-primary-900 italic\">caramel</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1</a> ",
         "samples": [
           "An intense <bold>caramelization</bold> of the carrots concentrates their flavor and brings up their sweetness until they're almost like candy-but the roasted garlic and thyme keep the dish on the savory side."
         ]
@@ -167,7 +167,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to disperse in an <a class=\"term-link cursor-pointer text-pink-600 underline\">emulsion</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>emulsion</a> ",
+        "text": "to disperse in an <a class=\"term-link cursor-pointer text-primary-600 underline\">emulsion</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>emulsion</a> ",
         "samples": [
           "<bold>emulsify</bold> an oil"
         ]
@@ -226,7 +226,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a <a class=\"term-link cursor-pointer text-pink-600 underline\">connoisseur</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>connoisseur</a> of food and drink",
+        "text": "a <a class=\"term-link cursor-pointer text-primary-600 underline\">connoisseur</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>connoisseur</a> of food and drink",
         "samples": []
       }
     ]
@@ -286,7 +286,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the act or process of <a class=\"term-link cursor-pointer text-pink-600 underline\">infusing</a> ",
+        "text": "the act or process of <a class=\"term-link cursor-pointer text-primary-600 underline\">infusing</a> ",
         "samples": [
           "an <bold>infusion</bold> of new ideas"
         ]
@@ -382,7 +382,7 @@ export default [
         ]
       },
       {
-        "text": "to manipulate or massage with a <a class=\"term-link cursor-pointer text-pink-600 underline\">kneading</a> motion ",
+        "text": "to manipulate or massage with a <a class=\"term-link cursor-pointer text-primary-600 underline\">kneading</a> motion ",
         "samples": [
           "<bold>kneaded</bold> sore neck muscles"
         ]
@@ -509,7 +509,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "1811–1832 Duc <i>de Reichstadt; son of <a class=\"term-link cursor-pointer text-pink-600 underline\">Napoléon I</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>Napoleon I:b</a> and <a class=\"term-link cursor-pointer text-pink-600 underline\">Marie-Louise Vigée-Lebrun</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>Marie-Louise:b</a></i>",
+        "text": "1811–1832 Duc <i>de Reichstadt; son of <a class=\"term-link cursor-pointer text-primary-600 underline\">Napoléon I</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>Napoleon I:b</a> and <a class=\"term-link cursor-pointer text-primary-600 underline\">Marie-Louise Vigée-Lebrun</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>Marie-Louise:b</a></i>",
         "samples": []
       }
     ]
@@ -526,7 +526,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "1808–1873 <i>Louis-Napoléon; son of <a class=\"term-link cursor-pointer text-pink-600 underline\">Louis Bonaparte</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>Bonaparte:b</a> and nephew of <a class=\"term-link cursor-pointer text-pink-600 underline\">Napoléon I</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>Napoleon I:b</a></i> emperor of the French (1852–71)",
+        "text": "1808–1873 <i>Louis-Napoléon; son of <a class=\"term-link cursor-pointer text-primary-600 underline\">Louis Bonaparte</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>Bonaparte:b</a> and nephew of <a class=\"term-link cursor-pointer text-primary-600 underline\">Napoléon I</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>Napoleon I:b</a></i> emperor of the French (1852–71)",
         "samples": []
       }
     ]
@@ -541,7 +541,7 @@ export default [
     "shortDef": [],
     "defs": [
       {
-        "text": "<compare class=\"text-gray-500\">see <a class=\"term-link cursor-pointer text-pink-900 italic\">napoléon iii</a></compare>",
+        "text": "<compare class=\"text-gray-500\">see <a class=\"term-link cursor-pointer text-primary-900 italic\">napoléon iii</a></compare>",
         "samples": []
       }
     ]
@@ -568,7 +568,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "; Louis 1778–1846 <i>father of <a class=\"term-link cursor-pointer text-pink-600 underline\">Napoléon III</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>Napoleon III:b</a></i> king of Holland; Jérôme 1784–1860 king of Westphalia",
+        "text": "; Louis 1778–1846 <i>father of <a class=\"term-link cursor-pointer text-primary-600 underline\">Napoléon III</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>Napoleon III:b</a></i> king of Holland; Jérôme 1784–1860 king of Westphalia",
         "samples": []
       }
     ]
@@ -637,7 +637,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">head</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">head</a> ",
         "samples": [
           "A hat covered his bald <bold>pate</bold>."
         ]
@@ -649,7 +649,7 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">brain</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">brain</a>",
         "samples": []
       }
     ]
@@ -783,7 +783,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">bitter:2</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1b</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">salty:2</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1b</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">sour:2</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1b</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">sweet:3</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>2</a></compare>",
+        "text": "<compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">bitter:2</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1b</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">salty:2</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1b</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">sour:2</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1b</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">sweet:3</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>2</a></compare>",
         "samples": [
           "<bold>Umami</bold> is often described as a meaty flavor and is particularly strong in aged or fermented products, like cheese and wine."
         ]
@@ -802,7 +802,7 @@ export default [
     ],
     "defs": [
       {
-        "text": " <a class=\"term-link cursor-pointer text-pink-600 underline\">savory:1</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>e</a><compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">bitter:1</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1a</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">salty:1</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1b</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">sour:1</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">sweet:1</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1</a></compare>",
+        "text": " <a class=\"term-link cursor-pointer text-primary-600 underline\">savory:1</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>e</a><compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">bitter:1</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1a</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">salty:1</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1b</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">sour:1</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">sweet:1</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1</a></compare>",
         "samples": [
           "A crab risotto made from local crabs is powerful with the big <bold>umami</bold> flavor of brown meat."
         ]
@@ -847,7 +847,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a condiment that is prepared from the ground thick pungent greenish <a class=\"term-link cursor-pointer text-pink-600 underline\">rhizome</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>rhizome</a> of an Asian herb (<i>Wasabia japonica</i> synonym <i>Eutrema wasabi</i>) of the mustard family and is similar in flavor and use to horseradish",
+        "text": "a condiment that is prepared from the ground thick pungent greenish <a class=\"term-link cursor-pointer text-primary-600 underline\">rhizome</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>rhizome</a> of an Asian herb (<i>Wasabia japonica</i> synonym <i>Eutrema wasabi</i>) of the mustard family and is similar in flavor and use to horseradish",
         "samples": []
       },
       {
@@ -937,13 +937,13 @@ export default [
         "samples": []
       },
       {
-        "text": "an enjoyably exciting quality <a class=\"term-link cursor-pointer text-pink-600 underline\">piquancy</a> ",
+        "text": "an enjoyably exciting quality <a class=\"term-link cursor-pointer text-primary-600 underline\">piquancy</a> ",
         "samples": [
           "adds <bold>zest</bold> to the performance"
         ]
       },
       {
-        "text": "keen enjoyment <a class=\"term-link cursor-pointer text-pink-600 underline\">relish</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">gusto</a> ",
+        "text": "keen enjoyment <a class=\"term-link cursor-pointer text-primary-600 underline\">relish</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">gusto</a> ",
         "samples": [
           "has a <bold>zest</bold> for living"
         ]
@@ -982,7 +982,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a rich pasta sauce made with butter, Parmesan cheese, and often cream <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">fettuccine alfredo</a></compare>",
+        "text": "a rich pasta sauce made with butter, Parmesan cheese, and often cream <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">fettuccine alfredo</a></compare>",
         "samples": []
       }
     ]
@@ -1066,7 +1066,7 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">cookie</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">cookie</a> ",
         "samples": [
           "The children were divided into groups of five seated round a table and each one was given a chocolate <bold>biscuit</bold>."
         ]
@@ -1086,7 +1086,7 @@ export default [
         "samples": []
       },
       {
-        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">tenon:1</a></compare>",
+        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">tenon:1</a></compare>",
         "samples": [
           "Have several clamps at the ready; then add glue to the <bold>biscuits</bold>, push them into the maple slots, and clamp the maple in place. The dry, compressed <bold>biscuits</bold> swell once glue is applied, so you have to work quickly."
         ]
@@ -1149,7 +1149,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">hardtack</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">hardtack</a> ",
         "samples": []
       }
     ]
@@ -1167,7 +1167,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">hardtack</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>1</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">hardtack</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>1</a>",
         "samples": []
       }
     ]
@@ -1186,7 +1186,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">hardtack</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">hardtack</a> ",
         "samples": []
       }
     ]
@@ -1209,7 +1209,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">soda cracker</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">soda cracker</a>",
         "samples": []
       }
     ]
@@ -1258,7 +1258,7 @@ export default [
           "While it didn't <bold>take the cake</bold> for the warmest Christmas on record, it was close.",
           "There have been doozies in the flurry of free-agent signings … but the Giants' acquisition of quarterback Kerry Collins <bold>takes the cake</bold>.",
           "Of all the invasions of her privacy, this one <bold>took the cake</bold>.",
-          "When he was quite sure that the narrative had ended he laughed noiselessly for fully half a minute. Then he said: <bold class=\"text-pink-800\">\"</bold>Well! … That <bold>takes the biscuit</bold>!<bold class=\"text-pink-800\">\"</bold>"
+          "When he was quite sure that the narrative had ended he laughed noiselessly for fully half a minute. Then he said: <bold class=\"text-primary-800\">\"</bold>Well! … That <bold>takes the biscuit</bold>!<bold class=\"text-primary-800\">\"</bold>"
         ]
       }
     ]

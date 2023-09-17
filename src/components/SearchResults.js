@@ -36,7 +36,7 @@ export const SearchResults = () => {
                         data.map((w,i) => {
                             return (
                                 <a key={i+'_stem'}
-                                    className={`inline mr-4 text-pink-400 text-3xl hover:underline cursor-pointer`}
+                                    className={`inline mr-4 text-primary-400 text-3xl hover:underline cursor-pointer`}
                                     onClick={() => {setSearchTerm(w.word)}}
                                 > { w.word } </a>
                             )

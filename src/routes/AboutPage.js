@@ -18,7 +18,7 @@ export const AboutPage = () => {
     return (
         <div className="">
             <Navigation/>
-            <div className="text-3xl h-full my-24 text-pink-700 font-mono text-center">
+            <div className="text-3xl h-full my-24 text-primary-700 font-mono text-center">
                 <div> { version || '?' } </div>
                 <div> { buildDate } </div>
             </div>

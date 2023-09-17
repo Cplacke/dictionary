@@ -50,10 +50,10 @@ export const Navigation = () => {
     }
 
     return (
-        <div className="shadow-md text-xl text-pink-500 bg-gray-100 flex items-center sticky top-0 z-10 w-full relative py-2 opacity-90">
+        <div className="shadow-md text-xl text-primary-500 bg-gray-100 flex items-center sticky top-0 z-10 w-full relative py-2 opacity-90">
             <span className={
                 "text-3xl inline material-symbols-outlined cursor-pointer uppercase ml-3 px-2 "+
-                "bg-pink-600 text-white hover:bg-pink-700 hover:text-gray-200 opacity-100 "+
+                "bg-primary-600 text-white hover:bg-primary-700 hover:text-gray-200 opacity-100 "+
                 "rounded-lg transition-colors duration-500"
             }
                 onClick={() => setShowMenu(true)}

@@ -14,7 +14,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a <a class=\"term-link cursor-pointer text-pink-600 underline\">plausible</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>plausible</a> or scientifically acceptable general principle or body of principles offered to explain phenomena ",
+        "text": "a <a class=\"term-link cursor-pointer text-primary-600 underline\">plausible</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>plausible</a> or scientifically acceptable general principle or body of principles offered to explain phenomena ",
         "samples": [
           "the wave <bold>theory</bold> of light"
         ]
@@ -36,23 +36,23 @@ export default [
         "samples": []
       },
       {
-        "text": "an unproved assumption <a class=\"term-link cursor-pointer text-pink-600 underline\">conjecture</a>",
+        "text": "an unproved assumption <a class=\"term-link cursor-pointer text-primary-600 underline\">conjecture</a>",
         "samples": []
       },
       {
-        "text": "a body of <a class=\"term-link cursor-pointer text-pink-600 underline\">theorems</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>theorem</a> presenting a concise systematic view of a subject ",
+        "text": "a body of <a class=\"term-link cursor-pointer text-primary-600 underline\">theorems</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>theorem</a> presenting a concise systematic view of a subject ",
         "samples": [
           "<bold>theory</bold> of equations"
         ]
       },
       {
-        "text": "the general or abstract <a class=\"term-link cursor-pointer text-pink-600 underline\">principles</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>principle</a> of a body of fact, a science, or an art ",
+        "text": "the general or abstract <a class=\"term-link cursor-pointer text-primary-600 underline\">principles</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>principle</a> of a body of fact, a science, or an art ",
         "samples": [
           "music <bold>theory</bold>"
         ]
       },
       {
-        "text": "abstract thought <a class=\"term-link cursor-pointer text-pink-600 underline\">speculation</a>",
+        "text": "abstract thought <a class=\"term-link cursor-pointer text-primary-600 underline\">speculation</a>",
         "samples": []
       },
       {
@@ -73,7 +73,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">game theory</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">game theory</a>",
         "samples": []
       }
     ]
@@ -90,7 +90,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">number theory</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">number theory</a>",
         "samples": []
       }
     ]
@@ -149,7 +149,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a theory in astronomy: the universe originated billions of years ago in a rapid expansion from a single point of nearly infinite energy density <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">steady state theory</a></compare>",
+        "text": "a theory in astronomy: the universe originated billions of years ago in a rapid expansion from a single point of nearly infinite energy density <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">steady state theory</a></compare>",
         "samples": []
       }
     ]
@@ -260,7 +260,7 @@ export default [
         ]
       },
       {
-        "text": "the quality of being actual <a class=\"term-link cursor-pointer text-pink-600 underline\">actuality</a> ",
+        "text": "the quality of being actual <a class=\"term-link cursor-pointer text-primary-600 underline\">actuality</a> ",
         "samples": [
           "a question of <bold>fact</bold> hinges on evidence"
         ]
@@ -270,21 +270,21 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">crime</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">crime</a> ",
         "samples": [
           "accessory after the <bold>fact</bold>"
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">action</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">action</a>",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">feat</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">feat</a>",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">performance</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">doing</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">performance</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">doing</a>",
         "samples": []
       }
     ]
@@ -487,7 +487,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "an <a class=\"term-link cursor-pointer text-pink-600 underline\">assumption</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>assumption</a> or <a class=\"term-link cursor-pointer text-pink-600 underline\">concession</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>concession</a> made for the sake of argument",
+        "text": "an <a class=\"term-link cursor-pointer text-primary-600 underline\">assumption</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>assumption</a> or <a class=\"term-link cursor-pointer text-primary-600 underline\">concession</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>concession</a> made for the sake of argument",
         "samples": []
       },
       {
@@ -495,11 +495,11 @@ export default [
         "samples": []
       },
       {
-        "text": "a tentative assumption made in order to draw out and test its logical or <a class=\"term-link cursor-pointer text-pink-600 underline\">empirical</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>empirical</a> consequences",
+        "text": "a tentative assumption made in order to draw out and test its logical or <a class=\"term-link cursor-pointer text-primary-600 underline\">empirical</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>empirical</a> consequences",
         "samples": []
       },
       {
-        "text": "the <a class=\"term-link cursor-pointer text-pink-600 underline\">antecedent</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>antecedent:1</a> clause of a <a class=\"term-link cursor-pointer text-pink-600 underline\">conditional</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>conditional:1</a> statement",
+        "text": "the <a class=\"term-link cursor-pointer text-primary-600 underline\">antecedent</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>antecedent:1</a> clause of a <a class=\"term-link cursor-pointer text-primary-600 underline\">conditional</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>conditional:1</a> statement",
         "samples": []
       }
     ]
@@ -591,10 +591,10 @@ export default [
     ],
     "defs": [
       {
-        "text": "a <a class=\"term-link cursor-pointer text-pink-600 underline\">hypothesis</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>hypothesis</a> that contradicts another hypothesis ",
+        "text": "a <a class=\"term-link cursor-pointer text-primary-600 underline\">hypothesis</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>hypothesis</a> that contradicts another hypothesis ",
         "samples": [
           "What can be said … of the conflicts that occur when traditional humanistic methods of interpretation run up against the questions, objections, and <bold>counterhypotheses</bold> of so-called revisionist art history?",
-          "Science is a negotiation—an <a class=\"term-link cursor-pointer text-pink-600 underline\">iterative</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>iterative</a> process rooted in asking questions, in testing hypotheses and <bold>counter-hypotheses</bold>."
+          "Science is a negotiation—an <a class=\"term-link cursor-pointer text-primary-600 underline\">iterative</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>iterative</a> process rooted in asking questions, in testing hypotheses and <bold>counter-hypotheses</bold>."
         ]
       }
     ]
@@ -635,7 +635,7 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">control</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">authority</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">control</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">authority</a> ",
         "samples": [
           "The child submits to no <bold>law</bold>."
         ]
@@ -645,7 +645,7 @@ export default [
         "samples": []
       },
       {
-        "text": "the first part of the Jewish scriptures <a class=\"term-link cursor-pointer text-pink-600 underline\">pentateuch</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">torah</a> <compare class=\"text-gray-500\">see <a class=\"term-link cursor-pointer text-pink-900 italic\">Bible Table</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>bible</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>table</a></compare>",
+        "text": "the first part of the Jewish scriptures <a class=\"term-link cursor-pointer text-primary-600 underline\">pentateuch</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">torah</a> <compare class=\"text-gray-500\">see <a class=\"term-link cursor-pointer text-primary-900 italic\">Bible Table</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>bible</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>table</a></compare>",
         "samples": []
       },
       {
@@ -668,7 +668,7 @@ export default [
         ]
       },
       {
-        "text": "law as a department of knowledge <a class=\"term-link cursor-pointer text-pink-600 underline\">jurisprudence</a>",
+        "text": "law as a department of knowledge <a class=\"term-link cursor-pointer text-primary-600 underline\">jurisprudence</a>",
         "samples": []
       },
       {
@@ -706,7 +706,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">litigate</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">litigate</a>",
         "samples": []
       },
       {
@@ -822,7 +822,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the enactment of laws see <a class=\"term-link cursor-pointer text-pink-900 italic\">law:1</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1a(1)</a> and their strict enforcement by police and the courts ",
+        "text": "the enactment of laws see <a class=\"term-link cursor-pointer text-primary-900 italic\">law:1</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1a(1)</a> and their strict enforcement by police and the courts ",
         "samples": [
           "He has touted his conservative approach to local government, emphasizing<bold> law and order</bold> and conservative fiscal policies.",
           "But Rucker said Deters' view of <bold>law and order</bold> can be inconsistent. He pointed to Deters' decision to not pursue charges against former Bengal Adam \"Pacman\" Jones, who was accused in 2017 of spitting on a jail nurse—a felony crime, Rucker said."
@@ -886,7 +886,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">test</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">trial</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">test</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">trial</a> ",
         "samples": [
           "make another <bold>experiment</bold> of his suspicion"
         ]
@@ -900,11 +900,11 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">experience</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">experience</a>",
         "samples": []
       },
       {
-        "text": "the process of testing <a class=\"term-link cursor-pointer text-pink-600 underline\">experimentation</a>",
+        "text": "the process of testing <a class=\"term-link cursor-pointer text-primary-600 underline\">experimentation</a>",
         "samples": []
       }
     ]
@@ -928,7 +928,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to carry out <a class=\"term-link cursor-pointer text-pink-600 underline\">experiments</a> try out a new procedure, idea, or activity",
+        "text": "to carry out <a class=\"term-link cursor-pointer text-primary-600 underline\">experiments</a> try out a new procedure, idea, or activity",
         "samples": []
       }
     ]
@@ -964,7 +964,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "an experiment in which all variable factors have been kept constant and which is used as a standard of comparison to the experimental component in a <a class=\"term-link cursor-pointer text-pink-600 underline\">controlled experiment</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>controlled experiment</a>",
+        "text": "an experiment in which all variable factors have been kept constant and which is used as a standard of comparison to the experimental component in a <a class=\"term-link cursor-pointer text-primary-600 underline\">controlled experiment</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>controlled experiment</a>",
         "samples": []
       }
     ]
@@ -982,7 +982,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">control experiment</a></compare>",
+        "text": "<compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">control experiment</a></compare>",
         "samples": [
           "… few <bold>controlled experiments</bold> have been formally conducted by an impartial organization to prove or disprove the claims.",
           "In the next few years, non-university researchers will run <bold>controlled experiments</bold> with the fungi on mosquitoes in Africa and locusts in China.",
@@ -1004,7 +1004,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">gedankenexperiment</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">gedankenexperiment</a>",
         "samples": []
       }
     ]
@@ -1026,7 +1026,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "an act or instance of <a class=\"term-link cursor-pointer text-pink-600 underline\">controlling</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>control:1</a>",
+        "text": "an act or instance of <a class=\"term-link cursor-pointer text-primary-600 underline\">controlling</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>control:1</a>",
         "samples": []
       },
       {
@@ -1047,7 +1047,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">restraint</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">reserve</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">restraint</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">reserve</a> ",
         "samples": [
           "exercised <bold>control</bold> of his passions"
         ]
@@ -1077,7 +1077,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">control key</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">control key</a>",
         "samples": []
       }
     ]
@@ -1098,7 +1098,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "existing or occurring before an <a class=\"term-link cursor-pointer text-pink-600 underline\">experiment</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>experiment:1</a> ",
+        "text": "existing or occurring before an <a class=\"term-link cursor-pointer text-primary-600 underline\">experiment</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>experiment:1</a> ",
         "samples": [
           "a <bold>preexperimental</bold> questionnaire"
         ]
@@ -1136,7 +1136,7 @@ export default [
         "samples": []
       },
       {
-        "text": "information output by a sensing device or organ that includes both useful and irrelevant or <a class=\"term-link cursor-pointer text-pink-600 underline\">redundant</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>redundant</a> information and must be processed to be meaningful",
+        "text": "information output by a sensing device or organ that includes both useful and irrelevant or <a class=\"term-link cursor-pointer text-primary-600 underline\">redundant</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>redundant</a> information and must be processed to be meaningful",
         "samples": []
       }
     ]
@@ -1184,7 +1184,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">database</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">database</a>",
         "samples": []
       }
     ]
@@ -1332,7 +1332,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "an inclination of <a class=\"term-link cursor-pointer text-pink-600 underline\">temperament</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>temperament</a> or outlook",
+        "text": "an inclination of <a class=\"term-link cursor-pointer text-primary-600 underline\">temperament</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>temperament</a> or outlook",
         "samples": []
       },
       {
@@ -1340,7 +1340,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">bent</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">tendency</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">bent</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">tendency</a>",
         "samples": []
       },
       {
@@ -1352,7 +1352,7 @@ export default [
         "samples": []
       },
       {
-        "text": "a peculiarity in the shape of a <a class=\"term-link cursor-pointer text-pink-600 underline\">bowl</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>bowl:2</a> that causes it to swerve when rolled on the green in lawn bowling",
+        "text": "a peculiarity in the shape of a <a class=\"term-link cursor-pointer text-primary-600 underline\">bowl</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>bowl:2</a> that causes it to swerve when rolled on the green in lawn bowling",
         "samples": []
       },
       {
@@ -1435,13 +1435,13 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">diagonally</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">diagonally</a> ",
         "samples": [
           "cut cloth <bold>bias</bold>"
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">awry</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">awry</a>",
         "samples": []
       }
     ]
@@ -1459,7 +1459,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "river about 300 miles (483 kilometers) long in the <a class=\"term-link cursor-pointer text-pink-600 underline\">Punjab</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>Punjab:g</a>, northern India",
+        "text": "river about 300 miles (483 kilometers) long in the <a class=\"term-link cursor-pointer text-primary-600 underline\">Punjab</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>Punjab:g</a>, northern India",
         "samples": []
       }
     ]
@@ -1495,7 +1495,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">hate crime</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">hate crime</a>",
         "samples": []
       }
     ]
@@ -1550,10 +1550,10 @@ export default [
     ],
     "defs": [
       {
-        "text": "a <a class=\"term-link cursor-pointer text-pink-600 underline\">bias</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>bias:1</a> or prejudice that is present but not consciously held or recognized ",
+        "text": "a <a class=\"term-link cursor-pointer text-primary-600 underline\">bias</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>bias:1</a> or prejudice that is present but not consciously held or recognized ",
         "samples": [
           "These studies reveal that students, nurses, doctors, police officers, employment recruiters, and many others exhibit <bold>implicit biases</bold> with respect to race, ethnicity, nationality, gender, social status, and other distinctions.",
-          "<bold class=\"text-pink-800\">\"</bold>Research shows that the majority of people have an <bold>implicit bias</bold> that associates science and technology with gender, so from a very young age, girls are not encouraged to pursue these careers,<bold class=\"text-pink-800\">\"</bold> she [Caroline Simard] said."
+          "<bold class=\"text-primary-800\">\"</bold>Research shows that the majority of people have an <bold>implicit bias</bold> that associates science and technology with gender, so from a very young age, girls are not encouraged to pursue these careers,<bold class=\"text-primary-800\">\"</bold> she [Caroline Simard] said."
         ]
       }
     ]
@@ -1576,7 +1576,7 @@ export default [
         "samples": []
       },
       {
-        "text": "having or likely to have <a class=\"term-link cursor-pointer text-pink-600 underline\">influence</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>influence:1</a> or effect <a class=\"term-link cursor-pointer text-pink-600 underline\">important</a> ",
+        "text": "having or likely to have <a class=\"term-link cursor-pointer text-primary-600 underline\">influence</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>influence:1</a> or effect <a class=\"term-link cursor-pointer text-primary-600 underline\">important</a> ",
         "samples": [
           "a <bold>significant</bold> piece of legislation"
         ]
@@ -1640,13 +1640,13 @@ export default [
     ],
     "defs": [
       {
-        "text": "based on an <a class=\"term-link cursor-pointer text-pink-600 underline\">inherent</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>inherent</a> sense of right and wrong ",
+        "text": "based on an <a class=\"term-link cursor-pointer text-primary-600 underline\">inherent</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>inherent</a> sense of right and wrong ",
         "samples": [
           "<bold>natural</bold> justice"
         ]
       },
       {
-        "text": "being in accordance with or determined by <a class=\"term-link cursor-pointer text-pink-600 underline\">nature</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>nature</a> ",
+        "text": "being in accordance with or determined by <a class=\"term-link cursor-pointer text-primary-600 underline\">nature</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>nature</a> ",
         "samples": [
           "<bold>natural</bold> impulses"
         ]
@@ -1656,7 +1656,7 @@ export default [
         "samples": []
       },
       {
-        "text": "connected by direct genetic relationship rather than by adoption or marriage <a class=\"term-link cursor-pointer text-pink-600 underline\">biological</a> ",
+        "text": "connected by direct genetic relationship rather than by adoption or marriage <a class=\"term-link cursor-pointer text-primary-600 underline\">biological</a> ",
         "samples": [
           "their <bold>natural</bold> son",
           "her <bold>natural</bold> parents"
@@ -1669,7 +1669,7 @@ export default [
         ]
       },
       {
-        "text": "born in wedlock <a class=\"term-link cursor-pointer text-pink-600 underline\">legitimate</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>legitimate:1</a>",
+        "text": "born in wedlock <a class=\"term-link cursor-pointer text-primary-600 underline\">legitimate</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>legitimate:1</a>",
         "samples": []
       },
       {
@@ -1739,7 +1739,7 @@ export default [
         "samples": []
       },
       {
-        "text": "being in a state of nature without spiritual enlightenment <a class=\"term-link cursor-pointer text-pink-600 underline\">unregenerate</a> ",
+        "text": "being in a state of nature without spiritual enlightenment <a class=\"term-link cursor-pointer text-primary-600 underline\">unregenerate</a> ",
         "samples": [
           "<bold>natural</bold> man"
         ]
@@ -1765,7 +1765,7 @@ export default [
         "samples": []
       },
       {
-        "text": "marked by easy simplicity and freedom from artificiality, <a class=\"term-link cursor-pointer text-pink-600 underline\">affectation</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>affectation</a>, or <a class=\"term-link cursor-pointer text-pink-600 underline\">constraint</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>constraint</a> ",
+        "text": "marked by easy simplicity and freedom from artificiality, <a class=\"term-link cursor-pointer text-primary-600 underline\">affectation</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>affectation</a>, or <a class=\"term-link cursor-pointer text-primary-600 underline\">constraint</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>constraint</a> ",
         "samples": [
           "Successful people are genuine and <bold>natural</bold> rather than synthetic and imitative."
         ]
@@ -1829,11 +1829,11 @@ export default [
         "samples": []
       },
       {
-        "text": "a throw of 7 or 11 on the first cast in <a class=\"term-link cursor-pointer text-pink-600 underline\">craps</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>craps</a>",
+        "text": "a throw of 7 or 11 on the first cast in <a class=\"term-link cursor-pointer text-primary-600 underline\">craps</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>craps</a>",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">blackjack</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>1b</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">blackjack</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>1b</a>",
         "samples": []
       },
       {
@@ -1849,7 +1849,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">afro</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">afro</a>",
         "samples": []
       }
     ]
@@ -2038,13 +2038,13 @@ export default [
     ],
     "defs": [
       {
-        "text": "of, relating to, used in, or produced by <a class=\"term-link cursor-pointer text-pink-600 underline\">chemistry</a> or the phenomena of chemistry ",
+        "text": "of, relating to, used in, or produced by <a class=\"term-link cursor-pointer text-primary-600 underline\">chemistry</a> or the phenomena of chemistry ",
         "samples": [
           "<bold>chemical</bold> reactions"
         ]
       },
       {
-        "text": "acting or operated or produced by <a class=\"term-link cursor-pointer text-pink-600 underline\">chemicals</a> ",
+        "text": "acting or operated or produced by <a class=\"term-link cursor-pointer text-primary-600 underline\">chemicals</a> ",
         "samples": [
           "a <bold>chemical</bold> fire extinguisher"
         ]
@@ -2073,7 +2073,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">drug</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>2</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">drug</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>2</a>",
         "samples": []
       }
     ]
@@ -2152,7 +2152,7 @@ export default [
         "text": "tactical warfare using substances (such as incendiary mixtures, smoke, or gases) with irritant, burning, poisonous, or asphyxiating properties ",
         "samples": [
           "There were other isolated instances of <bold>chemical warfare</bold>. The Greeks used a gas attack with sulphur fumes at the siege of Delium in 424 B.C.",
-          "The forswearing of <bold>chemical warfare</bold> by the major combatants in World War II foreshadowed the later nuclear <bold class=\"text-pink-800\">\"</bold>balance of terror,<bold class=\"text-pink-800\">\"</bold> during the Cold War."
+          "The forswearing of <bold>chemical warfare</bold> by the major combatants in World War II foreshadowed the later nuclear <bold class=\"text-primary-800\">\"</bold>balance of terror,<bold class=\"text-primary-800\">\"</bold> during the Cold War."
         ]
       }
     ]
@@ -2204,7 +2204,7 @@ export default [
     ],
     "defs": [
       {
-        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">sick building syndrome</a></compare>",
+        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">sick building syndrome</a></compare>",
         "samples": []
       }
     ]
@@ -2222,7 +2222,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a poisonous substance that is a specific product of the metabolic activities of a living organism and is usually very unstable, notably <a class=\"term-link cursor-pointer text-pink-600 underline\">toxic</a> when introduced into the tissues, and typically capable of inducing antibody formation",
+        "text": "a poisonous substance that is a specific product of the metabolic activities of a living organism and is usually very unstable, notably <a class=\"term-link cursor-pointer text-primary-600 underline\">toxic</a> when introduced into the tissues, and typically capable of inducing antibody formation",
         "samples": []
       }
     ]
@@ -2289,15 +2289,15 @@ export default [
         ]
       },
       {
-        "text": "the historical development of a biological group (such as a species) <a class=\"term-link cursor-pointer text-pink-600 underline\">phylogeny</a>",
+        "text": "the historical development of a biological group (such as a species) <a class=\"term-link cursor-pointer text-primary-600 underline\">phylogeny</a>",
         "samples": []
       },
       {
-        "text": "a process of change in a certain direction <a class=\"term-link cursor-pointer text-pink-600 underline\">unfolding</a>",
+        "text": "a process of change in a certain direction <a class=\"term-link cursor-pointer text-primary-600 underline\">unfolding</a>",
         "samples": []
       },
       {
-        "text": "the action or an instance of forming and giving something off <a class=\"term-link cursor-pointer text-pink-600 underline\">emission</a>",
+        "text": "the action or an instance of forming and giving something off <a class=\"term-link cursor-pointer text-primary-600 underline\">emission</a>",
         "samples": []
       },
       {
@@ -2305,7 +2305,7 @@ export default [
         "samples": []
       },
       {
-        "text": "something <a class=\"term-link cursor-pointer text-pink-600 underline\">evolved</a>",
+        "text": "something <a class=\"term-link cursor-pointer text-primary-600 underline\">evolved</a>",
         "samples": []
       },
       {
@@ -2339,7 +2339,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "opposing or rejecting the biological theory of <a class=\"term-link cursor-pointer text-pink-600 underline\">evolution</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>evolution</a> or prohibiting its teaching ",
+        "text": "opposing or rejecting the biological theory of <a class=\"term-link cursor-pointer text-primary-600 underline\">evolution</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>evolution</a> or prohibiting its teaching ",
         "samples": [
           "… a 1968 legal decision, Epperson v. Arkansas, in which the Supreme Court struck down <bold>anti-evolution</bold> laws like the one under which Scopes was convicted."
         ]
@@ -2358,9 +2358,9 @@ export default [
     ],
     "defs": [
       {
-        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">analogy</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">divergent evolution</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">parallel evolution</a></compare>",
+        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">analogy</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">divergent evolution</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">parallel evolution</a></compare>",
         "samples": [
-          "The remarkable resemblance of these moths to hummingbirds is a case of <bold>convergent evolution</bold>. Both are after the same thing: nectar deep within tubular flowers that lack <bold class=\"text-pink-800\">\"</bold>landing pads.<bold class=\"text-pink-800\">\"</bold>",
+          "The remarkable resemblance of these moths to hummingbirds is a case of <bold>convergent evolution</bold>. Both are after the same thing: nectar deep within tubular flowers that lack <bold class=\"text-primary-800\">\"</bold>landing pads.<bold class=\"text-primary-800\">\"</bold>",
           "In some cases, a taxon is composed of the descendants of unrelated ancestors that evolved similar features by <bold>convergent evolution</bold> and for this reason have been mistaken as relatives."
         ]
       }
@@ -2379,7 +2379,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "evolution that is a creative product of a vital force rather than a spontaneous process explicable in terms of scientific laws <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">emergent evolution</a></compare>",
+        "text": "evolution that is a creative product of a vital force rather than a spontaneous process explicable in terms of scientific laws <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">emergent evolution</a></compare>",
         "samples": []
       }
     ]
@@ -2397,7 +2397,7 @@ export default [
     ],
     "defs": [
       {
-        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">convergent evolution</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">parallel evolution</a></compare>",
+        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">convergent evolution</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">parallel evolution</a></compare>",
         "samples": [
           "The finches that Charles Darwin described in the Galapagos Islands are a classic example of <bold>divergent evolution</bold>. The beaks of different species evolved in response to specific evolutionary forces—different foods available on the various islands."
         ]
@@ -2417,7 +2417,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "evolution that according to some theories involves the appearance of new characters and qualities at complex levels of organization (such as the cell or organism) which cannot be predicted solely from the study of less complex levels (such as the atom or molecule) <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">creative evolution</a></compare>",
+        "text": "evolution that according to some theories involves the appearance of new characters and qualities at complex levels of organization (such as the cell or organism) which cannot be predicted solely from the study of less complex levels (such as the atom or molecule) <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">creative evolution</a></compare>",
         "samples": []
       }
     ]
@@ -2435,7 +2435,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the independent development of similar traits or features (as of body structure or behavior) in different species or lineages that have common ancestry and that typically occupy similar environments or ecological niches <a class=\"term-link cursor-pointer text-pink-600 underline\">parallelism</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>5</a> <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">convergent evolution</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">divergent evolution</a></compare>",
+        "text": "the independent development of similar traits or features (as of body structure or behavior) in different species or lineages that have common ancestry and that typically occupy similar environments or ecological niches <a class=\"term-link cursor-pointer text-primary-600 underline\">parallelism</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>5</a> <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">convergent evolution</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">divergent evolution</a></compare>",
         "samples": []
       }
     ]
@@ -2454,7 +2454,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">kind</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">sort</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">kind</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">sort</a>",
         "samples": []
       },
       {
@@ -2541,7 +2541,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">species</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">species</a>",
         "samples": []
       }
     ]
@@ -2620,7 +2620,7 @@ export default [
       {
         "text": "growing and dispersing easily usually to the detriment of native species and ecosystems ",
         "samples": [
-          "It will be the second Australian insect released to thwart <a class=\"term-link cursor-pointer text-pink-600 underline\">melaleuca</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>melaleuca</a>, one of many exponentially spreading <bold>invasive</bold> plants that out-compete native Florida species, monopolizing wetlands and natural areas.",
+          "It will be the second Australian insect released to thwart <a class=\"term-link cursor-pointer text-primary-600 underline\">melaleuca</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>melaleuca</a>, one of many exponentially spreading <bold>invasive</bold> plants that out-compete native Florida species, monopolizing wetlands and natural areas.",
           "Scientists say more than 150 <bold>invasive species</bold> have entered the Great Lakes, multiplying rapidly and feeding on native species or outcompeting with them for food."
         ]
       },
@@ -2660,7 +2660,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the wedge-shaped piece at the crown of an arch that locks the other pieces in place <compare class=\"text-gray-500\">see <a class=\"term-link cursor-pointer text-pink-900 italic\">arch</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>arch</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>illustration</a></compare>",
+        "text": "the wedge-shaped piece at the crown of an arch that locks the other pieces in place <compare class=\"text-gray-500\">see <a class=\"term-link cursor-pointer text-primary-900 italic\">arch</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>arch</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>illustration</a></compare>",
         "samples": []
       },
       {
@@ -2727,7 +2727,7 @@ export default [
         ]
       },
       {
-        "text": "vigorous exertion of power <a class=\"term-link cursor-pointer text-pink-600 underline\">effort</a> ",
+        "text": "vigorous exertion of power <a class=\"term-link cursor-pointer text-primary-600 underline\">effort</a> ",
         "samples": [
           "investing time and <bold>energy</bold>"
         ]
@@ -2927,7 +2927,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">relativity</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>3b</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">relativity</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>3b</a>",
         "samples": []
       }
     ]
@@ -2944,7 +2944,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">relativity</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>3a</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">relativity</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>3a</a>",
         "samples": []
       }
     ]
@@ -2968,7 +2968,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the quality or state of being <a class=\"term-link cursor-pointer text-pink-600 underline\">relative</a>",
+        "text": "the quality or state of being <a class=\"term-link cursor-pointer text-primary-600 underline\">relative</a>",
         "samples": []
       },
       {
@@ -2976,7 +2976,7 @@ export default [
         "samples": []
       },
       {
-        "text": "the state of being dependent for existence on or determined in nature, value, or quality by <a class=\"term-link cursor-pointer text-pink-600 underline\">relation</a> to something else",
+        "text": "the state of being dependent for existence on or determined in nature, value, or quality by <a class=\"term-link cursor-pointer text-primary-600 underline\">relation</a> to something else",
         "samples": []
       },
       {
@@ -2984,11 +2984,11 @@ export default [
         "samples": []
       },
       {
-        "text": "an extension of the theory to include gravitation and <a class=\"term-link cursor-pointer text-pink-600 underline\">related</a> acceleration phenomena ",
+        "text": "an extension of the theory to include gravitation and <a class=\"term-link cursor-pointer text-primary-600 underline\">related</a> acceleration phenomena ",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">relativism</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>1b</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">relativism</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>1b</a>",
         "samples": []
       }
     ]
@@ -3018,13 +3018,13 @@ export default [
         "samples": []
       },
       {
-        "text": "having systematic coordination of parts <a class=\"term-link cursor-pointer text-pink-600 underline\">organized</a> ",
+        "text": "having systematic coordination of parts <a class=\"term-link cursor-pointer text-primary-600 underline\">organized</a> ",
         "samples": [
           "an <bold>organic</bold> whole"
         ]
       },
       {
-        "text": "forming an <a class=\"term-link cursor-pointer text-pink-600 underline\">integral</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>integral:2</a> element of a whole <a class=\"term-link cursor-pointer text-pink-600 underline\">fundamental</a> ",
+        "text": "forming an <a class=\"term-link cursor-pointer text-primary-600 underline\">integral</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>integral:2</a> element of a whole <a class=\"term-link cursor-pointer text-primary-600 underline\">fundamental</a> ",
         "samples": [
           "incidental music rather than <bold>organic</bold> parts of the action"
         ]
@@ -3037,23 +3037,23 @@ export default [
         ]
       },
       {
-        "text": "of, relating to, or arising in a bodily <a class=\"term-link cursor-pointer text-pink-600 underline\">organ</a>",
+        "text": "of, relating to, or arising in a bodily <a class=\"term-link cursor-pointer text-primary-600 underline\">organ</a>",
         "samples": []
       },
       {
-        "text": "affecting the structure of the <a class=\"term-link cursor-pointer text-pink-600 underline\">organism</a> ",
+        "text": "affecting the structure of the <a class=\"term-link cursor-pointer text-primary-600 underline\">organism</a> ",
         "samples": [
           "an <bold>organic</bold> disease"
         ]
       },
       {
-        "text": "of, relating to, or constituting the law by which a government or <a class=\"term-link cursor-pointer text-pink-600 underline\">organization</a> exists ",
+        "text": "of, relating to, or constituting the law by which a government or <a class=\"term-link cursor-pointer text-primary-600 underline\">organization</a> exists ",
         "samples": [
           "their nation has written the separation of church and state into its <bold>organic</bold> law"
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">instrumental</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">instrumental</a>",
         "samples": []
       }
     ]
@@ -3167,7 +3167,7 @@ export default [
         "samples": []
       },
       {
-        "text": "not arising from natural growth <a class=\"term-link cursor-pointer text-pink-600 underline\">artificial</a>",
+        "text": "not arising from natural growth <a class=\"term-link cursor-pointer text-primary-600 underline\">artificial</a>",
         "samples": []
       }
     ]
@@ -3221,15 +3221,15 @@ export default [
         "samples": []
       },
       {
-        "text": "one of the compartments of a <a class=\"term-link cursor-pointer text-pink-600 underline\">honeycomb</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>honeycomb:1</a>",
+        "text": "one of the compartments of a <a class=\"term-link cursor-pointer text-primary-600 underline\">honeycomb</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>honeycomb:1</a>",
         "samples": []
       },
       {
-        "text": "a <a class=\"term-link cursor-pointer text-pink-600 underline\">membranous</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>membranous</a> area bounded by veins in the wing of an insect",
+        "text": "a <a class=\"term-link cursor-pointer text-primary-600 underline\">membranous</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>membranous</a> area bounded by veins in the wing of an insect",
         "samples": []
       },
       {
-        "text": "a small usually microscopic mass of <a class=\"term-link cursor-pointer text-pink-600 underline\">protoplasm</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>protoplasm</a> bounded externally by a <a class=\"term-link cursor-pointer text-pink-600 underline\">semipermeable</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>semipermeable</a> membrane, usually including one or more nuclei and various other <a class=\"term-link cursor-pointer text-pink-600 underline\">organelles</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>organelle</a> with their products, capable alone or interacting with other cells of performing all the fundamental functions of life, and forming the smallest structural unit of living matter capable of functioning independently",
+        "text": "a small usually microscopic mass of <a class=\"term-link cursor-pointer text-primary-600 underline\">protoplasm</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>protoplasm</a> bounded externally by a <a class=\"term-link cursor-pointer text-primary-600 underline\">semipermeable</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>semipermeable</a> membrane, usually including one or more nuclei and various other <a class=\"term-link cursor-pointer text-primary-600 underline\">organelles</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>organelle</a> with their products, capable alone or interacting with other cells of performing all the fundamental functions of life, and forming the smallest structural unit of living matter capable of functioning independently",
         "samples": []
       },
       {
@@ -3237,11 +3237,11 @@ export default [
         "samples": []
       },
       {
-        "text": "a single unit in a device for converting <a class=\"term-link cursor-pointer text-pink-600 underline\">radiant energy</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>radiant energy</a> into electrical energy or for varying the intensity of an electrical current in accordance with radiation see <a class=\"term-link cursor-pointer text-pink-900 italic\">radiation</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1</a>",
+        "text": "a single unit in a device for converting <a class=\"term-link cursor-pointer text-primary-600 underline\">radiant energy</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>radiant energy</a> into electrical energy or for varying the intensity of an electrical current in accordance with radiation see <a class=\"term-link cursor-pointer text-primary-900 italic\">radiation</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1</a>",
         "samples": []
       },
       {
-        "text": "a unit in a statistical array see <a class=\"term-link cursor-pointer text-pink-900 italic\">array:2</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>5</a> (such as a spreadsheet) formed by the intersection of a column and a row",
+        "text": "a unit in a statistical array see <a class=\"term-link cursor-pointer text-primary-900 italic\">array:2</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>5</a> (such as a spreadsheet) formed by the intersection of a column and a row",
         "samples": []
       },
       {
@@ -3257,11 +3257,11 @@ export default [
         ]
       },
       {
-        "text": "any of the small sections of a geographic area of a cellular see <a class=\"term-link cursor-pointer text-pink-900 italic\">cellular:1</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>3</a> telephone system",
+        "text": "any of the small sections of a geographic area of a cellular see <a class=\"term-link cursor-pointer text-primary-900 italic\">cellular:1</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>3</a> telephone system",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">cell phone</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">cell phone</a>",
         "samples": []
       }
     ]
@@ -3300,7 +3300,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a branch of biology dealing with the structure, function, and life history of cells and their constituents <a class=\"term-link cursor-pointer text-pink-600 underline\">cytology</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>1a</a>",
+        "text": "a branch of biology dealing with the structure, function, and life history of cells and their constituents <a class=\"term-link cursor-pointer text-primary-600 underline\">cytology</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>1a</a>",
         "samples": []
       }
     ]
@@ -3318,7 +3318,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the nucleus-containing central part of a neuron exclusive of its axons and dendrites that is the major structural element of the <a class=\"term-link cursor-pointer text-pink-600 underline\">gray matter</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>gray matter</a> of the brain and spinal cord, the <a class=\"term-link cursor-pointer text-pink-600 underline\">ganglia</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>ganglion</a>, and the <a class=\"term-link cursor-pointer text-pink-600 underline\">retina</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>retina</a> <compare class=\"text-gray-500\">see <a class=\"term-link cursor-pointer text-pink-900 italic\">neuron</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>neuron</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>illustration</a></compare>",
+        "text": "the nucleus-containing central part of a neuron exclusive of its axons and dendrites that is the major structural element of the <a class=\"term-link cursor-pointer text-primary-600 underline\">gray matter</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>gray matter</a> of the brain and spinal cord, the <a class=\"term-link cursor-pointer text-primary-600 underline\">ganglia</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>ganglion</a>, and the <a class=\"term-link cursor-pointer text-primary-600 underline\">retina</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>retina</a> <compare class=\"text-gray-500\">see <a class=\"term-link cursor-pointer text-primary-900 italic\">neuron</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>neuron</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>illustration</a></compare>",
         "samples": []
       }
     ]
@@ -3336,7 +3336,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the complete series of events from one cell division to the next <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">g<sub>1</sub> phase</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>G1 phase</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">g<sub>2</sub> phase</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>G2 phase</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">m phase</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>M phase</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">s phase</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>S phase</a></compare>",
+        "text": "the complete series of events from one cell division to the next <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">g<sub>1</sub> phase</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>G1 phase</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">g<sub>2</sub> phase</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>G2 phase</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">m phase</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>M phase</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">s phase</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>S phase</a></compare>",
         "samples": []
       }
     ]
@@ -3354,7 +3354,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the process by which cells multiply involving both nuclear and cytoplasmic division <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">meiosis</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">mitosis</a></compare>",
+        "text": "the process by which cells multiply involving both nuclear and cytoplasmic division <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">meiosis</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">mitosis</a></compare>",
         "samples": []
       }
     ]
@@ -3462,13 +3462,13 @@ export default [
         ]
       },
       {
-        "text": "a tiny particle <a class=\"term-link cursor-pointer text-pink-600 underline\">bit</a> ",
+        "text": "a tiny particle <a class=\"term-link cursor-pointer text-primary-600 underline\">bit</a> ",
         "samples": [
           "There's not an <bold>atom</bold> of truth in what he said."
         ]
       },
       {
-        "text": "one of the minute indivisible particles of which according to ancient materialism see <a class=\"term-link cursor-pointer text-pink-900 italic\">materialism</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1a</a> the universe is composed",
+        "text": "one of the minute indivisible particles of which according to ancient materialism see <a class=\"term-link cursor-pointer text-primary-900 italic\">materialism</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1a</a> the universe is composed",
         "samples": []
       }
     ]
@@ -3486,7 +3486,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">accelerator</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>d</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">accelerator</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>d</a>",
         "samples": []
       }
     ]
@@ -3549,7 +3549,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a region of the earth having specified <a class=\"term-link cursor-pointer text-pink-600 underline\">climatic</a> conditions ",
+        "text": "a region of the earth having specified <a class=\"term-link cursor-pointer text-primary-600 underline\">climatic</a> conditions ",
         "samples": [
           "His physician advised moving to a warmer <bold>climate</bold>."
         ]
@@ -3568,7 +3568,7 @@ export default [
         ]
       },
       {
-        "text": "the prevailing influence or environmental conditions characterizing a group or period <a class=\"term-link cursor-pointer text-pink-600 underline\">atmosphere</a> ",
+        "text": "the prevailing influence or environmental conditions characterizing a group or period <a class=\"term-link cursor-pointer text-primary-600 underline\">atmosphere</a> ",
         "samples": [
           "a <bold>climate</bold> of fear",
           "a <bold>climate</bold> of suspicion",
@@ -3683,7 +3683,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">rain</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">storm</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">rain</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">storm</a>",
         "samples": []
       },
       {
@@ -3691,7 +3691,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">weathering</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">weathering</a>",
         "samples": []
       }
     ]
@@ -3741,7 +3741,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "of or relating to the side facing the wind <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">lee</a></compare>",
+        "text": "of or relating to the side facing the wind <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">lee</a></compare>",
         "samples": []
       }
     ]

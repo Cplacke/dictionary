@@ -26,13 +26,13 @@ export default [
         ]
       },
       {
-        "text": "capable of being <a class=\"term-link cursor-pointer text-pink-600 underline\">verified</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>verify</a> or disproved by observation or experiment ",
+        "text": "capable of being <a class=\"term-link cursor-pointer text-primary-600 underline\">verified</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>verify</a> or disproved by observation or experiment ",
         "samples": [
           "<bold>empirical</bold> laws"
         ]
       },
       {
-        "text": "of or relating to <a class=\"term-link cursor-pointer text-pink-600 underline\">empiricism</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>empiricism</a>",
+        "text": "of or relating to <a class=\"term-link cursor-pointer text-primary-600 underline\">empiricism</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>empiricism</a>",
         "samples": []
       }
     ]
@@ -73,7 +73,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to make a <a class=\"term-link cursor-pointer text-pink-600 underline\">hypothesis</a>",
+        "text": "to make a <a class=\"term-link cursor-pointer text-primary-600 underline\">hypothesis</a>",
         "samples": []
       },
       {
@@ -97,23 +97,23 @@ export default [
     ],
     "defs": [
       {
-        "text": "existing only in <a class=\"term-link cursor-pointer text-pink-600 underline\">theory</a> <a class=\"term-link cursor-pointer text-pink-600 underline\">hypothetical</a> ",
+        "text": "existing only in <a class=\"term-link cursor-pointer text-primary-600 underline\">theory</a> <a class=\"term-link cursor-pointer text-primary-600 underline\">hypothetical</a> ",
         "samples": [
           "gave as an example a <bold>theoretical</bold> situation"
         ]
       },
       {
-        "text": "relating to or having the character of theory <a class=\"term-link cursor-pointer text-pink-600 underline\">abstract</a>",
+        "text": "relating to or having the character of theory <a class=\"term-link cursor-pointer text-primary-600 underline\">abstract</a>",
         "samples": []
       },
       {
-        "text": "confined to theory or speculation often in contrast to practical applications <a class=\"term-link cursor-pointer text-pink-600 underline\">speculative</a> ",
+        "text": "confined to theory or speculation often in contrast to practical applications <a class=\"term-link cursor-pointer text-primary-600 underline\">speculative</a> ",
         "samples": [
           "<bold>theoretical</bold> physics"
         ]
       },
       {
-        "text": "given to or skilled in <a class=\"term-link cursor-pointer text-pink-600 underline\">theorizing</a> ",
+        "text": "given to or skilled in <a class=\"term-link cursor-pointer text-primary-600 underline\">theorizing</a> ",
         "samples": [
           "a brilliant <bold>theoretical</bold> physicist"
         ]
@@ -133,7 +133,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "opposed to <a class=\"term-link cursor-pointer text-pink-600 underline\">theory</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>theory</a> ",
+        "text": "opposed to <a class=\"term-link cursor-pointer text-primary-600 underline\">theory</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>theory</a> ",
         "samples": [
           "an <bold>antitheoretical</bold> bias",
           "Kierkegaard, fighting Hegel, attempted to use art itself as an <bold>anti-theoretical</bold> mystification in order to scare off disciples and promote live thought."
@@ -178,11 +178,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">example</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">pattern</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">example</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">pattern</a>",
         "samples": []
       },
       {
-        "text": "an example of a <a class=\"term-link cursor-pointer text-pink-600 underline\">conjugation</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>conjugation</a> or <a class=\"term-link cursor-pointer text-pink-600 underline\">declension</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>declension</a> showing a word in all its inflectional forms",
+        "text": "an example of a <a class=\"term-link cursor-pointer text-primary-600 underline\">conjugation</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>conjugation</a> or <a class=\"term-link cursor-pointer text-primary-600 underline\">declension</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>declension</a> showing a word in all its inflectional forms",
         "samples": []
       },
       {
@@ -229,7 +229,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "of, relating to, or expressible in terms of <a class=\"term-link cursor-pointer text-pink-600 underline\">quantity</a>",
+        "text": "of, relating to, or expressible in terms of <a class=\"term-link cursor-pointer text-primary-600 underline\">quantity</a>",
         "samples": []
       },
       {
@@ -313,7 +313,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "of, relating to, or involving <a class=\"term-link cursor-pointer text-pink-600 underline\">quality</a> or kind",
+        "text": "of, relating to, or involving <a class=\"term-link cursor-pointer text-primary-600 underline\">quality</a> or kind",
         "samples": []
       }
     ]
@@ -350,13 +350,13 @@ export default [
     ],
     "defs": [
       {
-        "text": "taken for granted <a class=\"term-link cursor-pointer text-pink-600 underline\">self-evident</a> ",
+        "text": "taken for granted <a class=\"term-link cursor-pointer text-primary-600 underline\">self-evident</a> ",
         "samples": [
           "an <bold>axiomatic</bold> truth"
         ]
       },
       {
-        "text": "based on or involving an <a class=\"term-link cursor-pointer text-pink-600 underline\">axiom</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>axiom</a> or system of axioms ",
+        "text": "based on or involving an <a class=\"term-link cursor-pointer text-primary-600 underline\">axiom</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>axiom</a> or system of axioms ",
         "samples": [
           "<bold>axiomatic</bold> set theory"
         ]
@@ -376,7 +376,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "involving or serving as an aid to learning, discovery, or problem-solving by experimental and especially <a class=\"term-link cursor-pointer text-pink-600 underline\">trial-and-error</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>trial and error</a> methods ",
+        "text": "involving or serving as an aid to learning, discovery, or problem-solving by experimental and especially <a class=\"term-link cursor-pointer text-primary-600 underline\">trial-and-error</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>trial and error</a> methods ",
         "samples": [
           "<bold>heuristic</bold> techniques",
           "a <bold>heuristic</bold> assumption"
@@ -399,15 +399,15 @@ export default [
     ],
     "defs": [
       {
-        "text": "the study or practice of heuristic see <a class=\"term-link cursor-pointer text-pink-900 italic\">heuristic:1</a> procedure",
+        "text": "the study or practice of heuristic see <a class=\"term-link cursor-pointer text-primary-900 italic\">heuristic:1</a> procedure",
         "samples": []
       },
       {
-        "text": "heuristic see <a class=\"term-link cursor-pointer text-pink-900 italic\">heuristic:1</a> argument",
+        "text": "heuristic see <a class=\"term-link cursor-pointer text-primary-900 italic\">heuristic:1</a> argument",
         "samples": []
       },
       {
-        "text": "a heuristic see <a class=\"term-link cursor-pointer text-pink-900 italic\">heuristic:1</a> method or procedure",
+        "text": "a heuristic see <a class=\"term-link cursor-pointer text-primary-900 italic\">heuristic:1</a> method or procedure",
         "samples": []
       }
     ]
@@ -433,7 +433,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to support with evidence or <a class=\"term-link cursor-pointer text-pink-600 underline\">authority</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>authority</a> make more certain",
+        "text": "to support with evidence or <a class=\"term-link cursor-pointer text-primary-600 underline\">authority</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>authority</a> make more certain",
         "samples": []
       }
     ]
@@ -486,7 +486,7 @@ export default [
         "samples": []
       },
       {
-        "text": "a temporal or <a class=\"term-link cursor-pointer text-pink-600 underline\">spatiotemporal</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>spatiotemporal</a> object of sensory experience as distinguished from a <a class=\"term-link cursor-pointer text-pink-600 underline\">noumenon</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>noumenon</a>",
+        "text": "a temporal or <a class=\"term-link cursor-pointer text-primary-600 underline\">spatiotemporal</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>spatiotemporal</a> object of sensory experience as distinguished from a <a class=\"term-link cursor-pointer text-primary-600 underline\">noumenon</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>noumenon</a>",
         "samples": []
       },
       {
@@ -594,31 +594,31 @@ export default [
     ],
     "defs": [
       {
-        "text": "a division into two especially <a class=\"term-link cursor-pointer text-pink-600 underline\">mutually exclusive</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>mutually exclusive</a> or <a class=\"term-link cursor-pointer text-pink-600 underline\">contradictory</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>contradictory:1</a> groups or entities ",
+        "text": "a division into two especially <a class=\"term-link cursor-pointer text-primary-600 underline\">mutually exclusive</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>mutually exclusive</a> or <a class=\"term-link cursor-pointer text-primary-600 underline\">contradictory</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>contradictory:1</a> groups or entities ",
         "samples": [
           "the <bold>dichotomy</bold> between theory and practice"
         ]
       },
       {
-        "text": "something with seemingly <a class=\"term-link cursor-pointer text-pink-600 underline\">contradictory</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>contradictory:1</a> qualities ",
+        "text": "something with seemingly <a class=\"term-link cursor-pointer text-primary-600 underline\">contradictory</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>contradictory:1</a> qualities ",
         "samples": [
           "it's a <bold>dichotomy</bold>, this opulent Ritz-style luxury in a place that fronts on a boat harbor"
         ]
       },
       {
-        "text": "the <a class=\"term-link cursor-pointer text-pink-600 underline\">phase</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>phase:1</a> of the moon or an inferior planet in which half its <a class=\"term-link cursor-pointer text-pink-600 underline\">disk</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>disk:1</a> appears illuminated",
+        "text": "the <a class=\"term-link cursor-pointer text-primary-600 underline\">phase</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>phase:1</a> of the moon or an inferior planet in which half its <a class=\"term-link cursor-pointer text-primary-600 underline\">disk</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>disk:1</a> appears illuminated",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">bifurcation</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">bifurcation</a>",
         "samples": []
       },
       {
-        "text": "a system of branching in which the main axis <a class=\"term-link cursor-pointer text-pink-600 underline\">forks</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>fork:2</a> repeatedly into two branches",
+        "text": "a system of branching in which the main axis <a class=\"term-link cursor-pointer text-primary-600 underline\">forks</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>fork:2</a> repeatedly into two branches",
         "samples": []
       },
       {
-        "text": "branching of an ancestral line into two equal <a class=\"term-link cursor-pointer text-pink-600 underline\">diverging</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>diverge</a> branches",
+        "text": "branching of an ancestral line into two equal <a class=\"term-link cursor-pointer text-primary-600 underline\">diverging</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>diverge</a> branches",
         "samples": []
       }
     ]
@@ -638,20 +638,20 @@ export default [
     ],
     "defs": [
       {
-        "text": "of or relating to <a class=\"term-link cursor-pointer text-pink-600 underline\">metaphysics</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>metaphysics</a> ",
+        "text": "of or relating to <a class=\"term-link cursor-pointer text-primary-600 underline\">metaphysics</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>metaphysics</a> ",
         "samples": [
           "<bold>metaphysical</bold> truth",
           "<bold>metaphysical</bold> speculation"
         ]
       },
       {
-        "text": "of or relating to the transcendent see <a class=\"term-link cursor-pointer text-pink-900 italic\">transcendent</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1</a> or to a reality beyond what is perceptible to the senses ",
+        "text": "of or relating to the transcendent see <a class=\"term-link cursor-pointer text-primary-900 italic\">transcendent</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1</a> or to a reality beyond what is perceptible to the senses ",
         "samples": [
           "fleeing from experience to a <bold>metaphysical</bold> realm"
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">supernatural</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">supernatural</a> ",
         "samples": [
           "fate and <bold>metaphysical</bold> aid doth seem to have thee crown'd"
         ]
@@ -728,14 +728,14 @@ export default [
         ]
       },
       {
-        "text": "intended to <a class=\"term-link cursor-pointer text-pink-600 underline\">convey</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>convey</a> instruction and information in addition to serving another purpose (such as pleasure and entertainment) ",
+        "text": "intended to <a class=\"term-link cursor-pointer text-primary-600 underline\">convey</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>convey</a> instruction and information in addition to serving another purpose (such as pleasure and entertainment) ",
         "samples": [
           "<bold>didactic</bold> poetry/fiction",
           "Taking an enlightening new approach to Johnson's Dictionary, DeMaria examines the 16,000 illustrative citations and finds that they not only serve linguistic ends but have educational and <bold>didactic</bold> purposes."
         ]
       },
       {
-        "text": "making <a class=\"term-link cursor-pointer text-pink-600 underline\">moral</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>moral:1</a> observations intended to teach proper or moral behavior ",
+        "text": "making <a class=\"term-link cursor-pointer text-primary-600 underline\">moral</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>moral:1</a> observations intended to teach proper or moral behavior ",
         "samples": [
           "Never <bold>didactic</bold>, Martin gently nudges readers toward open-mindedness at the prospect of eating bugs: \"Why not make the best of what we have the most of?\"",
           "Poe was in general not a <bold>didactic</bold> writer; in fact, he criticized stories and poems that sought to inculcate virtue and convey the truth."
@@ -757,7 +757,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">harsh</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>harsh</a> or jarring sound <a class=\"term-link cursor-pointer text-pink-600 underline\">dissonance</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>2</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">harsh</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>harsh</a> or jarring sound <a class=\"term-link cursor-pointer text-primary-600 underline\">dissonance</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>2</a>",
         "samples": []
       },
       {
@@ -792,7 +792,7 @@ export default [
         "samples": []
       },
       {
-        "text": "a discipline comprising as its core <a class=\"term-link cursor-pointer text-pink-600 underline\">logic</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>logic</a>, aesthetics, ethics, <a class=\"term-link cursor-pointer text-pink-600 underline\">metaphysics</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>metaphysics</a>, and epistemology",
+        "text": "a discipline comprising as its core <a class=\"term-link cursor-pointer text-primary-600 underline\">logic</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>logic</a>, aesthetics, ethics, <a class=\"term-link cursor-pointer text-primary-600 underline\">metaphysics</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>metaphysics</a>, and epistemology",
         "samples": []
       },
       {
@@ -800,7 +800,7 @@ export default [
         "samples": []
       },
       {
-        "text": "a search for a general understanding of values and reality by chiefly <a class=\"term-link cursor-pointer text-pink-600 underline\">speculative</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>speculative</a> rather than observational means",
+        "text": "a search for a general understanding of values and reality by chiefly <a class=\"term-link cursor-pointer text-primary-600 underline\">speculative</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>speculative</a> rather than observational means",
         "samples": []
       },
       {
@@ -808,7 +808,7 @@ export default [
         "samples": []
       },
       {
-        "text": "a system of <a class=\"term-link cursor-pointer text-pink-600 underline\">philosophical</a> concepts",
+        "text": "a system of <a class=\"term-link cursor-pointer text-primary-600 underline\">philosophical</a> concepts",
         "samples": []
       },
       {
@@ -822,7 +822,7 @@ export default [
         "samples": []
       },
       {
-        "text": "calmness of temper and judgment befitting a <a class=\"term-link cursor-pointer text-pink-600 underline\">philosopher</a>",
+        "text": "calmness of temper and judgment befitting a <a class=\"term-link cursor-pointer text-primary-600 underline\">philosopher</a>",
         "samples": []
       }
     ]
@@ -863,7 +863,7 @@ export default [
     ],
     "defs": [
       {
-        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">ordinary-language philosophy</a></compare>",
+        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">ordinary-language philosophy</a></compare>",
         "samples": []
       }
     ]
@@ -902,7 +902,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">ethics</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">ethics</a>",
         "samples": []
       }
     ]
@@ -922,7 +922,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">natural science</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">natural science</a>",
         "samples": []
       }
     ]
@@ -959,7 +959,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">logic</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>1a(1)</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">logic</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>1a(1)</a>",
         "samples": []
       },
       {
@@ -967,15 +967,15 @@ export default [
         "samples": []
       },
       {
-        "text": "discussion and reasoning by <a class=\"term-link cursor-pointer text-pink-600 underline\">dialogue</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>dialogue:1</a> as a method of intellectual investigation",
+        "text": "discussion and reasoning by <a class=\"term-link cursor-pointer text-primary-600 underline\">dialogue</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>dialogue:1</a> as a method of intellectual investigation",
         "samples": []
       },
       {
-        "text": "the Platonic see <a class=\"term-link cursor-pointer text-pink-900 italic\">platonic</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1</a> investigation of the eternal ideas",
+        "text": "the Platonic see <a class=\"term-link cursor-pointer text-primary-900 italic\">platonic</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1</a> investigation of the eternal ideas",
         "samples": []
       },
       {
-        "text": "the logic of appearances and of illusions the logic of <a class=\"term-link cursor-pointer text-pink-600 underline\">fallacy</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>fallacy</a> ",
+        "text": "the logic of appearances and of illusions the logic of <a class=\"term-link cursor-pointer text-primary-600 underline\">fallacy</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>fallacy</a> ",
         "samples": [
           "the <bold>dialectic</bold> of Kant"
         ]
@@ -985,7 +985,7 @@ export default [
         "samples": []
       },
       {
-        "text": "the <a class=\"term-link cursor-pointer text-pink-600 underline\">Hegelian</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>Hegelian:1</a> process of change in which a concept or its realization passes over into and is preserved and fulfilled by its opposite",
+        "text": "the <a class=\"term-link cursor-pointer text-primary-600 underline\">Hegelian</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>Hegelian:1</a> process of change in which a concept or its realization passes over into and is preserved and fulfilled by its opposite",
         "samples": []
       },
       {
@@ -1001,7 +1001,7 @@ export default [
         "samples": []
       },
       {
-        "text": "any systematic reasoning, exposition see <a class=\"term-link cursor-pointer text-pink-900 italic\">exposition</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>2a</a>, or argument that juxtaposes opposed or contradictory ideas and usually seeks to resolve their conflict a method of examining and discussing opposing ideas in order to find the truth",
+        "text": "any systematic reasoning, exposition see <a class=\"term-link cursor-pointer text-primary-900 italic\">exposition</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>2a</a>, or argument that juxtaposes opposed or contradictory ideas and usually seeks to resolve their conflict a method of examining and discussing opposing ideas in order to find the truth",
         "samples": []
       },
       {
@@ -1034,7 +1034,7 @@ export default [
         "samples": []
       },
       {
-        "text": "of, relating to, or in accordance with <a class=\"term-link cursor-pointer text-pink-600 underline\">dialectic</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>dialectic</a> ",
+        "text": "of, relating to, or in accordance with <a class=\"term-link cursor-pointer text-primary-600 underline\">dialectic</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>dialectic</a> ",
         "samples": [
           "<bold>dialectical</bold> method",
           "<bold>dialectical</bold> reasoning"
@@ -1047,7 +1047,7 @@ export default [
         ]
       },
       {
-        "text": "of, relating to, or characteristic of a <a class=\"term-link cursor-pointer text-pink-600 underline\">dialect</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>dialect</a>",
+        "text": "of, relating to, or characteristic of a <a class=\"term-link cursor-pointer text-primary-600 underline\">dialect</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>dialect</a>",
         "samples": []
       }
     ]
@@ -1067,7 +1067,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "designed for or understood by the specially <a class=\"term-link cursor-pointer text-pink-600 underline\">initiated</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>initiate:1</a> alone ",
+        "text": "designed for or understood by the specially <a class=\"term-link cursor-pointer text-primary-600 underline\">initiated</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>initiate:1</a> alone ",
         "samples": [
           "a body of <bold>esoteric</bold> legal doctrine"
         ]
@@ -1085,7 +1085,7 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">private</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">confidential</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">private</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">confidential</a> ",
         "samples": [
           "an <bold>esoteric</bold> purpose"
         ]
@@ -1116,7 +1116,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to use <a class=\"term-link cursor-pointer text-pink-600 underline\">equivocal</a> language especially with intent to deceive",
+        "text": "to use <a class=\"term-link cursor-pointer text-primary-600 underline\">equivocal</a> language especially with intent to deceive",
         "samples": []
       },
       {
@@ -1138,7 +1138,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">exposition</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">explanation</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">exposition</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">explanation</a> ",
         "samples": [
           "… politicians accustomed to speaking in 20-second sound bites suddenly began regaling (empty) galleries with windy, tendentious <bold>exegeses</bold> of the Founding Fathers' thoughts on the role of the Senate in confirming judges."
         ]
@@ -1181,7 +1181,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "of or relating to <a class=\"term-link cursor-pointer text-pink-600 underline\">ontology</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>ontology</a> ",
+        "text": "of or relating to <a class=\"term-link cursor-pointer text-primary-600 underline\">ontology</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>ontology</a> ",
         "samples": [
           "an <bold>ontological</bold> principle"
         ]
@@ -1189,7 +1189,7 @@ export default [
       {
         "text": "relating to or based upon being or existence ",
         "samples": [
-          "<a class=\"term-link cursor-pointer text-pink-600 underline\">Virtual</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>virtual</a> environments engage millions of people and billions of dollars each year. What is the <bold>ontological</bold> status of the virtual objects that populate those environments?"
+          "<a class=\"term-link cursor-pointer text-primary-600 underline\">Virtual</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>virtual</a> environments engage millions of people and billions of dollars each year. What is the <bold>ontological</bold> status of the virtual objects that populate those environments?"
         ]
       }
     ]
@@ -1224,7 +1224,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "of, relating to, or based on <a class=\"term-link cursor-pointer text-pink-600 underline\">epistemology</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>epistemology</a> relating to the study of the nature, origin, and limits of human knowledge ",
+        "text": "of, relating to, or based on <a class=\"term-link cursor-pointer text-primary-600 underline\">epistemology</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>epistemology</a> relating to the study of the nature, origin, and limits of human knowledge ",
         "samples": [
           "the <bold>epistemological</bold> problem",
           "Critical realists could learn a little <bold>epistemological</bold> humility from philosophical pragmatism, the understanding … that, beyond the scale of immediate, non-controversial truth-statements, knowledge is indeed highly partial and fallible …",
@@ -1248,7 +1248,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the study of the <a class=\"term-link cursor-pointer text-pink-600 underline\">methodological</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>methodological</a> principles of interpretation (as of the Bible)",
+        "text": "the study of the <a class=\"term-link cursor-pointer text-primary-600 underline\">methodological</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>methodological</a> principles of interpretation (as of the Bible)",
         "samples": []
       },
       {
@@ -1272,7 +1272,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the power to produce an <a class=\"term-link cursor-pointer text-pink-600 underline\">effect</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>effect:1</a>",
+        "text": "the power to produce an <a class=\"term-link cursor-pointer text-primary-600 underline\">effect</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>effect:1</a>",
         "samples": []
       }
     ]
@@ -1291,11 +1291,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "exhibiting or marked by <a class=\"term-link cursor-pointer text-pink-600 underline\">parsimony</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>parsimony</a>",
+        "text": "exhibiting or marked by <a class=\"term-link cursor-pointer text-primary-600 underline\">parsimony</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>parsimony</a>",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">sparing</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">restrained</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">sparing</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">restrained</a>",
         "samples": []
       }
     ]

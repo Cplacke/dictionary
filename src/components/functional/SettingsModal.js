@@ -24,15 +24,15 @@ export const SettingsModal = ({
 
     return (
         <div className="p-2 bg-gray-50 h-full w-full">
-            <div className="flex text-pink-500"> 
+            <div className="flex text-primary-500"> 
                 <span className="w-full md:ml-3 text-4xl md:text-5xl"> Control Panel </span>
-                <span className="inline material-symbols-outlined px-2 text-4xl ml-auto cursor-pointer hover:bg-pink-100 rounded-full"
+                <span className="inline material-symbols-outlined px-2 text-4xl ml-auto cursor-pointer hover:bg-primary-100 rounded-full"
                     onClick={() => close()}
                 > close </span>
             </div>
 
             <div className="py-2 mt-2 text-gray-800 text-3xl md:text-4xl">
-                <NavLink className="py-1 mb-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
+                <NavLink className="py-1 mb-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
                     to="/" onClick={() => {
                         setAndClose(''); 
                     }}
@@ -41,7 +41,7 @@ export const SettingsModal = ({
                     Search
                     <Flare className="bg-red-400 ml-auto" text="New"/>
                 </NavLink>
-                <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
+                <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
                     to="/" onClick={() => { 
                         setAndClose(getWordOfDay()); 
                     }}
@@ -50,7 +50,7 @@ export const SettingsModal = ({
                     Word of the Day
                     <Flare className="bg-purple-400 ml-auto" text="Beta"/>
                 </NavLink>
-                <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
+                <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
                     to="/game"
                 > 
                     <Icon icon="joystick" className="text-3xl md:text-4xl mr-2 md:ml-3" />
@@ -59,12 +59,12 @@ export const SettingsModal = ({
                     <Flare className="bg-yellow-400" text="fun"/>
                     <Flare className="bg-green-400" text="dev"/>
                 </NavLink>
-                <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"> 
+                <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"> 
                     <Icon icon="bookmark" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     My Words
                     <Flare className="bg-blue-400 ml-auto" text="Coming Soon!"/>
                 </NavLink>
-                <NavLink className="py-1 cursor-pointer hover:text-pink-500 hover:bg-pink-100 flex items-center"
+                <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
                     onClick={() => { setThemeColor('yellow') }}
                 > 
                     <Icon icon="settings" className="text-3xl md:text-4xl mr-2 md:ml-3" />

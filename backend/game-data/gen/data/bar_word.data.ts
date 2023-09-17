@@ -14,7 +14,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the act or process of <a class=\"term-link cursor-pointer text-pink-600 underline\">adjudicating</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>adjudicate</a> a dispute ",
+        "text": "the act or process of <a class=\"term-link cursor-pointer text-primary-600 underline\">adjudicating</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>adjudicate</a> a dispute ",
         "samples": [
           "The case is under <bold>adjudication</bold>."
         ]
@@ -76,7 +76,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a sworn statement in writing made especially under oath or on affirmation see <a class=\"term-link cursor-pointer text-pink-900 italic\">affirmation</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>2</a> before an authorized <a class=\"term-link cursor-pointer text-pink-600 underline\">magistrate</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>magistrate</a> or officer ",
+        "text": "a sworn statement in writing made especially under oath or on affirmation see <a class=\"term-link cursor-pointer text-primary-900 italic\">affirmation</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>2</a> before an authorized <a class=\"term-link cursor-pointer text-primary-600 underline\">magistrate</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>magistrate</a> or officer ",
         "samples": [
           "The witness's <bold>affidavit</bold> was presented to the court as evidence."
         ]
@@ -95,7 +95,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "of or relating to an <a class=\"term-link cursor-pointer text-pink-600 underline\">appeal</a> <a class=\"term-link cursor-pointer text-pink-600 underline\">appellate</a> ",
+        "text": "of or relating to an <a class=\"term-link cursor-pointer text-primary-600 underline\">appeal</a> <a class=\"term-link cursor-pointer text-primary-600 underline\">appellate</a> ",
         "samples": [
           "an <bold>appellant</bold> court"
         ]
@@ -115,7 +115,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "one that <a class=\"term-link cursor-pointer text-pink-600 underline\">appeals</a>",
+        "text": "one that <a class=\"term-link cursor-pointer text-primary-600 underline\">appeals</a>",
         "samples": []
       }
     ]
@@ -144,14 +144,14 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">concise</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">concise</a> ",
         "samples": [
           "gave a <bold>brief</bold> description of events",
           "promises to be <bold>brief</bold>"
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">curt</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">abrupt</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">curt</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">abrupt</a>",
         "samples": []
       }
     ]
@@ -172,7 +172,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "an official letter or mandate see <a class=\"term-link cursor-pointer text-pink-900 italic\">mandate:1</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1</a>",
+        "text": "an official letter or mandate see <a class=\"term-link cursor-pointer text-primary-900 italic\">mandate:1</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1</a>",
         "samples": []
       },
       {
@@ -182,13 +182,13 @@ export default [
         ]
       },
       {
-        "text": "a <a class=\"term-link cursor-pointer text-pink-600 underline\">concise</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>concise</a> article (as in a newspaper) ",
+        "text": "a <a class=\"term-link cursor-pointer text-primary-600 underline\">concise</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>concise</a> article (as in a newspaper) ",
         "samples": [
           "a news <bold>brief</bold>"
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">synopsis</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">summary</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">synopsis</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">summary</a>",
         "samples": []
       },
       {
@@ -226,7 +226,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to make an <a class=\"term-link cursor-pointer text-pink-600 underline\">abstract</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>abstract:2</a> or <a class=\"term-link cursor-pointer text-pink-600 underline\">abridgment</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>abridgment</a> of ",
+        "text": "to make an <a class=\"term-link cursor-pointer text-primary-600 underline\">abstract</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>abstract:2</a> or <a class=\"term-link cursor-pointer text-primary-600 underline\">abridgment</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>abridgment</a> of ",
         "samples": [
           "<bold>brief</bold> a report",
           "summarized northeastern Siberian archaeology and has <bold>briefed</bold> many normally unavailable sources"
@@ -249,7 +249,7 @@ export default [
         ]
       },
       {
-        "text": "to discuss (something, such as a military operation) in a <a class=\"term-link cursor-pointer text-pink-600 underline\">briefing</a> ",
+        "text": "to discuss (something, such as a military operation) in a <a class=\"term-link cursor-pointer text-primary-600 underline\">briefing</a> ",
         "samples": [
           "<bold>briefed</bold> the mission"
         ]
@@ -596,7 +596,7 @@ export default [
         ]
       },
       {
-        "text": "to bear the pressure of <a class=\"term-link cursor-pointer text-pink-600 underline\">support</a> ",
+        "text": "to bear the pressure of <a class=\"term-link cursor-pointer text-primary-600 underline\">support</a> ",
         "samples": [
           "can the roof <bold>hold</bold> all of that weight"
         ]
@@ -619,7 +619,7 @@ export default [
         ]
       },
       {
-        "text": "to enclose and keep in a container or within bounds <a class=\"term-link cursor-pointer text-pink-600 underline\">contain</a> ",
+        "text": "to enclose and keep in a container or within bounds <a class=\"term-link cursor-pointer text-primary-600 underline\">contain</a> ",
         "samples": [
           "the jug <bold>holds</bold> one gallon",
           "this corral will not <bold>hold</bold> all of the horses"
@@ -632,7 +632,7 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">accommodate</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">accommodate</a> ",
         "samples": [
           "the restaurant <bold>holds</bold> 400 diners"
         ]
@@ -653,7 +653,7 @@ export default [
         ]
       },
       {
-        "text": "to think of in a particular way <a class=\"term-link cursor-pointer text-pink-600 underline\">regard</a> ",
+        "text": "to think of in a particular way <a class=\"term-link cursor-pointer text-primary-600 underline\">regard</a> ",
         "samples": [
           "were <i>held</i> in high esteem"
         ]
@@ -665,7 +665,7 @@ export default [
         ]
       },
       {
-        "text": "to cause to be carried on <a class=\"term-link cursor-pointer text-pink-600 underline\">conduct</a> ",
+        "text": "to cause to be carried on <a class=\"term-link cursor-pointer text-primary-600 underline\">conduct</a> ",
         "samples": [
           "will <bold>hold</bold> a seminar"
         ]
@@ -782,11 +782,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "relating to, inherent in, or affecting the <a class=\"term-link cursor-pointer text-pink-600 underline\">constitution</a> of body or mind",
+        "text": "relating to, inherent in, or affecting the <a class=\"term-link cursor-pointer text-primary-600 underline\">constitution</a> of body or mind",
         "samples": []
       },
       {
-        "text": "of, relating to, or entering into the fundamental makeup of something <a class=\"term-link cursor-pointer text-pink-600 underline\">essential</a>",
+        "text": "of, relating to, or entering into the fundamental makeup of something <a class=\"term-link cursor-pointer text-primary-600 underline\">essential</a>",
         "samples": []
       },
       {
@@ -888,13 +888,13 @@ export default [
         ]
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">liquefaction</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">liquefaction</a> ",
         "samples": [
           "the <bold>dissolution</bold> of ice"
         ]
       },
       {
-        "text": "a <a class=\"term-link cursor-pointer text-pink-600 underline\">dissolute</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>dissolute</a> or indulgent act or practice",
+        "text": "a <a class=\"term-link cursor-pointer text-primary-600 underline\">dissolute</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>dissolute</a> or indulgent act or practice",
         "samples": []
       }
     ]
@@ -931,7 +931,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "any of several common-law <a class=\"term-link cursor-pointer text-pink-600 underline\">writs</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>writ</a> issued to bring a party before a court or judge",
+        "text": "any of several common-law <a class=\"term-link cursor-pointer text-primary-600 underline\">writs</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>writ</a> issued to bring a party before a court or judge",
         "samples": []
       },
       {
@@ -970,7 +970,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">habeas corpus</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">habeas corpus</a>",
         "samples": []
       }
     ]
@@ -994,7 +994,7 @@ export default [
         "samples": []
       },
       {
-        "text": "the act or an instance of enjoining <a class=\"term-link cursor-pointer text-pink-600 underline\">order</a>, <a class=\"term-link cursor-pointer text-pink-600 underline\">admonition</a>",
+        "text": "the act or an instance of enjoining <a class=\"term-link cursor-pointer text-primary-600 underline\">order</a>, <a class=\"term-link cursor-pointer text-primary-600 underline\">admonition</a>",
         "samples": []
       }
     ]
@@ -1142,7 +1142,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the quality or state of being <a class=\"term-link cursor-pointer text-pink-600 underline\">negligent</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>negligent</a>",
+        "text": "the quality or state of being <a class=\"term-link cursor-pointer text-primary-600 underline\">negligent</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>negligent</a>",
         "samples": []
       },
       {
@@ -1191,7 +1191,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "of, relating to, or being a <a class=\"term-link cursor-pointer text-pink-600 underline\">paraprofessional</a> who assists a lawyer",
+        "text": "of, relating to, or being a <a class=\"term-link cursor-pointer text-primary-600 underline\">paraprofessional</a> who assists a lawyer",
         "samples": []
       }
     ]
@@ -1235,7 +1235,7 @@ export default [
         "samples": []
       },
       {
-        "text": "practical and especially social applicability <a class=\"term-link cursor-pointer text-pink-600 underline\">pertinence</a> ",
+        "text": "practical and especially social applicability <a class=\"term-link cursor-pointer text-primary-600 underline\">pertinence</a> ",
         "samples": [
           "giving <bold>relevance</bold> to college courses"
         ]
@@ -1260,7 +1260,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">relevance</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">relevance</a>",
         "samples": []
       }
     ]
@@ -1324,7 +1324,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">mile</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>1a</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">mile</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>1a</a>",
         "samples": []
       }
     ]
@@ -1430,7 +1430,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">prior</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>prior:1</a> in time, order, arrangement, or significance",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">prior</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>prior:1</a> in time, order, arrangement, or significance",
         "samples": []
       }
     ]
@@ -1454,7 +1454,7 @@ export default [
         "samples": []
       },
       {
-        "text": "something done or said that may serve as an <a class=\"term-link cursor-pointer text-pink-600 underline\">example</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>example:1</a> or rule to authorize or justify a subsequent act of the same or an <a class=\"term-link cursor-pointer text-pink-600 underline\">analogous</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>analogous</a> kind ",
+        "text": "something done or said that may serve as an <a class=\"term-link cursor-pointer text-primary-600 underline\">example</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>example:1</a> or rule to authorize or justify a subsequent act of the same or an <a class=\"term-link cursor-pointer text-primary-600 underline\">analogous</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>analogous</a> kind ",
         "samples": [
           "a verdict that had no <bold>precedent</bold>"
         ]
@@ -1524,13 +1524,13 @@ export default [
     ],
     "defs": [
       {
-        "text": "capable of being allowed or conceded <a class=\"term-link cursor-pointer text-pink-600 underline\">permissible</a> ",
+        "text": "capable of being allowed or conceded <a class=\"term-link cursor-pointer text-primary-600 underline\">permissible</a> ",
         "samples": [
           "evidence legally <bold>admissible</bold> in court"
         ]
       },
       {
-        "text": "capable or worthy of being <a class=\"term-link cursor-pointer text-pink-600 underline\">admitted</a> ",
+        "text": "capable or worthy of being <a class=\"term-link cursor-pointer text-primary-600 underline\">admitted</a> ",
         "samples": [
           "<bold>admissible</bold> to the university"
         ]
@@ -1584,7 +1584,7 @@ export default [
         "samples": []
       },
       {
-        "text": "religious <a class=\"term-link cursor-pointer text-pink-600 underline\">nonconformity</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>nonconformity</a> ",
+        "text": "religious <a class=\"term-link cursor-pointer text-primary-600 underline\">nonconformity</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>nonconformity</a> ",
         "samples": [
           "permitted no <bold>dissent</bold> from church teachings"
         ]
@@ -1656,7 +1656,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "an act of <a class=\"term-link cursor-pointer text-pink-600 underline\">objecting</a>",
+        "text": "an act of <a class=\"term-link cursor-pointer text-primary-600 underline\">objecting</a>",
         "samples": []
       },
       {
@@ -1710,15 +1710,15 @@ export default [
     ],
     "defs": [
       {
-        "text": "one possessing or held to possess supreme political power or <a class=\"term-link cursor-pointer text-pink-600 underline\">sovereignty</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>sovereignty</a>",
+        "text": "one possessing or held to possess supreme political power or <a class=\"term-link cursor-pointer text-primary-600 underline\">sovereignty</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>sovereignty</a>",
         "samples": []
       },
       {
-        "text": "one that exercises supreme authority within a limited <a class=\"term-link cursor-pointer text-pink-600 underline\">sphere</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>sphere:1</a>",
+        "text": "one that exercises supreme authority within a limited <a class=\"term-link cursor-pointer text-primary-600 underline\">sphere</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>sphere:1</a>",
         "samples": []
       },
       {
-        "text": "an acknowledged leader <a class=\"term-link cursor-pointer text-pink-600 underline\">arbiter</a>",
+        "text": "an acknowledged leader <a class=\"term-link cursor-pointer text-primary-600 underline\">arbiter</a>",
         "samples": []
       },
       {
@@ -1747,7 +1747,7 @@ export default [
         "samples": []
       },
       {
-        "text": "of the most exalted kind <a class=\"term-link cursor-pointer text-pink-600 underline\">supreme</a> ",
+        "text": "of the most exalted kind <a class=\"term-link cursor-pointer text-primary-600 underline\">supreme</a> ",
         "samples": [
           "<bold>sovereign</bold> virtue"
         ]
@@ -1759,13 +1759,13 @@ export default [
         ]
       },
       {
-        "text": "of an unqualified nature <a class=\"term-link cursor-pointer text-pink-600 underline\">unmitigated</a> ",
+        "text": "of an unqualified nature <a class=\"term-link cursor-pointer text-primary-600 underline\">unmitigated</a> ",
         "samples": [
           "<bold>sovereign</bold> contempt"
         ]
       },
       {
-        "text": "having undisputed ascendancy <a class=\"term-link cursor-pointer text-pink-600 underline\">paramount</a>",
+        "text": "having undisputed ascendancy <a class=\"term-link cursor-pointer text-primary-600 underline\">paramount</a>",
         "samples": []
       },
       {
@@ -1775,17 +1775,17 @@ export default [
         ]
       },
       {
-        "text": "unlimited in extent <a class=\"term-link cursor-pointer text-pink-600 underline\">absolute</a>",
+        "text": "unlimited in extent <a class=\"term-link cursor-pointer text-primary-600 underline\">absolute</a>",
         "samples": []
       },
       {
-        "text": "enjoying autonomy <a class=\"term-link cursor-pointer text-pink-600 underline\">independent</a> ",
+        "text": "enjoying autonomy <a class=\"term-link cursor-pointer text-primary-600 underline\">independent</a> ",
         "samples": [
           "<bold>sovereign</bold> states"
         ]
       },
       {
-        "text": "relating to, characteristic of, or befitting a supreme ruler <a class=\"term-link cursor-pointer text-pink-600 underline\">royal</a> ",
+        "text": "relating to, characteristic of, or befitting a supreme ruler <a class=\"term-link cursor-pointer text-primary-600 underline\">royal</a> ",
         "samples": [
           "a <bold>sovereign</bold> right"
         ]
@@ -1829,7 +1829,7 @@ export default [
         "samples": []
       },
       {
-        "text": "firsthand authentication of a fact <a class=\"term-link cursor-pointer text-pink-600 underline\">evidence</a>",
+        "text": "firsthand authentication of a fact <a class=\"term-link cursor-pointer text-primary-600 underline\">evidence</a>",
         "samples": []
       },
       {
@@ -1868,11 +1868,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "the act of <a class=\"term-link cursor-pointer text-pink-600 underline\">exempting</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>exempt:2</a> or state of being <a class=\"term-link cursor-pointer text-pink-600 underline\">exempt</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>exempt:1</a> <a class=\"term-link cursor-pointer text-pink-600 underline\">immunity</a>",
+        "text": "the act of <a class=\"term-link cursor-pointer text-primary-600 underline\">exempting</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>exempt:2</a> or state of being <a class=\"term-link cursor-pointer text-primary-600 underline\">exempt</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>exempt:1</a> <a class=\"term-link cursor-pointer text-primary-600 underline\">immunity</a>",
         "samples": []
       },
       {
-        "text": "one that <a class=\"term-link cursor-pointer text-pink-600 underline\">exempts</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>exempt:2</a> or is exempted",
+        "text": "one that <a class=\"term-link cursor-pointer text-primary-600 underline\">exempts</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>exempt:2</a> or is exempted",
         "samples": []
       }
     ]

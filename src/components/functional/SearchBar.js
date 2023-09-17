@@ -10,12 +10,12 @@ export const SearchBar = () => {
     } = useContext(AppContext);
 
     return (
-        <div className="flex text-2xl text-pink-500">
+        <div className="flex text-2xl text-primary-500">
             <div className="inline-block w-full md:w-1/2 mt-8 ml-4 mx-4 md:mx-auto">
                 <div className="flex align-center">
                     <span className="flex items-center w-full bg-white rounded-full">
                         <Icon icon={backEnabled ? "undo" : "search"} 
-                            className="text-3xl px-2 p-1 rounded-full hover:bg-pink-100 cursor-pointer"
+                            className="text-3xl px-2 p-1 rounded-full hover:bg-primary-100 cursor-pointer"
                             onClick={() => {
                                 if (backEnabled) {
                                     navigateBack();
@@ -30,8 +30,8 @@ export const SearchBar = () => {
                         <Icon icon="clear"
                             className={
                                 (searchTerm && searchTerm.length > 0) ? 
-                                "text-3xl rounded-full hover:bg-pink-100 cursor-pointer px-2 p-1 " :
-                                "text-3xl text-white rounded-full hover:bg-pink-100 cursor-pointer px-2 p-1  "
+                                "text-3xl rounded-full hover:bg-primary-100 cursor-pointer px-2 p-1 " :
+                                "text-3xl text-white rounded-full hover:bg-primary-100 cursor-pointer px-2 p-1  "
                             }
                             onClick={() => {
                                 setSearchTerm('');

@@ -13,7 +13,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a relatively stable state of <a class=\"term-link cursor-pointer text-pink-600 underline\">equilibrium</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>equilibrium</a> or a tendency toward such a state between the different but interdependent elements or groups of elements of an organism, population, or group ",
+        "text": "a relatively stable state of <a class=\"term-link cursor-pointer text-primary-600 underline\">equilibrium</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>equilibrium</a> or a tendency toward such a state between the different but interdependent elements or groups of elements of an organism, population, or group ",
         "samples": [
           "striving to achieve <bold>homeostasis</bold>"
         ]
@@ -33,7 +33,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "any of several compounds that consist of a ribose or deoxyribose sugar joined to a purine or pyrimidine base and to a phosphate group and that are the basic structural units of <a class=\"term-link cursor-pointer text-pink-600 underline\">nucleic</a> acids (such as RNA and DNA) <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">nucleoside</a></compare>",
+        "text": "any of several compounds that consist of a ribose or deoxyribose sugar joined to a purine or pyrimidine base and to a phosphate group and that are the basic structural units of <a class=\"term-link cursor-pointer text-primary-600 underline\">nucleic</a> acids (such as RNA and DNA) <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">nucleoside</a></compare>",
         "samples": []
       }
     ]
@@ -51,7 +51,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">nad</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">nad</a>",
         "samples": []
       }
     ]
@@ -69,7 +69,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">nadp</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">nadp</a>",
         "samples": []
       }
     ]
@@ -130,7 +130,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a process that takes place in the nucleus of a dividing cell, involves typically a series of steps consisting of prophase, metaphase, anaphase, and telophase, and results in the formation of two new nuclei each having the same number of chromosomes as the parent nucleus <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">meiosis</a></compare>",
+        "text": "a process that takes place in the nucleus of a dividing cell, involves typically a series of steps consisting of prophase, metaphase, anaphase, and telophase, and results in the formation of two new nuclei each having the same number of chromosomes as the parent nucleus <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">meiosis</a></compare>",
         "samples": []
       },
       {
@@ -232,7 +232,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">sex hormone</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">sex hormone</a>",
         "samples": []
       }
     ]
@@ -250,7 +250,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the therapeutic use of hormones typically to increase diminished levels in the body <a class=\"term-link cursor-pointer text-pink-600 underline\">hormone therapy</a> ",
+        "text": "the therapeutic use of hormones typically to increase diminished levels in the body <a class=\"term-link cursor-pointer text-primary-600 underline\">hormone therapy</a> ",
         "samples": [
           "The usual treatment for hypothyroidism is <bold>hormone replacement therapy</bold>."
         ]
@@ -286,7 +286,7 @@ export default [
         ]
       },
       {
-        "text": "the administration or use of <a class=\"term-link cursor-pointer text-pink-600 underline\">sex hormones</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>sex hormone</a> (such as estrogen or testosterone) or other agents (such as <a class=\"term-link cursor-pointer text-pink-600 underline\">antiandrogens</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>antiandrogen</a>) to suppress or induce the development of certain <a class=\"term-link cursor-pointer text-pink-600 underline\">secondary sex characteristics</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>secondary sex characteristic</a> to better align with the <a class=\"term-link cursor-pointer text-pink-600 underline\">gender identity</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>gender identity</a> of a transgender or {d_link|gender nonconforming|gender nonconforming} individual ",
+        "text": "the administration or use of <a class=\"term-link cursor-pointer text-primary-600 underline\">sex hormones</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>sex hormone</a> (such as estrogen or testosterone) or other agents (such as <a class=\"term-link cursor-pointer text-primary-600 underline\">antiandrogens</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>antiandrogen</a>) to suppress or induce the development of certain <a class=\"term-link cursor-pointer text-primary-600 underline\">secondary sex characteristics</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>secondary sex characteristic</a> to better align with the <a class=\"term-link cursor-pointer text-primary-600 underline\">gender identity</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>gender identity</a> of a transgender or {d_link|gender nonconforming|gender nonconforming} individual ",
         "samples": [
           "Many transgender people take lifelong <bold>hormone therapy</bold> …"
         ]
@@ -306,7 +306,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">acth</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">acth</a>",
         "samples": []
       }
     ]
@@ -324,7 +324,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">vasopressin</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">vasopressin</a>",
         "samples": []
       }
     ]
@@ -408,7 +408,7 @@ export default [
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">growth regulator</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">growth regulator</a>",
         "samples": []
       }
     ]
@@ -445,14 +445,14 @@ export default [
     ],
     "defs": [
       {
-        "text": "the smallest particle of a substance that retains all the properties see <a class=\"term-link cursor-pointer text-pink-900 italic\">property</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1a</a> of the substance and is composed of one or more atoms see <a class=\"term-link cursor-pointer text-pink-900 italic\">atom</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>1a</a> ",
+        "text": "the smallest particle of a substance that retains all the properties see <a class=\"term-link cursor-pointer text-primary-900 italic\">property</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1a</a> of the substance and is composed of one or more atoms see <a class=\"term-link cursor-pointer text-primary-900 italic\">atom</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>1a</a> ",
         "samples": [
           "a <bold>molecule</bold> of water",
           "a <bold>molecule</bold> of oxygen"
         ]
       },
       {
-        "text": "a tiny bit <a class=\"term-link cursor-pointer text-pink-600 underline\">particle</a> ",
+        "text": "a tiny bit <a class=\"term-link cursor-pointer text-primary-600 underline\">particle</a> ",
         "samples": [
           "a <bold>molecule</bold> of political honesty"
         ]
@@ -527,7 +527,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "of or relating to a <a class=\"term-link cursor-pointer text-pink-600 underline\">genome</a> or to <a class=\"term-link cursor-pointer text-pink-600 underline\">genomics</a>",
+        "text": "of or relating to a <a class=\"term-link cursor-pointer text-primary-600 underline\">genome</a> or to <a class=\"term-link cursor-pointer text-primary-600 underline\">genomics</a>",
         "samples": []
       }
     ]
@@ -551,7 +551,7 @@ export default [
         "samples": [
           "Fundamental research into the ways by which bacteria defend themselves against viruses has recently led to the development of powerful new techniques that make it possible to perform <bold>gene editing</bold>—that is, precisely altering genetic sequences—in living cells, including those of humans, at much higher accuracy and efficiency than ever before possible.",
           "The era of straightforward <bold>genome editing</bold> raises ethical questions that will need to be addressed by scientists and society at large.",
-          "a <bold>gene-editing</bold> technique called <a class=\"term-link cursor-pointer text-pink-600 underline\">CRISPR</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>CRISPR</a>"
+          "a <bold>gene-editing</bold> technique called <a class=\"term-link cursor-pointer text-primary-600 underline\">CRISPR</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>CRISPR</a>"
         ]
       }
     ]
@@ -600,7 +600,7 @@ export default [
     ],
     "defs": [
       {
-        "text": " <compare class=\"text-gray-500\">see <a class=\"term-link cursor-pointer text-pink-900 italic\">protein s</a></compare>",
+        "text": " <compare class=\"text-gray-500\">see <a class=\"term-link cursor-pointer text-primary-900 italic\">protein s</a></compare>",
         "samples": [
           "The activated <bold>protein C</bold> system is one of the hemostatic checks and balances that inhibit coagulation."
         ]
@@ -654,7 +654,7 @@ export default [
     ],
     "defs": [
       {
-        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">s protein</a></compare>",
+        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">s protein</a></compare>",
         "samples": []
       }
     ]
@@ -690,7 +690,7 @@ export default [
     ],
     "defs": [
       {
-        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">simple protein</a></compare>",
+        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">simple protein</a></compare>",
         "samples": [
           "hemoglobin is a <i>conjugated protein</i>"
         ]
@@ -772,7 +772,7 @@ export default [
         "samples": []
       },
       {
-        "text": "a cell or group of cells that <a class=\"term-link cursor-pointer text-pink-600 underline\">receives</a> stimuli <a class=\"term-link cursor-pointer text-pink-600 underline\">sense organ</a>",
+        "text": "a cell or group of cells that <a class=\"term-link cursor-pointer text-primary-600 underline\">receives</a> stimuli <a class=\"term-link cursor-pointer text-primary-600 underline\">sense organ</a>",
         "samples": []
       },
       {
@@ -794,7 +794,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "any of a group of receptors that are present on cell surfaces of some effector organs and tissues innervated by the sympathetic nervous system and that mediate certain physiological responses (such as vasoconstriction, relaxation of intestinal muscle, and contraction of most smooth muscle) when bound by specific adrenergic agents <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">beta-receptor</a></compare>",
+        "text": "any of a group of receptors that are present on cell surfaces of some effector organs and tissues innervated by the sympathetic nervous system and that mediate certain physiological responses (such as vasoconstriction, relaxation of intestinal muscle, and contraction of most smooth muscle) when bound by specific adrenergic agents <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">beta-receptor</a></compare>",
         "samples": []
       }
     ]
@@ -812,7 +812,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "any of a group of receptors that are present on cell surfaces of some effector organs and tissues innervated by the sympathetic nervous system and that mediate certain physiological responses (such as vasodilation, relaxation of bronchial and uterine smooth muscle, and increased heart rate) when bound by specific adrenergic agents <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">alpha-receptor</a></compare>",
+        "text": "any of a group of receptors that are present on cell surfaces of some effector organs and tissues innervated by the sympathetic nervous system and that mediate certain physiological responses (such as vasodilation, relaxation of bronchial and uterine smooth muscle, and increased heart rate) when bound by specific adrenergic agents <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">alpha-receptor</a></compare>",
         "samples": []
       }
     ]
@@ -850,7 +850,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">muscle spindle</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">muscle spindle</a>",
         "samples": []
       }
     ]
@@ -910,7 +910,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the quality or state of being <a class=\"term-link cursor-pointer text-pink-600 underline\">immune</a>",
+        "text": "the quality or state of being <a class=\"term-link cursor-pointer text-primary-600 underline\">immune</a>",
         "samples": []
       }
     ]
@@ -928,7 +928,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "usually long-lasting immunity that is acquired through production of antibodies within the organism in response to the presence of antigens <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">passive immunity</a></compare>",
+        "text": "usually long-lasting immunity that is acquired through production of antibodies within the organism in response to the presence of antigens <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">passive immunity</a></compare>",
         "samples": []
       }
     ]
@@ -946,7 +946,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">herd immunity</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">herd immunity</a> ",
         "samples": [
           "Encouraging our families, friends and neighbors to get vaccinated adds layers of protection and helps us create <bold>community immunity</bold>.",
           "There is a level of vaccination that is needed to protect a community from an outbreak of disease. This is called \"herd immunity\" and sometimes, \"<bold>community immunity</bold>.\""
@@ -989,7 +989,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "short-acting immunity acquired by transfer of antibodies (as by injection of <a class=\"term-link cursor-pointer text-pink-600 underline\">gamma globulin</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>gamma globulin</a>) <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">active immunity</a></compare>",
+        "text": "short-acting immunity acquired by transfer of antibodies (as by injection of <a class=\"term-link cursor-pointer text-primary-600 underline\">gamma globulin</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>gamma globulin</a>) <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">active immunity</a></compare>",
         "samples": []
       }
     ]
@@ -1043,7 +1043,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the sum of the processes in the buildup and destruction of <a class=\"term-link cursor-pointer text-pink-600 underline\">protoplasm</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>protoplasm</a>",
+        "text": "the sum of the processes in the buildup and destruction of <a class=\"term-link cursor-pointer text-primary-600 underline\">protoplasm</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>protoplasm</a>",
         "samples": []
       },
       {
@@ -1051,7 +1051,7 @@ export default [
         "samples": []
       },
       {
-        "text": "the sum of the <a class=\"term-link cursor-pointer text-pink-600 underline\">metabolic</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>metabolic</a> activities taking place in a particular environment ",
+        "text": "the sum of the <a class=\"term-link cursor-pointer text-primary-600 underline\">metabolic</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>metabolic</a> activities taking place in a particular environment ",
         "samples": [
           "the <bold>metabolism</bold> of a lake"
         ]
@@ -1097,7 +1097,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">substratum</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">substratum</a>",
         "samples": []
       },
       {
@@ -1107,7 +1107,7 @@ export default [
         ]
       },
       {
-        "text": "a <a class=\"term-link cursor-pointer text-pink-600 underline\">substance</a> acted upon (as by an enzyme)",
+        "text": "a <a class=\"term-link cursor-pointer text-primary-600 underline\">substance</a> acted upon (as by an enzyme)",
         "samples": []
       }
     ]
@@ -1125,7 +1125,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "an organism (such as a bacterium or protozoan) of <a class=\"term-link cursor-pointer text-pink-600 underline\">microscopic</a> or ultramicroscopic size",
+        "text": "an organism (such as a bacterium or protozoan) of <a class=\"term-link cursor-pointer text-primary-600 underline\">microscopic</a> or ultramicroscopic size",
         "samples": []
       }
     ]
@@ -1168,11 +1168,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">hormone</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>1</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">hormone</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>1</a>",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">endocrine gland</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">endocrine gland</a>",
         "samples": []
       }
     ]
@@ -1247,7 +1247,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "any of a large number of proteins of high molecular weight that are produced normally by specialized B cells after stimulation by an <a class=\"term-link cursor-pointer text-pink-600 underline\">antigen</a> and act specifically against the antigen in an immune response, that are produced abnormally by some cancer cells, and that typically consist of four subunits including two heavy chains and two light chains ",
+        "text": "any of a large number of proteins of high molecular weight that are produced normally by specialized B cells after stimulation by an <a class=\"term-link cursor-pointer text-primary-600 underline\">antigen</a> and act specifically against the antigen in an immune response, that are produced abnormally by some cancer cells, and that typically consist of four subunits including two heavy chains and two light chains ",
         "samples": []
       }
     ]
@@ -1338,11 +1338,11 @@ export default [
     ],
     "defs": [
       {
-        "text": "the act or process of <a class=\"term-link cursor-pointer text-pink-600 underline\">oxidizing</a>",
+        "text": "the act or process of <a class=\"term-link cursor-pointer text-primary-600 underline\">oxidizing</a>",
         "samples": []
       },
       {
-        "text": "the state or result of being <a class=\"term-link cursor-pointer text-pink-600 underline\">oxidized</a>",
+        "text": "the state or result of being <a class=\"term-link cursor-pointer text-primary-600 underline\">oxidized</a>",
         "samples": []
       }
     ]
@@ -1427,7 +1427,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "to <a class=\"term-link cursor-pointer text-pink-600 underline\">oxidize</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>oxidize</a> again ",
+        "text": "to <a class=\"term-link cursor-pointer text-primary-600 underline\">oxidize</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>oxidize</a> again ",
         "samples": [
           "caused the metal to <bold>reoxidize</bold>"
         ]
@@ -1456,7 +1456,7 @@ export default [
         ]
       },
       {
-        "text": "an ancestral line <a class=\"term-link cursor-pointer text-pink-600 underline\">lineage</a> ",
+        "text": "an ancestral line <a class=\"term-link cursor-pointer text-primary-600 underline\">lineage</a> ",
         "samples": [
           "That horse has an impressive <bold>pedigree</bold>."
         ]
@@ -1498,15 +1498,15 @@ export default [
     ],
     "defs": [
       {
-        "text": "a significant and basic alteration <a class=\"term-link cursor-pointer text-pink-600 underline\">change</a>",
+        "text": "a significant and basic alteration <a class=\"term-link cursor-pointer text-primary-600 underline\">change</a>",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">umlaut</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">umlaut</a>",
         "samples": []
       },
       {
-        "text": "a relatively permanent change in hereditary material that involves either a change in chromosome structure or number (as in <a class=\"term-link cursor-pointer text-pink-600 underline\">translocation</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>translocation</a>, deletion, duplication, or polyploidy) or a change in the nucleotide sequence of a gene's <a class=\"term-link cursor-pointer text-pink-600 underline\">codons</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>codon</a> (as in <a class=\"term-link cursor-pointer text-pink-600 underline\">frameshift</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>frameshift</a> or <a class=\"term-link cursor-pointer text-pink-600 underline\">missense</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>missense</a> errors) and that occurs either in germ cells or in somatic cells but with only those in germ cells being capable of perpetuation by sexual reproduction ",
+        "text": "a relatively permanent change in hereditary material that involves either a change in chromosome structure or number (as in <a class=\"term-link cursor-pointer text-primary-600 underline\">translocation</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>translocation</a>, deletion, duplication, or polyploidy) or a change in the nucleotide sequence of a gene's <a class=\"term-link cursor-pointer text-primary-600 underline\">codons</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>codon</a> (as in <a class=\"term-link cursor-pointer text-primary-600 underline\">frameshift</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>frameshift</a> or <a class=\"term-link cursor-pointer text-primary-600 underline\">missense</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>missense</a> errors) and that occurs either in germ cells or in somatic cells but with only those in germ cells being capable of perpetuation by sexual reproduction ",
         "samples": [
           "<bold>Mutations</bold> known to cause disease have been identified in approximately 1000 genes."
         ]
@@ -1550,7 +1550,7 @@ export default [
     ],
     "defs": [
       {
-        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">point mutation</a></compare>",
+        "text": " <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">point mutation</a></compare>",
         "samples": [
           "Researchers have identified a <bold>gene mutation</bold> that's believed to predispose people to malignant melanoma, the deadliest and most aggressive type of skin cancer."
         ]
@@ -1572,7 +1572,7 @@ export default [
       {
         "text": "a permanent alteration in the nucleotide sequence of one or more genes or in the number or structure of one or more chromosomes ",
         "samples": [
-          "Lacking working copies of the <a class=\"term-link cursor-pointer text-pink-600 underline\">p53</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>p53</a> gene, cells can begin to divide without check, though several other <bold>genetic mutations</bold> are thought to be needed to foster a full-blown malignancy."
+          "Lacking working copies of the <a class=\"term-link cursor-pointer text-primary-600 underline\">p53</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>p53</a> gene, cells can begin to divide without check, though several other <bold>genetic mutations</bold> are thought to be needed to foster a full-blown malignancy."
         ]
       }
     ]
@@ -1647,7 +1647,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "any of various amino acids that are required for normal health and growth in many vertebrates, are either not manufactured in the body or manufactured in insufficient quantities, are usually supplied by dietary protein, and include histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">nonessential amino acid</a></compare>",
+        "text": "any of various amino acids that are required for normal health and growth in many vertebrates, are either not manufactured in the body or manufactured in insufficient quantities, are usually supplied by dietary protein, and include histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">nonessential amino acid</a></compare>",
         "samples": []
       }
     ]
@@ -1665,7 +1665,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "any of various amino acids that are required for normal health and growth, that can be synthesized within the body or derived in the body from essential amino acids, and that include alanine, asparagine, aspartic acid, cystine, glutamic acid, glutamine, glycine, proline, serine, and tyrosine <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">essential amino acid</a></compare>",
+        "text": "any of various amino acids that are required for normal health and growth, that can be synthesized within the body or derived in the body from essential amino acids, and that include alanine, asparagine, aspartic acid, cystine, glutamic acid, glutamine, glycine, proline, serine, and tyrosine <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">essential amino acid</a></compare>",
         "samples": []
       }
     ]
@@ -1706,7 +1706,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the <a class=\"term-link cursor-pointer text-pink-600 underline\">hemoglobin</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>hemoglobin</a> in the red blood cells of the normal human adult",
+        "text": "the <a class=\"term-link cursor-pointer text-primary-600 underline\">hemoglobin</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>hemoglobin</a> in the red blood cells of the normal human adult",
         "samples": []
       }
     ]
@@ -1723,7 +1723,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a stable <a class=\"term-link cursor-pointer text-pink-600 underline\">glycoprotein</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>glycoprotein</a> formed when <a class=\"term-link cursor-pointer text-pink-600 underline\">glucose</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>glucose</a> binds to <a class=\"term-link cursor-pointer text-pink-600 underline\">hemoglobin A</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>hemoglobin A</a> in the blood ",
+        "text": "a stable <a class=\"term-link cursor-pointer text-primary-600 underline\">glycoprotein</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>glycoprotein</a> formed when <a class=\"term-link cursor-pointer text-primary-600 underline\">glucose</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>glucose</a> binds to <a class=\"term-link cursor-pointer text-primary-600 underline\">hemoglobin A</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>hemoglobin A</a> in the blood ",
         "samples": [
           "Blood sugar was assessed by measuring the amount of <bold>hemoglobin A1c</bold> in the participants' blood, a test that looks for hemoglobin with sugar attached to it."
         ]
@@ -1778,7 +1778,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">hemoglobin a1c</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">hemoglobin a1c</a> ",
         "samples": [
           "<bold>Glycated hemoglobin</bold> levels are a measure of average sugar levels in the blood, and levels above 7% indicate that the diabetes is not being controlled adequately."
         ]
@@ -1797,7 +1797,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">hemoglobin a1c</a> ",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">hemoglobin a1c</a> ",
         "samples": [
           "The introduction of better tools for the monitoring of glycemic control, coupled with evidence that near-normal <bold>glycosylated hemoglobin</bold> levels reduce the risk of diabetic complications, has increased the demand for insulin preparations that have greater effectiveness, safety, and versatility."
         ]
@@ -1819,7 +1819,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a grayish or reddish granular cell that is the fundamental functional unit of nervous tissue transmitting and receiving nerve impulses and having cytoplasmic processes which are highly differentiated frequently as multiple dendrites or usually as solitary axons which conduct impulses to and away from the <a class=\"term-link cursor-pointer text-pink-600 underline\">cell body</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>cell body</a> <a class=\"term-link cursor-pointer text-pink-600 underline\">nerve cell</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>1</a>",
+        "text": "a grayish or reddish granular cell that is the fundamental functional unit of nervous tissue transmitting and receiving nerve impulses and having cytoplasmic processes which are highly differentiated frequently as multiple dendrites or usually as solitary axons which conduct impulses to and away from the <a class=\"term-link cursor-pointer text-primary-600 underline\">cell body</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>cell body</a> <a class=\"term-link cursor-pointer text-primary-600 underline\">nerve cell</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>1</a>",
         "samples": []
       }
     ]
@@ -1837,7 +1837,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">interneuron</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">interneuron</a>",
         "samples": []
       }
     ]
@@ -1876,21 +1876,21 @@ export default [
     ],
     "defs": [
       {
-        "text": "the movement of air or dissolved gases into and out of the <a class=\"term-link cursor-pointer text-pink-600 underline\">lungs</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>lung</a>",
+        "text": "the movement of air or dissolved gases into and out of the <a class=\"term-link cursor-pointer text-primary-600 underline\">lungs</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>lung</a>",
         "samples": []
       },
       {
-        "text": "a single complete act of <a class=\"term-link cursor-pointer text-pink-600 underline\">breathing</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>breathe</a> ",
+        "text": "a single complete act of <a class=\"term-link cursor-pointer text-primary-600 underline\">breathing</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>breathe</a> ",
         "samples": [
           "… the patient was cyanotic and unconscious with labored <bold>respirations</bold> at 40/min."
         ]
       },
       {
-        "text": "the physical and chemical processes (such as breathing and diffusion) by which an organism supplies its cells and tissues with the oxygen needed for <a class=\"term-link cursor-pointer text-pink-600 underline\">metabolism</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>metabolism</a> and relieves them of the carbon dioxide formed in energy-producing reactions",
+        "text": "the physical and chemical processes (such as breathing and diffusion) by which an organism supplies its cells and tissues with the oxygen needed for <a class=\"term-link cursor-pointer text-primary-600 underline\">metabolism</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>metabolism</a> and relieves them of the carbon dioxide formed in energy-producing reactions",
         "samples": []
       },
       {
-        "text": "<a class=\"term-link cursor-pointer text-pink-600 underline\">cellular respiration</a>",
+        "text": "<a class=\"term-link cursor-pointer text-primary-600 underline\">cellular respiration</a>",
         "samples": []
       }
     ]
@@ -1910,7 +1910,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "the rhythmic forcing of air into and out of the lungs of a person whose breathing has stopped, is failing, or is inadequate <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">mechanical ventilation</a></compare>",
+        "text": "the rhythmic forcing of air into and out of the lungs of a person whose breathing has stopped, is failing, or is inadequate <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">mechanical ventilation</a></compare>",
         "samples": []
       }
     ]
@@ -1949,7 +1949,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "exchange of gases between the external environment and a distributing system of the animal body (such as the lungs of higher vertebrates or the tracheal tubes of insects) or between the alveoli of the lungs and the blood <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">internal respiration</a></compare>",
+        "text": "exchange of gases between the external environment and a distributing system of the animal body (such as the lungs of higher vertebrates or the tracheal tubes of insects) or between the alveoli of the lungs and the blood <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">internal respiration</a></compare>",
         "samples": []
       }
     ]
@@ -1967,7 +1967,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "an exchange of gases between the cells of the body and the blood by way of the fluid bathing the cells <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">external respiration</a></compare>",
+        "text": "an exchange of gases between the cells of the body and the blood by way of the fluid bathing the cells <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">external respiration</a></compare>",
         "samples": []
       }
     ]
@@ -1989,7 +1989,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "an act, process, or instance of <a class=\"term-link cursor-pointer text-pink-600 underline\">transcribing</a>",
+        "text": "an act, process, or instance of <a class=\"term-link cursor-pointer text-primary-600 underline\">transcribing</a>",
         "samples": []
       },
       {
@@ -2005,7 +2005,7 @@ export default [
         "samples": []
       },
       {
-        "text": "the process of constructing a messenger RNA molecule using a DNA molecule as a template with resulting <a class=\"term-link cursor-pointer text-pink-600 underline\">transfer</a> of genetic information to the messenger RNA <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">translation</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>2</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">reverse transcription</a></compare>",
+        "text": "the process of constructing a messenger RNA molecule using a DNA molecule as a template with resulting <a class=\"term-link cursor-pointer text-primary-600 underline\">transfer</a> of genetic information to the messenger RNA <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">translation</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>2</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">reverse transcription</a></compare>",
         "samples": []
       }
     ]
@@ -2070,7 +2070,7 @@ export default [
         "samples": []
       },
       {
-        "text": "a change to a different substance, form, or appearance <a class=\"term-link cursor-pointer text-pink-600 underline\">conversion</a>",
+        "text": "a change to a different substance, form, or appearance <a class=\"term-link cursor-pointer text-primary-600 underline\">conversion</a>",
         "samples": []
       },
       {
@@ -2078,7 +2078,7 @@ export default [
         "samples": []
       },
       {
-        "text": "the process of forming a protein molecule at a ribosomal site of protein synthesis from information contained in messenger RNA <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">transcription</a><a class=\"term-link cursor-pointer text-pink-900 italic\"><span class=\"text-gray-500\">/</span>3</a></compare>",
+        "text": "the process of forming a protein molecule at a ribosomal site of protein synthesis from information contained in messenger RNA <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">transcription</a><a class=\"term-link cursor-pointer text-primary-900 italic\"><span class=\"text-gray-500\">/</span>3</a></compare>",
         "samples": []
       }
     ]
@@ -2156,7 +2156,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "any of the rod-shaped or threadlike <a class=\"term-link cursor-pointer text-pink-600 underline\">DNA-containing</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>DNA</a> structures of cellular organisms that are located in the nucleus of <a class=\"term-link cursor-pointer text-pink-600 underline\">eukaryotes</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>eukaryote</a>, are usually ring-shaped in <a class=\"term-link cursor-pointer text-pink-600 underline\">prokaryotes</a><a class=\"term-link cursor-pointer text-pink-600 underline\"><span class=\"text-gray-500\">/</span>prokaryote</a> (such as bacteria), and contain all or most of the genes of the organism",
+        "text": "any of the rod-shaped or threadlike <a class=\"term-link cursor-pointer text-primary-600 underline\">DNA-containing</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>DNA</a> structures of cellular organisms that are located in the nucleus of <a class=\"term-link cursor-pointer text-primary-600 underline\">eukaryotes</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>eukaryote</a>, are usually ring-shaped in <a class=\"term-link cursor-pointer text-primary-600 underline\">prokaryotes</a><a class=\"term-link cursor-pointer text-primary-600 underline\"><span class=\"text-gray-500\">/</span>prokaryote</a> (such as bacteria), and contain all or most of the genes of the organism",
         "samples": []
       }
     ]
@@ -2210,7 +2210,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a chromosome that is inherited differently in the two sexes, that is concerned directly with the inheritance of sex, and that is the seat of factors governing the inheritance of various sex-linked and sex-limited characters <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">x chromosome</a>, <a class=\"term-link cursor-pointer text-pink-900 italic\">y chromosome</a></compare>",
+        "text": "a chromosome that is inherited differently in the two sexes, that is concerned directly with the inheritance of sex, and that is the seat of factors governing the inheritance of various sex-linked and sex-limited characters <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">x chromosome</a>, <a class=\"term-link cursor-pointer text-primary-900 italic\">y chromosome</a></compare>",
         "samples": []
       }
     ]
@@ -2228,7 +2228,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a sex chromosome that usually occurs paired in each female cell and single in each male cell in species in which the male typically has two unlike sex chromosomes <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">y chromosome</a></compare>",
+        "text": "a sex chromosome that usually occurs paired in each female cell and single in each male cell in species in which the male typically has two unlike sex chromosomes <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">y chromosome</a></compare>",
         "samples": []
       }
     ]
@@ -2246,7 +2246,7 @@ export default [
     ],
     "defs": [
       {
-        "text": "a sex chromosome that is characteristic of male cells in species in which the male typically has two unlike sex chromosomes <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-pink-900 italic\">x chromosome</a></compare>",
+        "text": "a sex chromosome that is characteristic of male cells in species in which the male typically has two unlike sex chromosomes <compare class=\"text-gray-500\">compare <a class=\"term-link cursor-pointer text-primary-900 italic\">x chromosome</a></compare>",
         "samples": []
       }
     ]

@@ -57,10 +57,10 @@ export const ColosseumQuestion = ({ questionConfig, index }) => {
 
     return (
         <div className="card bg-stripped w-full my-8"> 
-            <div className="p-2 md:p-4 bg-pink-100">
-                <div className="text-pink-700 text-2xl md:text-3xl flex items-center mb-4"> 
+            <div className="p-2 md:p-4 bg-primary-100">
+                <div className="text-primary-700 text-2xl md:text-3xl flex items-center mb-4"> 
                     Which term best matches?
-                    {/* <Icon icon="question_mark" className="ml-auto text-4xl text-pink-500 opacity-70 relative"/> */}
+                    {/* <Icon icon="question_mark" className="ml-auto text-4xl text-primary-500 opacity-70 relative"/> */}
                     <div className="text-2xl text-black opacity-100 ml-auto"> #{index+1}</div>
                 </div>
                 <AnswerHint term={answerTerm} src={src} />
@@ -154,7 +154,7 @@ const AnswerButton = ({ onClick, term, className="" }) => {
     // const answeredStyle = 
 
     return (
-        <div className="card card-sm bg-pink-200 w-full m-2 cursor-pointer"
+        <div className="card card-sm bg-primary-200 w-full m-2 cursor-pointer"
             onClick={() => onClick(term)}
         >
             <div className={className+" text-gray-800 bg-gray-200 p-1 px-2"}>
