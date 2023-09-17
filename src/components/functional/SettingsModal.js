@@ -14,7 +14,10 @@ export const SettingsModal = ({
         setData,
         setSrc,
         setThemeColor,
-        themeColor
+        themeColor,
+        dataSetNames,
+        selectedDataSetName,
+        setSelectedDataSetName
     } = useContext(AppContext)
 
     const setAndClose = (term) => {
@@ -89,16 +92,19 @@ export const SettingsModal = ({
                         }
                     </select>
                     <div className="mt-1 text-primary-500"> Word Set </div>
-                    <select className="p-2 px-4 w-full bg-primary-100">
+                    <select className="p-2 px-4 w-full bg-primary-100"
+                        value={selectedDataSetName}
+                        onChange={(e) => setSelectedDataSetName(e.target.value)}
+                    >
                         {
-                            [ 'SAT Terms', 'Elementary Terms', 'Medical Terms' ].map((set) => {
+                            dataSetNames.map((set) => {
                                 return <option key={set+'-option'}>{
                                     set   
                                 }</option>
                             })
                         }
                     </select>
-                    <div className="mt-1 text-primary-500"> Urban Dictionary Enabled </div>
+                    <div className="mt-1 text-primary-500"> Urban Dictionary Search </div>
                     <div className="flex pl-2 mt-1 cursor-not-allowed">
                         <input type="checkbox" disabled className="p-2 px-4 mr-3 scale-2 bg-primary-100 cursor-not-allowed" style={{ scale: '1.5' }}/>
                         <span> Disabled </span>

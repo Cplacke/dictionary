@@ -1,24 +1,24 @@
 import { useContext, useEffect, useState } from 'react'
 import { Icon } from '..'
+import { AppContext } from '../../App'
 import { GameContext } from '../../routes'
 import { searchGiphy } from '../../services/backend-service'
 import { generateQuestionSet } from '../../services/game-questoin-service'
 
 export const VocabColosseum = () => {
 
-    const { data, questionIndex } = useContext(GameContext)
+    const { questionIndex } = useContext(GameContext)
+    const { dataSet } = useContext(AppContext)
     const [ questionSet, setQuestionSet ] = useState([])
 
     useEffect(() => {
-        if (data.length === 0) {
+        if (dataSet.length === 0) {
             return;
         }
-        let set = generateQuestionSet(data, 5)
-        console.info({
-            set
-        });
-        setQuestionSet(set)
-    }, [ data ])
+        let questionSet = generateQuestionSet(dataSet, 5)
+        console.info({set: questionSet});
+        setQuestionSet(questionSet)
+    }, [ dataSet ])
 
     return (
         <div className="w-full">

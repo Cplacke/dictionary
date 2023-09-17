@@ -36,26 +36,7 @@ export const GamePage = () => {
 
     const [ page, setPage ] = useState('level-select');
     const [ selectedLevel, setSelectedLevel ] = useState(null);
-    const [ data, setData ] = useState([]);
-    // const [ answerIndexes, setAnswerIndexes ] = useState([]);
     const [ questionIndex, setQuestionIndex ] = useState(0);
-
-    // useEffect(() => {
-    //     setAnswerIndexes(
-    //         data.map((d) => ( Math.round(Math.random()*0) ))
-    //     );
-    // },[ data ])
-
-    useEffect(() => {
-        const getGameSet = async() => {
-            const opts = await getDataSets()
-            const set = await getDataSetByName(opts[
-                Math.round(Math.random()*opts.length-1)
-            ])
-            setData(set);
-        }
-        getGameSet();
-    }, [ selectedLevel ])
 
     const renderPage = () => {
         switch (page) {
@@ -71,23 +52,23 @@ export const GamePage = () => {
                 )
             case 'vocab':
                 return (
-                    <VocabColosseum data={data} />
+                    <VocabColosseum />
                 )
             case 'sentence':
                 return (
-                    <VocabColosseum data={data} />
+                    <VocabColosseum />
                 )
             case 'gif':
                 return (
-                    <VocabColosseum data={data} />
+                    <VocabColosseum />
                 )
             case 'bank':
                 return (
-                    <VocabColosseum data={data} />
+                    <VocabColosseum />
                 )
             case 'rabbit_hole':
                 return (
-                    <VocabColosseum data={data} />
+                    <VocabColosseum />
                 )
         
             default:
@@ -100,7 +81,6 @@ export const GamePage = () => {
             <GameContext.Provider
                 value={{
                     page, setPage,
-                    data, setData,
                     selectedLevel, setSelectedLevel,
                     questionIndex, setQuestionIndex
                 }}
