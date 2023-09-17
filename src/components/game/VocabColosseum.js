@@ -6,7 +6,7 @@ import { generateQuestionSet } from '../../services/game-questoin-service'
 
 export const VocabColosseum = () => {
 
-    const { data } = useContext(GameContext)
+    const { data, questionIndex } = useContext(GameContext)
     const [ questionSet, setQuestionSet ] = useState([])
 
     useEffect(() => {
@@ -28,9 +28,12 @@ export const VocabColosseum = () => {
             </div>
             <div className="my-8 mr-2">
                 {
-                    questionSet.map((questionConfig, i) => (
-                        <ColosseumQuestion key={i} index={i} questionConfig={questionConfig} />
-                    ))
+                    questionSet.map((questionConfig, i) => {
+                        if (i>questionIndex) {
+                            return null;
+                        }
+                        return <ColosseumQuestion key={i} index={i} questionConfig={questionConfig} />
+                    })
                 } 
             </div>
         </div>
@@ -93,6 +96,7 @@ export const AnswerHint = ({ term, src }) => {
 
 export const AnswerOptions = ({ questionConfig, onAnswered }) => {
 
+    const { questionIndex, setQuestionIndex } = useContext(GameContext)
     const [ answered, setAnswered ] = useState(false)
     const [ selectedOption, setSelectedOption ] = useState(null)
     // const answerOption = questionConfig.find((term) => (term.answer))
@@ -102,6 +106,7 @@ export const AnswerOptions = ({ questionConfig, onAnswered }) => {
             return;
         }
         setSelectedOption(selectedOption);
+        setQuestionIndex(questionIndex+1);
         setAnswered(true);
     }
 
@@ -152,7 +157,7 @@ const AnswerButton = ({ onClick, term, className="" }) => {
         <div className="card card-sm bg-pink-200 w-full m-2 cursor-pointer"
             onClick={() => onClick(term)}
         >
-            <div className={className+" text-gray-800 bg-gray-200 hover:text-pink-800 hover:bg-pink-200 p-1 px-2"}>
+            <div className={className+" text-gray-800 bg-gray-200 p-1 px-2"}>
                 { `${term.word} - ${term.partOfSpeech}` }
             </div>
         </div>
