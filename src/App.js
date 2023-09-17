@@ -33,7 +33,7 @@ const App = () => {
   const [ searchTerm, setSearchTerm ] = useState(getWordOfDay());
   const [ data, setData ] = useState([]);
   const [ src, setSrc ] = useState('');
-  const [ themeColor, setThemeColor ] = useState('teal');
+  const [ themeColor, setThemeColor ] = useState('Rose');
   const [ backEnabled, setBackEnabled ] = useState(false);
   const [ navStack, setNavStack ] = useState(new Set());
 

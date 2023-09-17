@@ -37,7 +37,7 @@ export const ThemeProvider = (value) => {
 }
 
 const tailwindColorTheme = {
-    slate: {
+    Slate: {
         '50': '#f8fafc',
         '100': '#f1f5f9',
         '200': '#e2e8f0',
@@ -50,7 +50,7 @@ const tailwindColorTheme = {
         '900': '#0f172a',
         '950': '#020617',
     },
-    gray: {
+    Gray: {
         '50': '#f9fafb',
         '100': '#f3f4f6',
         '200': '#e5e7eb',
@@ -63,7 +63,7 @@ const tailwindColorTheme = {
         '900': '#111827',
         '950': '#030712',
     },
-    zinc: {
+    Zinc: {
         '50': '#fafafa',
         '100': '#f4f4f5',
         '200': '#e4e4e7',
@@ -76,7 +76,7 @@ const tailwindColorTheme = {
         '900': '#18181b',
         '950': '#09090b',
     },
-    neutral: {
+    Neutral: {
         '50': '#fafafa',
         '100': '#f5f5f5',
         '200': '#e5e5e5',
@@ -89,7 +89,7 @@ const tailwindColorTheme = {
         '900': '#171717',
         '950': '#0a0a0a',
     },
-    stone: {
+    Stone: {
         '50': '#fafaf9',
         '100': '#f5f5f4',
         '200': '#e7e5e4',
@@ -102,7 +102,7 @@ const tailwindColorTheme = {
         '900': '#1c1917',
         '950': '#0c0a09',
     },
-    red: {
+    Red: {
         '50': '#fef2f2',
         '100': '#fee2e2',
         '200': '#fecaca',
@@ -115,7 +115,7 @@ const tailwindColorTheme = {
         '900': '#7f1d1d',
         '950': '#450a0a',
     },
-    orange: {
+    Orange: {
         '50': '#fff7ed',
         '100': '#ffedd5',
         '200': '#fed7aa',
@@ -128,7 +128,7 @@ const tailwindColorTheme = {
         '900': '#7c2d12',
         '950': '#431407',
     },
-    amber: {
+    Amber: {
         '50': '#fffbeb',
         '100': '#fef3c7',
         '200': '#fde68a',
@@ -141,7 +141,7 @@ const tailwindColorTheme = {
         '900': '#78350f',
         '950': '#451a03',
     },
-    yellow: {
+    Yellow: {
         '50': '#fefce8',
         '100': '#fef9c3',
         '200': '#fef08a',
@@ -154,7 +154,7 @@ const tailwindColorTheme = {
         '900': '#713f12',
         '950': '#422006',
     },
-    lime: {
+    Lime: {
         '50': '#f7fee7',
         '100': '#ecfccb',
         '200': '#d9f99d',
@@ -167,7 +167,7 @@ const tailwindColorTheme = {
         '900': '#365314',
         '950': '#1a2e05',
     },
-    green: {
+    Green: {
         '50': '#f0fdf4',
         '100': '#dcfce7',
         '200': '#bbf7d0',
@@ -180,7 +180,7 @@ const tailwindColorTheme = {
         '900': '#14532d',
         '950': '#052e16',
     },
-    emerald: {
+    Emerald: {
         '50': '#ecfdf5',
         '100': '#d1fae5',
         '200': '#a7f3d0',
@@ -193,7 +193,7 @@ const tailwindColorTheme = {
         '900': '#064e3b',
         '950': '#022c22',
     },
-    teal: {
+    Teal: {
         '50': '#f0fdfa',
         '100': '#ccfbf1',
         '200': '#99f6e4',
@@ -206,7 +206,7 @@ const tailwindColorTheme = {
         '900': '#134e4a',
         '950': '#042f2e',
     },
-    cyan: {
+    Cyan: {
         '50': '#ecfeff',
         '100': '#cffafe',
         '200': '#a5f3fc',
@@ -219,7 +219,7 @@ const tailwindColorTheme = {
         '900': '#164e63',
         '950': '#083344',
     },
-    sky: {
+    Sky: {
         '50': '#f0f9ff',
         '100': '#e0f2fe',
         '200': '#bae6fd',
@@ -232,7 +232,7 @@ const tailwindColorTheme = {
         '900': '#0c4a6e',
         '950': '#082f49',
     },
-    blue: {
+    Blue: {
         '50': '#eff6ff',
         '100': '#dbeafe',
         '200': '#bfdbfe',
@@ -245,7 +245,7 @@ const tailwindColorTheme = {
         '900': '#1e3a8a',
         '950': '#172554',
     },
-    indigo: {
+    Indigo: {
         '50': '#eef2ff',
         '100': '#e0e7ff',
         '200': '#c7d2fe',
@@ -258,7 +258,7 @@ const tailwindColorTheme = {
         '900': '#312e81',
         '950': '#1e1b4b',
     },
-    violet: {
+    Violet: {
         '50': '#f5f3ff',
         '100': '#ede9fe',
         '200': '#ddd6fe',
@@ -271,7 +271,7 @@ const tailwindColorTheme = {
         '900': '#4c1d95',
         '950': '#2e1065',
     },
-    purple: {
+    Purple: {
         '50': '#faf5ff',
         '100': '#f3e8ff',
         '200': '#e9d5ff',
@@ -284,7 +284,7 @@ const tailwindColorTheme = {
         '900': '#581c87',
         '950': '#3b0764',
     },
-    fuchsia: {
+    Fuchsia: {
         '50': '#fdf4ff',
         '100': '#fae8ff',
         '200': '#f5d0fe',
@@ -297,7 +297,7 @@ const tailwindColorTheme = {
         '900': '#701a75',
         '950': '#4a044e',
     },
-    pink: {
+    Pink: {
         '50': '#fdf2f8',
         '100': '#fce7f3',
         '200': '#fbcfe8',
@@ -310,7 +310,7 @@ const tailwindColorTheme = {
         '900': '#831843',
         '950': '#500724',
     },
-    rose: {
+    Rose: {
         '50': '#fff1f2',
         '100': '#ffe4e6',
         '200': '#fecdd3',

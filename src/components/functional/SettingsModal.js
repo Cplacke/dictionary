@@ -71,31 +71,37 @@ export const SettingsModal = ({
                     <Icon icon="settings" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Settings
                 </NavLink>
-                <div className="ml-10 mr-1">
-                    <div className="text-xl text-primary-500"> Theme Color </div>
-                    <select className="p-2 px-4 w-full bg-primary-100">
+                <div className="ml-10 mr-1 text-xl">
+                    <div className="text-primary-500"> Theme Color </div>
+                    <select className="p-2 px-4 w-full bg-primary-100"
+                        value={themeColor}
+                        onChange={(e) => setThemeColor(e.target.value)}
+                    >
                         {
                             ThemeColors.map((color) => {
-                                return <option onClick={() => setThemeColor(color)}>{
-                                    color   
-                                }</option>
+                                return (
+                                    <option key={color+'-option'}>
+                                    {/* <option onClick={() => setThemeColor(color)} > */}
+                                        { color }
+                                    </option>
+                                )
                             })
                         }
                     </select>
-                    <div className="text-xl mt-1 text-primary-500"> Word Set </div>
+                    <div className="mt-1 text-primary-500"> Word Set </div>
                     <select className="p-2 px-4 w-full bg-primary-100">
                         {
                             [ 'SAT Terms', 'Elementary Terms', 'Medical Terms' ].map((set) => {
-                                return <option>{
+                                return <option key={set+'-option'}>{
                                     set   
                                 }</option>
                             })
                         }
                     </select>
-                    <div className="text-xl mt-1 text-primary-500"> Urban Dictionary Enabled </div>
+                    <div className="mt-1 text-primary-500"> Urban Dictionary Enabled </div>
                     <div className="flex pl-2 mt-1 cursor-not-allowed">
-                        <input type="checkbox" disabled className="p-2 px-4 scale-2 bg-primary-100 cursor-not-allowed" style={{ scale: '2.2' }}/>
-                        <span className="ml-5"> Disabled </span>
+                        <input type="checkbox" disabled className="p-2 px-4 mr-3 scale-2 bg-primary-100 cursor-not-allowed" style={{ scale: '1.5' }}/>
+                        <span> Disabled </span>
                     </div>
                 </div>
             </div>
