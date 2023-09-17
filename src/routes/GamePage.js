@@ -48,7 +48,9 @@ export const GamePage = () => {
     useEffect(() => {
         const getGameSet = async() => {
             const opts = await getDataSets()
-            const set = await getDataSetByName(opts[6])
+            const set = await getDataSetByName(opts[
+                Math.round(Math.random()*opts.length-1)
+            ])
             setData(set);
         }
         getGameSet();

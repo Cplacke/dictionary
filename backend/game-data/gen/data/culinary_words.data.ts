@@ -394,22 +394,6 @@ export default [
     ]
   },
   {
-    "word": "lobster",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
-    "word": "lobsterlike",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
     "word": "macerate",
     "syllabic": "mac*er*ate",
     "stems": [

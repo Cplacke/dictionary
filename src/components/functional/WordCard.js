@@ -15,7 +15,7 @@ export const WordCard = ({
         
     return (
         <div className={"card bg-stripped flex "+className}>
-            <div className="shadow-xl w-full p-4 bg-pink-100 ">
+            <div className="shadow-xl w-full px-2 md:p-4 bg-pink-100 ">
 
                 <div> 
                     <div className="flex uppercase text-pink-600 my-2 relative"> 

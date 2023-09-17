@@ -1624,24 +1624,7 @@ export default [
         "samples": []
       }
     ]
-  },
-  {
-    "word": "scientific",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
-    "word": "scientific method",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
+  },{
     "word": "natural",
     "syllabic": "nat*u*ral",
     "stems": [
@@ -2693,22 +2676,6 @@ export default [
     ]
   },
   {
-    "word": "everything",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
-    "word": "drop everything",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
     "word": "quantum jump",
     "syllabic": "quantum leap",
     "stems": [
@@ -3567,64 +3534,7 @@ export default [
         "samples": []
       }
     ]
-  },
-  {
-    "word": "chemical",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
-    "word": "chemical laser",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
-    "word": "genetically engineered",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
-    "word": "solids of revolution",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
-    "word": "emergent evolution",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
-    "word": "evolutionary",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
-    "word": "evolutionary biology",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
+  },{
     "word": "climate",
     "syllabic": "cli*mate",
     "stems": [
@@ -4006,22 +3916,6 @@ export default [
         "samples": []
       }
     ]
-  },
-  {
-    "word": "control",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
-  },
-  {
-    "word": "control rod",
-    "syllabic": null,
-    "stems": [],
-    "partOfSpeech": null,
-    "shortDef": "",
-    "defs": []
   },
   {
     "word": "placebo",

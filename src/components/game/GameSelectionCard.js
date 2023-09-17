@@ -16,7 +16,7 @@ export const GameSelectionCard = ({
                 //     backgroundPositionX: '50%'
                 // }}
             >
-                <div className="text-pink-700 p-2 text-2xl flex items-center"> 
+                <div className="text-pink-700 p-2 md:p-4 text-2xl flex items-center"> 
                     { title } 
                     <Icon icon={icon} className="ml-auto text-gray-500 text-4xl opacity-70"/>
                 </div>

@@ -8,7 +8,9 @@ export const generateQuestionSet = (
     return getRandomSet(
         count, data.length
     ).map((index) => {
-        let answerTerm = data[index];
+        let answerTerm = JSON.parse(
+            JSON.stringify(data[index])
+        )
         answerTerm = sanitizeTermFromDefinitions(answerTerm);
         answerTerm.answer = true;
         const answerPosition = getRandomSet(1, 3)[0];
@@ -40,7 +42,7 @@ const getRandomSet = (size, limit, set=new Set(), exclude=[]) => {
         return [ ... set.values() ];
     }
     const value = Math.round( Math.random() * limit );
-    const excluded = exclude.find((v) => v === value);
+    const excluded = exclude.find((v) => v === value || set.has(value));
     if (!excluded) {
         set.add(value);
     }
@@ -48,14 +50,39 @@ const getRandomSet = (size, limit, set=new Set(), exclude=[]) => {
 }
 
 const TERM_REPLACER = '_____'
+const TERM_PART_REPLACER = '___'
+const REPLACE_IGNORE = [ 'the', 'of', 'by', 'for', 'a', 'an' ]
 export const sanitizeTermFromDefinitions = (term) => {
     const forms = term.stems;
     forms.push(term.word);
     term.defs.forEach((def) => {
+        // remove all stems and conjugations
         forms.forEach((value) => {
-            def.text = def.text.replaceAll(value, TERM_REPLACER)
+            const formPattern = new RegExp(value, 'gi')
+            def.text = def.text.replace(value, TERM_REPLACER)
             def.samples = def.samples.map((s) => {
-                return s && s.replaceAll(value, TERM_REPLACER)
+                return s && s.replace(value, TERM_REPLACER)
+            })
+        })
+
+        // remove partial terms
+        const { word } = term;
+
+        const expression = word.split(/ |-/)
+            .filter((part) => (!REPLACE_IGNORE.includes(part)))
+            .map((part, i) => (`${i > 0 ? '|' : ''}${part.trim()}`)).join('')
+        const partialTermPattern = new RegExp(expression, 'gi')
+        def.text = def.text.replace(partialTermPattern, TERM_PART_REPLACER)
+        def.samples = def.samples.map((s) => {
+            return s && s.replace(partialTermPattern, TERM_PART_REPLACER)
+        })
+
+        // `a` and `an` become `a(n)`
+        forms.forEach((value) => {
+            const articleReplacer = /a(n)? _/gi;
+            def.text = def.text.replace(articleReplacer, 'a(n) _')
+            def.samples = def.samples.map((s) => {
+                return s && s.replace(articleReplacer, 'a(n) _')
             })
         })
     })
