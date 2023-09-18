@@ -7,8 +7,8 @@ import { generateQuestionSet } from '../../services/game-questoin-service'
 
 export const VocabColosseum = () => {
 
-    const { questionIndex } = useContext(GameContext)
-    const { dataSet } = useContext(AppContext)
+    const { questionIndex, setQuestionIndex } = useContext(GameContext)
+    const { dataSet, setDataSet } = useContext(AppContext)
     const [ questionSet, setQuestionSet ] = useState([])
 
     useEffect(() => {
@@ -32,9 +32,19 @@ export const VocabColosseum = () => {
                         if (i>questionIndex) {
                             return null;
                         }
-                        return <ColosseumQuestion key={i} index={i} questionConfig={questionConfig} />
+                        return <ColosseumQuestion key={JSON.stringify(questionConfig)} index={i} questionConfig={questionConfig} />
                     })
                 } 
+                {   questionIndex === 5 && 
+                    <div className="text-2xl text-primary-500 text-center my-4 px-6 py-3 hover:bg-primary-100 cursor-pointer"
+                        onClick={() => {
+                            setDataSet([ ... dataSet ]);
+                            setQuestionIndex(0);
+                        }}
+                    >
+                        Play Again ? 
+                    </div>
+                }
             </div>
         </div>
     )

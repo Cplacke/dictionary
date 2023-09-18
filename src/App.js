@@ -57,6 +57,9 @@ const App = () => {
   }, [])
 
   useEffect(() => {
+    if (!selectedDataSetName) {
+      return;
+    }
     const getDataSet = async() => {
         setDataSet( await getDataSetByName(selectedDataSetName) );
     }
