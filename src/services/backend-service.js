@@ -1,10 +1,7 @@
 const BASE_URL = 'https://diction.deno.dev'
 // const BASE_URL = 'http://localhost:8000'
 const GET_OPTIONS = { 
-    method: 'GET',
-    // headers: {
-    //     'Access-Control-Allow-Origin': '*'
-    // }
+    method: 'GET'
 };
 
 export const searchDictionaryResults = async (term, learners = false) => {

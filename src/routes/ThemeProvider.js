@@ -8,23 +8,23 @@ export const ThemeProvider = (value) => {
     useEffect(() => {
         let cssString = '';
         for (let i=1; i<10; i++) {
-        cssString += `
-            .bg-primary-${i}00 {
-                background-color: ${tailwindColorTheme[themeColor][`${i}00`]};
-            }
-            .text-primary-${i}00 {
-                color: ${tailwindColorTheme[themeColor][`${i}00`]};
-            }
-            .hover\\:bg-primary-${i}00:hover {
-                background-color: ${tailwindColorTheme[themeColor][`${i}00`]};
-            }
-            .hover\\:text-primary-${i}00:hover {
-                color: ${tailwindColorTheme[themeColor][`${i}00`]};
-            }
-            input[type="checkbox"]:checked:before{
-                background-color: ${tailwindColorTheme[themeColor]['100']};
-            }
-        `
+            cssString += `
+                .bg-primary-${i}00 {
+                    background-color: ${tailwindColorTheme[themeColor][`${i}00`]};
+                }
+                .text-primary-${i}00 {
+                    color: ${tailwindColorTheme[themeColor][`${i}00`]};
+                }
+                .hover\\:bg-primary-${i}00:hover {
+                    background-color: ${tailwindColorTheme[themeColor][`${i}00`]};
+                }
+                .hover\\:text-primary-${i}00:hover {
+                    color: ${tailwindColorTheme[themeColor][`${i}00`]};
+                }
+                input[type="checkbox"]:checked:before{
+                    background-color: ${tailwindColorTheme[themeColor]['100']};
+                }
+            `
         }
         setCss(cssString)
     },[themeColor])

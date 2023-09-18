@@ -9,7 +9,7 @@ export const GameSelectionCard = ({
 }) => {
 
     return (
-        <div className="card mb-8 bg-stripped w-full flex md:w-5/12 md:mx-auto ">
+        <div className="card mb-8 mr-2 bg-stripped w-full flex md:w-5/12 md:mx-auto ">
             <div className="bg-primary-100 bg-contain" 
                 // style={{ 
                 //     backgroundImage: `url("${src}")` || '',
