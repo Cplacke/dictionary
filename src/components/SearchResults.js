@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { useDebounce } from 'usehooks-ts';
 import { WordCard, ImageCard, SearchBar } from "."
 import { searchDictionaryResults, searchGiphy } from '../services/backend-service'
+import { addGold } from '../services/local-storage-service'
 import { AppContext } from '../App'
 
 export const SearchResults = () => {

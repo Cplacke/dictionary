@@ -53,7 +53,7 @@ const TERM_REPLACER = '_____'
 const TERM_PART_REPLACER = '___'
 const REPLACE_IGNORE = [ 'the', 'of', 'by', 'for', 'a', 'an' ]
 export const sanitizeTermFromDefinitions = (term) => {
-    const forms = term.stems;
+    const forms = term.stems || [];
     forms.push(term.word);
     term.defs.forEach((def) => {
         // remove all stems and conjugations

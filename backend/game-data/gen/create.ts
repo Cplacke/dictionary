@@ -21,8 +21,8 @@ const enabled = [
 for (let i=0; i<enabled.length; i++) {
     const { set, file } = enabled[i];
     console.info(`${file} process started ...`)
-    console.time(`running ${file} data gen`)
-    const parsedData: any = []
+    console.time(`${file} data gen`)
+    let parsedData: any = []
 
     for (let j=0; j<set.length; j++) {
         const term = set[j];
@@ -48,7 +48,13 @@ for (let i=0; i<enabled.length; i++) {
         }
     }
     console.info(`  ${set.length} definition results for set`);
-
+    
+    // filter out bad data
+    parsedData = parsedData.filter((data) => (
+        data.word && data.stems && data.stems.length
+            && data.defs && data.defs.length
+    ));
+    
     // write each file to a `ts` file in `../`
     await Deno.writeTextFile(
         `./game-data/gen/data/${file}`,

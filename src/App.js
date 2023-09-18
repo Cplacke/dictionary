@@ -7,6 +7,7 @@ import { useDebounce } from 'usehooks-ts';
 import { SearchPage, AboutPage, GamePage, ThemeProvider } from './routes'
 import { getWordOfDay } from './services/word-of-day.service'
 import { getDataSets, getDataSetByName } from './services/backend-service'
+import { getLocalStorage } from './services/local-storage-service'
 import './App.css';
 import './Animation.css';
 import { createContext, useState, useEffect, useContext } from "react";
@@ -34,17 +35,22 @@ const App = () => {
   const [ searchTerm, setSearchTerm ] = useState(getWordOfDay());
   const [ data, setData ] = useState([]);
   
-  const [ dataSetNames, setDataSetNames ] = useState(['SAT Terms']);
-  const [ selectedDataSetName, setSelectedDataSetName ] = useState('SAT Terms');
+  const [ dataSetNames, setDataSetNames ] = useState([]);
+  const [ selectedDataSetName, setSelectedDataSetName ] = useState('');
   const [ dataSet, setDataSet ] = useState([]);
   
   const [ src, setSrc ] = useState('');
-  const [ themeColor, setThemeColor ] = useState('Rose');
+  const [ themeColor, setThemeColor ] = useState('');
+  const [ gold, setGold ] = useState(0);
   const [ backEnabled, setBackEnabled ] = useState(false);
   const [ navStack, setNavStack ] = useState(new Set());
 
   useEffect(() => {
     const getDataSetOptions = async() => {
+      const localSetting = getLocalStorage();
+      setThemeColor(localSetting.themeColor);
+      setGold(localSetting.gold);
+      setSelectedDataSetName(localSetting.dataSetName);
       setDataSetNames( await getDataSets() );
     }
     getDataSetOptions();
@@ -78,7 +84,7 @@ const App = () => {
   }
 
   return (
-    <div id="cplacke-portfolio">
+    <div id="app">
       <AppContext.Provider value={{
         searchTerm, setSearchTerm,
         data, setData,
@@ -87,9 +93,11 @@ const App = () => {
         selectedDataSetName, setSelectedDataSetName,
         src, setSrc,
         themeColor, setThemeColor,
+        gold, setGold,
         navStack, setNavStack,
         backEnabled, navigateBack,
       }}>
+
         <ThemeProvider />
         <RouterProvider router={router} />
       </AppContext.Provider>

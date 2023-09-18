@@ -1624,7 +1624,8 @@ export default [
         "samples": []
       }
     ]
-  },{
+  },
+  {
     "word": "natural",
     "syllabic": "nat*u*ral",
     "stems": [
@@ -3534,7 +3535,8 @@ export default [
         "samples": []
       }
     ]
-  },{
+  },
+  {
     "word": "climate",
     "syllabic": "cli*mate",
     "stems": [

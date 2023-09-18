@@ -1,7 +1,8 @@
-import { useContext} from 'react'
+import { useContext } from 'react'
 import { NavLink} from 'react-router-dom'
 import { AppContext } from '../../App'
 import { Icon } from '../index'
+import { patchLocalStorage } from '../../services/local-storage-service'
 import { getWordOfDay } from '../../services/word-of-day.service'
 import { ThemeColors } from '../../routes'
 
@@ -20,6 +21,22 @@ export const SettingsModal = ({
         setSelectedDataSetName
     } = useContext(AppContext)
 
+    const handleThemeColorChange = (e) => {
+        const color = e.target.value;
+        setThemeColor(color)
+        patchLocalStorage({
+            themeColor: color,
+        })
+    }
+
+    const handleWordSetChange = (e) => {
+        const set = e.target.value;
+        setSelectedDataSetName(set)
+        patchLocalStorage({
+            dataSetName: set
+        })
+    }
+
     const setAndClose = (term) => {
         setSearchTerm(term);
         setData([]);
@@ -28,7 +45,7 @@ export const SettingsModal = ({
 
     return (
         <div className="p-2 bg-gray-50 h-full w-full">
-            <div className="flex text-primary-500"> 
+            <div className="flex text-primary-500 items-center"> 
                 <span className="w-full md:ml-3 text-4xl md:text-5xl"> Control Panel </span>
                 <span className="inline material-symbols-outlined text-4xl ml-auto cursor-pointer hover:bg-primary-100 rounded-full"
                     onClick={() => close()}
@@ -68,9 +85,7 @@ export const SettingsModal = ({
                     My Words
                     <Flare className="bg-blue-400 ml-auto" text="Coming Soon!"/>
                 </NavLink>
-                <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
-                    onClick={() => { setThemeColor('yellow') }}
-                > 
+                <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"> 
                     <Icon icon="settings" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Settings
                 </NavLink>
@@ -78,7 +93,7 @@ export const SettingsModal = ({
                     <div className="text-primary-500"> Theme Color </div>
                     <select className="p-2 px-4 w-full bg-primary-100"
                         value={themeColor}
-                        onChange={(e) => setThemeColor(e.target.value)}
+                        onChange={handleThemeColorChange}
                     >
                         {
                             ThemeColors.map((color) => {
@@ -94,7 +109,7 @@ export const SettingsModal = ({
                     <div className="mt-1 text-primary-500"> Word Set </div>
                     <select className="p-2 px-4 w-full bg-primary-100"
                         value={selectedDataSetName}
-                        onChange={(e) => setSelectedDataSetName(e.target.value)}
+                        onChange={handleWordSetChange}
                     >
                         {
                             dataSetNames.map((set) => {

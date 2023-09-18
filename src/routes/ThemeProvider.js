@@ -7,6 +7,9 @@ export const ThemeProvider = (value) => {
 
     useEffect(() => {
         let cssString = '';
+        if (!themeColor) {
+            return;
+        }
         for (let i=1; i<10; i++) {
             cssString += `
                 .bg-primary-${i}00 {

@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import Modal from 'react-modal'
+import { AppContext } from "../../App";
 import { SettingsModal } from '../index'
 
 export const Navigation = () => {
 
+    const { gold } = useContext(AppContext)
     const [ showMenu, setShowMenu ] = useState(false);
+
     const getRandomName = () => {
         const names = [
             { title:"GIFopedia", subtitle: "The Ultimate GIF Encyclopedia" },
@@ -80,6 +83,12 @@ export const Navigation = () => {
             <span className="display-none md:inline ml-2" >
                 { getRandomName() }
             </span>
+            <div className="ml-auto text-lg mr-2">
+                <span className="">{ gold }</span>
+                <img className="uppercase text-gray-800 h-8 pb-1 px-1 inline"
+                    src="/assets/coin.svg"
+                />
+            </div>
         </div>
     );
 }
