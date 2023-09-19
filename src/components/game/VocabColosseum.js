@@ -22,7 +22,7 @@ export const VocabColosseum = () => {
 
     return (
         <div className="w-full">
-            <div className="text-gray-400 text-3xl md:text-4xl px-1 flex items-center"> 
+            <div className="text-gray-500 text-3xl md:text-4xl px-1 flex items-center"> 
                 Vocab Colosseum 
                 <Icon icon="swords" className="ml-auto text-4xl md:text-5xl opacity-70"/>
             </div>
@@ -77,7 +77,6 @@ export const ColosseumQuestion = ({ questionConfig, index }) => {
             <div className="p-2 md:p-4 bg-primary-100">
                 <div className="text-primary-700 text-2xl md:text-3xl flex items-center mb-4"> 
                     Which term best matches?
-                    {/* <Icon icon="question_mark" className="ml-auto text-4xl text-primary-500 opacity-70 relative"/> */}
                     <div className="text-2xl text-black opacity-100 ml-auto"> #{index+1}</div>
                 </div>
                 <AnswerHint term={answerTerm} src={src} />
@@ -92,31 +91,23 @@ export const ColosseumQuestion = ({ questionConfig, index }) => {
 
 export const AnswerHint = ({ term, src }) => {
     return (
-        // <div className="flex items-center">
-        //     <div className="w-full md:">{
-                term.defs.slice(0, 2).map((def, i) => (
-                    <div className="text-xl md:text-2xl text-black" key={i}>
-                        <div dangerouslySetInnerHTML={{ __html: def.text }}></div>
-                        { 
-                            def.samples &&
-                            <div className="ml-2 text-gray-700" dangerouslySetInnerHTML={{ __html: def.samples[0] }}></div> 
-                        }
-                    </div>
-                ))
-        //     }</div>
-        //     <img className="hidden md:flex w-2/5 mx-auto h-64 mt-4 rounded-sm"
-        //         src={`https://media.giphy.com/media/${src}/giphy.gif`}
-        //     />
-        // </div>
+        term.defs.slice(0, 2).map((def, i) => (
+            <div className="text-xl md:text-2xl text-black" key={i}>
+                <div dangerouslySetInnerHTML={{ __html: def.text }}></div>
+                { 
+                    def.samples &&
+                    <div className="ml-2 text-gray-700" dangerouslySetInnerHTML={{ __html: def.samples[0] }}></div> 
+                }
+            </div>
+        ))
     )
 }
 
-export const AnswerOptions = ({ questionConfig, onAnswered }) => {
+export const AnswerOptions = ({ questionConfig }) => {
 
     const { questionIndex, setQuestionIndex } = useContext(GameContext)
     const [ answered, setAnswered ] = useState(false)
     const [ selectedOption, setSelectedOption ] = useState(null)
-    // const answerOption = questionConfig.find((term) => (term.answer))
 
     const handleAnswerSelect = (selectedOption) => {
         if (answered) {
@@ -128,12 +119,15 @@ export const AnswerOptions = ({ questionConfig, onAnswered }) => {
     }
 
     const scoredClass = (option) => {
+        if (!option) {
+            return '';
+        }
         if (option.answer) {
-            return 'correct-answer'
+            return 'correct-answer';
         }
         const { word, partOfSpeech } = selectedOption;
         if (option.word === word && option.partOfSpeech === partOfSpeech) {
-            return 'wrong-answer'
+            return 'wrong-answer';
         }
         return '';
     }

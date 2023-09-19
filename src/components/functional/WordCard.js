@@ -24,21 +24,20 @@ export const WordCard = ({
                         </div>
                     </div>
 
-                    <div className="flex text-base text-gray-900 mt-4"> 
+                    <div className="flex text-base mt-4"> 
                         <div className="w-full">
                             { stems.map((stem) => (
                                 <span key={stem} className="card card-sm bg-primary-200 inline-block font-mono mr-2 my-0.5"
                                     onClick={(e) => { setSearchTerm(e.target.innerText) }}
                                 >
                                     <div className={
-                                        "p-1 bg-opacity-75 cursor-pointer" + 
+                                        "p-1 bg-opacity-80 cursor-pointer" + 
                                         badgeColor(partOfSpeech)
                                     }>{ stem }</div>
                                 </span>
                             ) ) }
                             
                         </div>
-
                         <div className="w-auto mr-2 ml-auto">
                             <div className={
                                 "card card-sm inline-block bg-primary-200 uppercase" 
@@ -49,7 +48,6 @@ export const WordCard = ({
                                 }>{ partOfSpeech }</div>
                             </div>
                         </div>
-
                     </div>
 
                 </div>
@@ -73,44 +71,36 @@ const unhandled = new Set();
 const badgeColor = (pos) => {
     switch (pos) {
         case 'noun':
-            return ' bg-blue-500 border-blue-200 text-white '
         case 'plural noun':
-            return ' bg-blue-200 border-blue-500 text-gray-800 '
+            return ' bg-blue-400 text-always-black '
         case 'abbreviation or noun':
-            return ' bg-blue-300 border-blue-600 text-gray-800  '
         case 'abbreviation':
-            return ' bg-green-500 border-green-300 text-white '
+            return ' bg-purple-400 text-always-black '
         case 'adjective':
-            return ' bg-yellow-400 border-yellow-200 text-gray-800 '
+            return ' bg-amber-400 text-always-black '
         case 'adverb':
-            return ' bg-orange-500 border-purple-200 text-white '
         case 'verb':
-            return ' bg-red-500 border-red-200 text-white '
         case 'phrasal verb':
-            return ' bg-red-200 border-red-500 text-gray-800 '
+            return ' bg-rose-400 text-always-black '
+
         case 'idiom':
-            return ' bg-green-500 border-green-200 text-white '
         case 'biographical name':
-            return ' bg-purple-200 border-purple-500 text-gray-800 '
         case 'geographical name':
-            return ' bg-green-200 border-green-500 text-gray-800 '
         case 'idiomatic phrase':
         case 'verbal phrase':
         case 'Latin phrase':
-            return ' bg-blue-900 border-white-500 text-white '        
+            return ' bg-green-400 text-always-black '
         case 'symbol':
-            return ' bg-gray-300 border-blue-600 text-gray-800 '
         case 'prefix':
         case 'suffix':
-            return ' bg-purple-200 border-blue-400 text-gray-800 '
         case 'combining form':
-            return ' bg-yellow-200 border-orange-200 text-gray-800 '
-                
         case 'preposition':
+            return ' bg-slate-400 text-always-black '
+
         default:
             unhandled.add(pos)
             console.info({unhandled});
-            return ' bg-gray-300 border-gray-500 text-gray-800 '
+            return ' bg-slate-500 '
     }
 }
 

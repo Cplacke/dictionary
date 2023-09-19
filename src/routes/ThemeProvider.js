@@ -6,9 +6,9 @@ export const ThemeProvider = (value) => {
     const [ css, setCss ] = useState('');
 
     useEffect(() => {
-        let cssString = '';
+        let cssString = ``;
         const getColorIndex = (i) => {
-            return darkMode ? Math.abs( i - 9 ) : i;
+            return darkMode ? Math.abs( i - 9 )+1 : i;
         }
         if (!themeColor) {
             return;
@@ -61,7 +61,7 @@ export const ThemeProvider = (value) => {
                     background-color: ${tailwindColorTheme[themeColor]["950"]}
                 }
                 .bg-space { 
-                    background-color: #3e3e3d !important;
+                    background-color: #222222 !important;
                 }
             `
             for (let i=1; i<10; i++) {

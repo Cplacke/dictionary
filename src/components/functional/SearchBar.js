@@ -31,7 +31,7 @@ export const SearchBar = () => {
                             className={
                                 (searchTerm && searchTerm.length > 0) ? 
                                 "text-3xl rounded-full hover:bg-primary-100 cursor-pointer px-2 p-1 " :
-                                "text-3xl text-white rounded-full hover:bg-primary-100 cursor-pointer px-2 p-1  "
+                                "text-3xl text-transparent rounded-full hover:bg-primary-100 cursor-pointer px-2 p-1  "
                             }
                             onClick={() => {
                                 setSearchTerm('');

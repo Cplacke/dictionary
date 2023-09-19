@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { NavLink} from 'react-router-dom'
 import { AppContext } from '../../App'
 import { Icon } from '../index'
@@ -70,7 +70,7 @@ export const SettingsModal = ({
                 > 
                     <Icon icon="search" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Search
-                    <Flare className="bg-red-400 ml-auto" text="New"/>
+                    <Flare color="red" className="ml-auto" text="New"/>
                 </NavLink>
                 <NavLink className="py-1 px-2 -mx-2 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
                     to="/" onClick={() => { 
@@ -79,21 +79,21 @@ export const SettingsModal = ({
                 > 
                     <Icon icon="today" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Word of the Day
-                    <Flare className="bg-purple-400 ml-auto" text="Beta"/>
+                    <Flare color="purple" className="ml-auto" text="Beta"/>
                 </NavLink>
                 <NavLink className="py-1 px-2 -mx-2 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
                     to="/game"
                 > 
                     <Icon icon="joystick" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Games
-                    <Flare className="bg-yellow-400 ml-auto mr-0.5" text="fun"/>
-                    <Flare className="bg-red-400 mr-0.5" text="New"/>
-                    <Flare className="bg-purple-400" text="beta"/>
+                    <Flare color="yellow" className="ml-auto mr-0.5" text="fun"/>
+                    <Flare color="red" className="mr-0.5" text="New"/>
+                    <Flare color="purple" text="beta"/>
                 </NavLink>
                 <NavLink className="py-1 px-2 -mx-2 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"> 
                     <Icon icon="bookmark" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     My Words
-                    <Flare className="bg-blue-400 ml-auto" text="Coming Soon!"/>
+                    <Flare color="blue" className="ml-auto" text="Coming Soon!"/>
                 </NavLink>
                 <NavLink className="py-1 px-2 -mx-2 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"> 
                     <Icon icon="settings" className="text-3xl md:text-4xl mr-2 md:ml-3" />
@@ -153,9 +153,24 @@ export const SettingsModal = ({
     )
 }
 
-const Flare = ({ className, text }) => {
+const Flare = ({ color, className, text }) => {
+    const { darkMode } = useContext(AppContext);
+    const [ bgClass, setBgClass ] = useState('')
+
+    useEffect(() => {
+        setBgClass(darkMode ? `bg-${color}-300 ` : `bg-${color}-400 `)
+    }, [darkMode, color])
+
     return (
-        <span className={"px-2 shadow-sm rounded-full text-white text-xs md:text-sm uppercase "+className}>
+        <span className={`
+            px-2 shadow-sm rounded-full text-white text-xs md:text-sm uppercase
+            ${bgClass} 
+            ${className}
+        `}>
+            <span className={`hidden
+                bg-red-300 bg-yellow-300 bg-purple-300 bg-blue-300 bg-green-300
+                bg-red-400 bg-yellow-400 bg-purple-400 bg-blue-400 bg-green-400
+            `}></span>
             { text }
         </span>
     )

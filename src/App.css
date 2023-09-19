@@ -13,6 +13,10 @@
 *::selection {
     background: #eeee92;
 }
+*::placeholder {
+    color: inherit !important;
+}
+
 
 .bg-space {
     background-color: #1e1e1d;
@@ -72,6 +76,9 @@
 }
 .wrong-answer:hover {
     background-color: rgba(255, 38, 0, 0.5) !important;
+}
+.text-always-black {
+    color: black;
 }
 
 bold {
