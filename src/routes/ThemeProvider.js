@@ -33,8 +33,8 @@ export const ThemeProvider = (value) => {
                 .bg-stripped {
                     background: repeating-linear-gradient(
                         -45deg,
-                        #858484,
-                        #858484 1px,
+                        ${tailwindColorTheme[themeColor]["900"]},
+                        ${tailwindColorTheme[themeColor]["900"]} 1px,
                         ${tailwindColorTheme[themeColor]["50"]} 1px,
                         ${tailwindColorTheme[themeColor]["50"]} 6px
                     );
@@ -51,14 +51,17 @@ export const ThemeProvider = (value) => {
                 .bg-stripped {
                     background: repeating-linear-gradient(
                         -45deg,
-                        #858484,
-                        #858484 1px,
+                        ${tailwindColorTheme[themeColor]["100"]},
+                        ${tailwindColorTheme[themeColor]["100"]} 1px,
                         ${tailwindColorTheme[themeColor]["950"]} 1px,
                         ${tailwindColorTheme[themeColor]["950"]} 6px
                     );
                 }
                 .bg-primary-50 {
                     background-color: ${tailwindColorTheme[themeColor]["950"]}
+                }
+                .bg-space { 
+                    background-color: #3e3e3d !important;
                 }
             `
             for (let i=1; i<10; i++) {

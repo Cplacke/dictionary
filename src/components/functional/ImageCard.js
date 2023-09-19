@@ -26,8 +26,8 @@ export const ImageCard = ({
                 />
                 {
                     refresh && <Icon 
-                        icon="sync" 
-                        className="absolute cursor-pointer top-1 right-2 text-3xl text-white bg-black opacity-50 px-1 rounded-full"
+                        icon="sync" style={{ color: '#fff' }}
+                        className="absolute cursor-pointer top-1 right-2 text-3xl bg-black opacity-50 px-1 rounded-full"
                         onClick={setRandomIndex} 
                     />
                 }
