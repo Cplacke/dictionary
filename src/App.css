@@ -39,7 +39,7 @@
     min-height: 20rem;
 }
 
-.bg-stripped {
+/* .bg-stripped {
     background: repeating-linear-gradient(
         -45deg,
         #858484,
@@ -47,7 +47,7 @@
         #fff 1px,
         #fff 6px
     );
-}
+} */
 
 .part-of-speech-badge{
 	font-size: 1.5rem;
@@ -62,13 +62,13 @@
 }
 
 .correct-answer {
-    background-color: rgba(0, 255, 179, 0.5);
+    background-color: rgba(0, 255, 179, 0.5) !important;
 }
 .correct-answer:hover {
     background-color: rgba(0, 255, 179, 0.5) !important;
 }
 .wrong-answer {
-    background-color: rgba(255, 38, 0, 0.5);
+    background-color: rgba(255, 38, 0, 0.5) !important;
 }
 .wrong-answer:hover {
     background-color: rgba(255, 38, 0, 0.5) !important;

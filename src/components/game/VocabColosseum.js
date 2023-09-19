@@ -57,13 +57,20 @@ export const ColosseumQuestion = ({ questionConfig, index }) => {
 
     useEffect(() => {
         const getSrc = async() => {
+            if (!answerTerm) {
+                console.info("MISSING ANSWER TERM", {
+                    config: questionConfig.map((q) => (q.answer)),
+                    answerTerm
+                });
+                return;
+            }
             const res = await searchGiphy(answerTerm.word)
             setSrc(
                 res[Math.round(Math.random()*res.length-1)]
             )
         }
         getSrc()
-    }, [])
+    }, [questionConfig])
 
     return (
         <div className="card bg-stripped w-full my-8"> 

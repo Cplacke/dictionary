@@ -41,6 +41,7 @@ const App = () => {
   
   const [ src, setSrc ] = useState('');
   const [ themeColor, setThemeColor ] = useState('');
+  const [ darkMode, setDarkMode ] = useState('');
   const [ gold, setGold ] = useState(0);
   const [ backEnabled, setBackEnabled ] = useState(false);
   const [ navStack, setNavStack ] = useState(new Set());
@@ -49,6 +50,7 @@ const App = () => {
     const getDataSetOptions = async() => {
       const localSetting = getLocalStorage();
       setThemeColor(localSetting.themeColor);
+      setDarkMode(localSetting.darkMode);
       setGold(localSetting.gold);
       setSelectedDataSetName(localSetting.dataSetName);
       setDataSetNames( await getDataSets() );
@@ -96,6 +98,7 @@ const App = () => {
         selectedDataSetName, setSelectedDataSetName,
         src, setSrc,
         themeColor, setThemeColor,
+        darkMode, setDarkMode,
         gold, setGold,
         navStack, setNavStack,
         backEnabled, navigateBack,

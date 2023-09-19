@@ -2,35 +2,84 @@ import { useContext, useState, useEffect } from 'react'
 import { AppContext } from '../App'
 
 export const ThemeProvider = (value) => {
-    const { themeColor } = useContext(AppContext);
+    const { themeColor, darkMode } = useContext(AppContext);
     const [ css, setCss ] = useState('');
 
     useEffect(() => {
         let cssString = '';
+        const getColorIndex = (i) => {
+            return darkMode ? Math.abs( i - 9 ) : i;
+        }
         if (!themeColor) {
             return;
         }
         for (let i=1; i<10; i++) {
             cssString += `
                 .bg-primary-${i}00 {
-                    background-color: ${tailwindColorTheme[themeColor][`${i}00`]};
+                    background-color: ${tailwindColorTheme[themeColor][`${getColorIndex(i)}00`]};
                 }
                 .text-primary-${i}00 {
-                    color: ${tailwindColorTheme[themeColor][`${i}00`]};
+                    color: ${tailwindColorTheme[themeColor][`${getColorIndex(i)}00`]};
                 }
                 .hover\\:bg-primary-${i}00:hover {
-                    background-color: ${tailwindColorTheme[themeColor][`${i}00`]};
+                    background-color: ${tailwindColorTheme[themeColor][`${getColorIndex(i)}00`]};
                 }
                 .hover\\:text-primary-${i}00:hover {
-                    color: ${tailwindColorTheme[themeColor][`${i}00`]};
+                    color: ${tailwindColorTheme[themeColor][`${getColorIndex(i)}00`]};
                 }
                 input[type="checkbox"]:checked:before{
                     background-color: ${tailwindColorTheme[themeColor]['100']};
                 }
+                .bg-stripped {
+                    background: repeating-linear-gradient(
+                        -45deg,
+                        #858484,
+                        #858484 1px,
+                        ${tailwindColorTheme[themeColor]["50"]} 1px,
+                        ${tailwindColorTheme[themeColor]["50"]} 6px
+                    );
+                }
+            `
+        }
+        if (darkMode) {
+            cssString += `
+                html {
+                    color: ${tailwindColorTheme.Gray[`100`]}
+                }
+                .text-black { color: #fff !important }
+                .text-white { color: #000 !important }
+                .bg-stripped {
+                    background: repeating-linear-gradient(
+                        -45deg,
+                        #858484,
+                        #858484 1px,
+                        ${tailwindColorTheme[themeColor]["950"]} 1px,
+                        ${tailwindColorTheme[themeColor]["950"]} 6px
+                    );
+                }
+                .bg-primary-50 {
+                    background-color: ${tailwindColorTheme[themeColor]["950"]}
+                }
+            `
+            for (let i=1; i<10; i++) {
+                cssString += `
+                    .bg-gray-${i}00 {
+                        background-color: ${tailwindColorTheme.Zinc[`${getColorIndex(i)}00`]};
+                    }
+                    .text-gray-${i}00 {
+                        color: ${tailwindColorTheme.Zinc[`${getColorIndex(i)}00`]};
+                    }
+                `
+            }
+        } else {
+            cssString += `
+                .bg-primary-50 {
+                    background-color: ${tailwindColorTheme[themeColor]["50"]}
+                }
             `
         }
         setCss(cssString)
-    },[themeColor])
+    },[themeColor, darkMode])
 
     return (
         <div className={"hidden"}>

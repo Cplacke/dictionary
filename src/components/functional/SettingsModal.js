@@ -16,6 +16,8 @@ export const SettingsModal = ({
         setSrc,
         setThemeColor,
         themeColor,
+        darkMode,
+        setDarkMode,
         dataSetNames,
         selectedDataSetName,
         setSelectedDataSetName
@@ -37,6 +39,14 @@ export const SettingsModal = ({
         })
     }
 
+    const handleDarkModeToggle = (e) => {
+        const active = e.target.checked;
+        setDarkMode(active)
+        patchLocalStorage({
+            darkMode: active
+        })
+    }
+
     const setAndClose = (term) => {
         setSearchTerm(term);
         setData([]);
@@ -44,7 +54,7 @@ export const SettingsModal = ({
     }
 
     return (
-        <div className="p-2 bg-gray-50 h-full w-full">
+        <div className="p-2 bg-gray-50 h-full w-full bg-primary-50">
             <div className="flex text-primary-500 items-center"> 
                 <span className="w-full md:ml-3 text-4xl md:text-5xl"> Control Panel </span>
                 <span className="inline material-symbols-outlined text-4xl ml-auto cursor-pointer hover:bg-primary-100 rounded-full"
@@ -53,7 +63,7 @@ export const SettingsModal = ({
             </div>
 
             <div className="py-2 mt-2 text-gray-800 text-3xl md:text-4xl">
-                <NavLink className="py-1 mb-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
+                <NavLink className="py-1 px-2 -mx-2 mb-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
                     to="/" onClick={() => {
                         setAndClose(''); 
                     }}
@@ -62,7 +72,7 @@ export const SettingsModal = ({
                     Search
                     <Flare className="bg-red-400 ml-auto" text="New"/>
                 </NavLink>
-                <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
+                <NavLink className="py-1 px-2 -mx-2 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
                     to="/" onClick={() => { 
                         setAndClose(getWordOfDay()); 
                     }}
@@ -71,7 +81,7 @@ export const SettingsModal = ({
                     Word of the Day
                     <Flare className="bg-purple-400 ml-auto" text="Beta"/>
                 </NavLink>
-                <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
+                <NavLink className="py-1 px-2 -mx-2 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
                     to="/game"
                 > 
                     <Icon icon="joystick" className="text-3xl md:text-4xl mr-2 md:ml-3" />
@@ -80,18 +90,18 @@ export const SettingsModal = ({
                     <Flare className="bg-red-400 mr-0.5" text="New"/>
                     <Flare className="bg-purple-400" text="beta"/>
                 </NavLink>
-                <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"> 
+                <NavLink className="py-1 px-2 -mx-2 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"> 
                     <Icon icon="bookmark" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     My Words
                     <Flare className="bg-blue-400 ml-auto" text="Coming Soon!"/>
                 </NavLink>
-                <NavLink className="py-1 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"> 
+                <NavLink className="py-1 px-2 -mx-2 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"> 
                     <Icon icon="settings" className="text-3xl md:text-4xl mr-2 md:ml-3" />
                     Settings
                 </NavLink>
                 <div className="ml-10 mr-1 text-xl">
                     <div className="text-primary-500"> Theme Color </div>
-                    <select className="p-2 px-4 w-full bg-primary-100"
+                    <select className="p-2 px-4 w-full hover:bg-primary-100 bg-primary-100 cursor-pointer"
                         value={themeColor}
                         onChange={handleThemeColorChange}
                     >
@@ -106,8 +116,17 @@ export const SettingsModal = ({
                             })
                         }
                     </select>
+                    <div className="mt-1 text-primary-500"> Inverted Theme / Dark </div>
+                    <div className="flex pl-2 mt-1">
+                        <input type="checkbox" checked={darkMode} onChange={handleDarkModeToggle}
+                            className="p-2 px-4 mr-3 scale-2 bg-primary-100" 
+                            style={{ scale: '1.5' }}
+                        />
+                        <Icon className={darkMode ? 'show' : 'hidden'} icon="dark_mode" />
+                        <Icon className={darkMode ? 'hidden' : 'show'} icon="light_mode" />
+                    </div>
                     <div className="mt-1 text-primary-500"> Word Set </div>
-                    <select className="p-2 px-4 w-full bg-primary-100"
+                    <select className="p-2 px-4 w-full hover:bg-primary-100 bg-primary-100 cursor-pointer"
                         value={selectedDataSetName}
                         onChange={handleWordSetChange}
                     >

@@ -5,6 +5,7 @@ export const getLocalStorage = () => {
         console.warn('no local storage object found, using default');
         return {
             themeColor: 'Rose',
+            darkMode: false,
             dataSetName: 'SAT Terms',
             gold: 250,
             themes: [

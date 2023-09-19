@@ -13,7 +13,7 @@ export const SearchBar = () => {
         <div className="flex text-2xl text-primary-500">
             <div className="inline-block w-full md:w-1/2 mt-8 ml-4 mx-4 md:mx-auto">
                 <div className="flex align-center">
-                    <span className="flex items-center w-full bg-white rounded-full">
+                    <span className="flex items-center w-full bg-gray-100 rounded-full">
                         <Icon icon={backEnabled ? "undo" : "search"} 
                             className="text-3xl px-2 p-1 rounded-full hover:bg-primary-100 cursor-pointer"
                             onClick={() => {
@@ -22,7 +22,7 @@ export const SearchBar = () => {
                                 }
                             }}
                         />
-                        <input id="search-input" className="pl-1 w-full h-full" 
+                        <input id="search-input" className="pl-1 bg-gray-100 w-full h-full" 
                             type="text" placeholder="search ..."
                             value={searchTerm}
                             onChange={(e) => { setSearchTerm(e.target.value) }}
