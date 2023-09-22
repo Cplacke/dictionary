@@ -3,8 +3,7 @@ import { NavLink} from 'react-router-dom'
 import { AppContext } from '../../App'
 import { Icon } from '../index'
 import { patchLocalStorage } from '../../services/local-storage-service'
-import { getWordOfDay } from '../../services/word-of-day.service'
-import { ThemeColors } from '../../routes'
+import { ThemeOptions } from '../../routes'
 
 export const SettingsModal = ({
     close
@@ -13,12 +12,12 @@ export const SettingsModal = ({
     const { 
         setSearchTerm,
         setData,
-        setSrc,
         setThemeColor,
         themeColor,
         darkMode,
         setDarkMode,
         dataSetNames,
+        dataSet,
         selectedDataSetName,
         setSelectedDataSetName
     } = useContext(AppContext)
@@ -47,8 +46,16 @@ export const SettingsModal = ({
         })
     }
 
+    let _dataSet = [];
+    useEffect(() => { _dataSet = dataSet; },[ dataSet ]);
     const setAndClose = (term) => {
-        setSearchTerm(term);
+        if ( term === 'word-of-day' && _dataSet ) {
+            setSearchTerm(
+                _dataSet[
+                    Math.round(Math.random()*dataSet.length-1)
+                ].word
+            );
+        }
         setData([]);
         close();
     }
@@ -74,7 +81,7 @@ export const SettingsModal = ({
                 </NavLink>
                 <NavLink className="py-1 px-2 -mx-2 cursor-pointer hover:text-primary-500 hover:bg-primary-100 flex items-center"
                     to="/" onClick={() => { 
-                        setAndClose(getWordOfDay()); 
+                        setAndClose('word-of-day'); 
                     }}
                 > 
                     <Icon icon="today" className="text-3xl md:text-4xl mr-2 md:ml-3" />
@@ -106,11 +113,10 @@ export const SettingsModal = ({
                         onChange={handleThemeColorChange}
                     >
                         {
-                            ThemeColors.map((color) => {
+                            ThemeOptions.map((theme) => {
                                 return (
-                                    <option key={color+'-option'}>
-                                    {/* <option onClick={() => setThemeColor(color)} > */}
-                                        { color }
+                                    <option key={theme.name+'-option'}>
+                                        { theme.name }
                                     </option>
                                 )
                             })

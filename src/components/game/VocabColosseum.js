@@ -28,8 +28,8 @@ export const VocabColosseum = () => {
             </div>
             <div className="my-8 mr-2">
                 {
-                    questionSet.map((questionConfig, i) => {
-                        if (i>questionIndex) {
+                    questionSet.length && questionSet.map((questionConfig, i) => {
+                        if (i>questionIndex || !questionConfig) {
                             return null;
                         }
                         return <ColosseumQuestion key={JSON.stringify(questionConfig)} index={i} questionConfig={questionConfig} />
@@ -161,9 +161,6 @@ export const AnswerOptions = ({ questionConfig }) => {
 }
 
 const AnswerButton = ({ onClick, term, className="" }) => {
-
-    // const answeredStyle = 
-
     return (
         <div className="card card-sm bg-primary-200 w-full m-2 cursor-pointer"
             onClick={() => onClick(term)}

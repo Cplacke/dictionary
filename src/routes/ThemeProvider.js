@@ -10,33 +10,34 @@ export const ThemeProvider = (value) => {
         const getColorIndex = (i) => {
             return darkMode ? Math.abs( i - 9 )+1 : i;
         }
-        if (!themeColor) {
+        const themeConfig = ThemeOptions.find((t) => (t.name === themeColor))
+        if (!themeConfig) {
             return;
         }
         for (let i=1; i<10; i++) {
             cssString += `
                 .bg-primary-${i}00 {
-                    background-color: ${tailwindColorTheme[themeColor][`${getColorIndex(i)}00`]};
+                    background-color: ${tailwindColorTheme[themeConfig.secondary][`${getColorIndex(i)}00`]};
                 }
                 .text-primary-${i}00 {
-                    color: ${tailwindColorTheme[themeColor][`${getColorIndex(i)}00`]};
+                    color: ${tailwindColorTheme[themeConfig.primary][`${getColorIndex(i)}00`]};
                 }
                 .hover\\:bg-primary-${i}00:hover {
-                    background-color: ${tailwindColorTheme[themeColor][`${getColorIndex(i)}00`]};
+                    background-color: ${tailwindColorTheme[themeConfig.secondary][`${getColorIndex(i)}00`]};
                 }
                 .hover\\:text-primary-${i}00:hover {
-                    color: ${tailwindColorTheme[themeColor][`${getColorIndex(i)}00`]};
+                    color: ${tailwindColorTheme[themeConfig.primary][`${getColorIndex(i)}00`]};
                 }
                 input[type="checkbox"]:checked:before{
-                    background-color: ${tailwindColorTheme[themeColor]['100']};
+                    background-color: ${tailwindColorTheme[themeConfig.primary]['100']};
                 }
                 .bg-stripped {
                     background: repeating-linear-gradient(
                         -45deg,
-                        ${tailwindColorTheme[themeColor]["900"]},
-                        ${tailwindColorTheme[themeColor]["900"]} 1px,
-                        ${tailwindColorTheme[themeColor]["50"]} 1px,
-                        ${tailwindColorTheme[themeColor]["50"]} 6px
+                        ${tailwindColorTheme[themeConfig.secondary]["900"]},
+                        ${tailwindColorTheme[themeConfig.secondary]["900"]} 1px,
+                        ${tailwindColorTheme[themeConfig.secondary]["50"]} 1px,
+                        ${tailwindColorTheme[themeConfig.secondary]["50"]} 6px
                     );
                 }
             `
@@ -51,14 +52,14 @@ export const ThemeProvider = (value) => {
                 .bg-stripped {
                     background: repeating-linear-gradient(
                         -45deg,
-                        ${tailwindColorTheme[themeColor]["100"]},
-                        ${tailwindColorTheme[themeColor]["100"]} 1px,
-                        ${tailwindColorTheme[themeColor]["950"]} 1px,
-                        ${tailwindColorTheme[themeColor]["950"]} 6px
+                        ${tailwindColorTheme[themeConfig.secondary]["100"]},
+                        ${tailwindColorTheme[themeConfig.secondary]["100"]} 1px,
+                        ${tailwindColorTheme[themeConfig.secondary]["950"]} 1px,
+                        ${tailwindColorTheme[themeConfig.secondary]["950"]} 6px
                     );
                 }
                 .bg-primary-50 {
-                    background-color: ${tailwindColorTheme[themeColor]["950"]}
+                    background-color: ${tailwindColorTheme[themeConfig.secondary]["950"]}
                 }
                 .bg-space { 
                     background-color: #222222 !important;
@@ -77,7 +78,7 @@ export const ThemeProvider = (value) => {
         } else {
             cssString += `
                 .bg-primary-50 {
-                    background-color: ${tailwindColorTheme[themeColor]["50"]}
+                    background-color: ${tailwindColorTheme[themeConfig.secondary]["50"]}
                 }
             `
         }
@@ -90,6 +91,8 @@ export const ThemeProvider = (value) => {
         </div>
     )
 }
+
+
 
 const tailwindColorTheme = {
     Slate: {
@@ -156,6 +159,19 @@ const tailwindColorTheme = {
         '800': '#292524',
         '900': '#1c1917',
         '950': '#0c0a09',
+    },
+    GemStone: {
+        '50': '#e7e5e4',
+        '100': '#d3d0d5',
+        '200': '#a8a29e',
+        '300': '#d6d3d1',
+        '400': '#a8a29e',
+        '500': '#78716c',
+        '600': '#57534e',
+        '700': '#44403c',
+        '800': '#57534e',
+        '900': '#44403c',
+        '950': '#292524',
     },
     Red: {
         '50': '#fef2f2',
@@ -380,4 +396,159 @@ const tailwindColorTheme = {
     }
 };
 
-export const ThemeColors = Object.keys(tailwindColorTheme);
+const ThemeColors = Object.keys(tailwindColorTheme);
+export const ThemeOptions = [
+    { 
+        name: 'Slate',
+        primary: 'Slate',
+        secondary: 'Slate',
+        cost: 150
+    },{ 
+        name: 'Gray',
+        primary: 'Gray',
+        secondary: 'Gray',
+        cost: 0
+    },{ 
+        name: 'Zinc',
+        primary: 'Zinc',
+        secondary: 'Zinc',
+        cost: 150
+    },{ 
+        name: 'Neutral',
+        primary: 'Neutral',
+        secondary: 'Neutral',
+        cost: 50
+    },{ 
+        name: 'Stone',
+        primary: 'Stone',
+        secondary: 'Stone',
+        cost: 150
+    },{ 
+        name: 'Red',
+        primary: 'Red',
+        secondary:'Red',
+        cost: 250
+    },{ 
+        name: 'Orange',
+        primary: 'Orange',
+        secondary: 'Orange',
+        cost: 500
+    },{ 
+        name: 'Amber',
+        primary: 'Amber',
+        secondary: 'Amber',
+        cost: 500
+    },{ 
+        name: 'Yellow',
+        primary: 'Yellow',
+        secondary: 'Yellow',
+        cost: 250
+    },{ 
+        name: 'Lime',
+        primary: 'Lime',
+        secondary: 'Lime',
+        cost: 500
+    },{ 
+        name: 'Green',
+        primary: 'Green',
+        secondary: 'Green',
+        cost: 500
+    },{ 
+        name: 'Emerald',
+        primary: 'Emerald',
+        secondary: 'Emerald',
+        cost: 500
+    },{ 
+        name: 'Teal',
+        primary: 'Teal',
+        secondary: 'Teal',
+        cost: 500
+    },{ 
+        name: 'Cyan',
+        primary: 'Cyan',
+        secondary: 'Cyan',
+        cost: 500
+    },{ 
+        name: 'Sky',
+        primary: 'Sky',
+        secondary:'Sky',
+        cost: 500
+    },{ 
+        name: 'Blue',
+        primary: 'Blue',
+        secondary: 'Blue',
+        cost: 250
+    },{ 
+        name: 'Indigo',
+        primary: 'Indigo',
+        secondary: 'Indigo',
+        cost: 500
+    },{ 
+        name: 'Violet',
+        primary: 'Violet',
+        secondary: 'Violet',
+        cost: 500
+    },{ 
+        name: 'Purple',
+        primary: 'Purple',
+        secondary: 'Purple',
+        cost: 500
+    },{ 
+        name: 'Fuchsia',
+        primary: 'Fuchsia',
+        secondary: 'Fuchsia',
+        cost: 500
+    },{ 
+        name: 'Pink',
+        primary: 'Pink',
+        secondary: 'Pink',
+        cost: 500
+    },{ 
+        name: 'Rose',
+        primary: 'Rose',
+        secondary: 'Rose',
+        cost: 500
+    },{ 
+        name: 'Gemstone Amethyst',
+        primary: 'Purple',
+        secondary: 'GemStone',
+        cost: 1000
+    },{ 
+        name: 'Gemstone Sapphire',
+        primary: 'Blue',
+        secondary: 'GemStone',
+        cost: 1000
+    },{ 
+        name: 'Gemstone Diamond',
+        primary: 'Sky',
+        secondary: 'GemStone',
+        cost: 1000
+    },{ 
+        name: 'Gemstone Emerald',
+        primary: 'Emerald',
+        secondary: 'GemStone',
+        cost: 1000
+    },{ 
+        name: 'Gemstone Topaz',
+        primary: 'Yellow',
+        secondary: 'GemStone',
+        cost: 1000
+    },{ 
+        name: 'Gemstone Ruby',
+        primary: 'Red',
+        secondary: 'GemStone',
+        cost: 1000
+    },{ 
+        name: 'Gemstone Rose Quartz',
+        primary: 'Pink',
+        secondary: 'GemStone',
+        cost: 1000
+    },
+    // { 
+    //     name: 'Rainbow Road',
+    //     primary: 'stone',
+    //     secondary: null,
+    //     disabled: true,
+    //     cost: 4000
+    // }
+].sort((a, b) => (a.cost - b.cost));

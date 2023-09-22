@@ -18,7 +18,7 @@ export const GameSelectionCard = ({
             >
                 <div className="text-primary-700 p-2 md:p-4 text-2xl flex items-center"> 
                     { title } 
-                    <Icon icon={icon} className="ml-auto text-gray-500 text-4xl opacity-70"/>
+                    <Icon icon={icon} className="ml-auto text-gray-900 text-4xl opacity-70"/>
                 </div>
                 <div className="text-black p-2 pt-0"> { description } </div>
                 <div className="flex align-end ml-2"> 

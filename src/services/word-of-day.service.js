@@ -1,10 +1,20 @@
+import { useContext } from "react";
+import { AppContext } from "../App";
 
 export const getWordOfDay = () => {
 
-    // TODO add a hash based read for the words
-    return words[
-        Math.round(Math.random()*words.length-1)
-    ];
+    // // TODO add a hash based read for the words (unique for day?)
+    // const { dataSet } = useContext(AppContext)
+
+    // if ( dataSet && dataSet.length ) {
+    //     return dataSet[
+    //         Math.round(Math.random()*dataSet.length-1)
+    //     ]
+    // } else {
+        return words[
+            Math.round(Math.random()*words.length-1)
+        ];
+    // }
 }
 
 
