@@ -49,6 +49,9 @@ router.get("/gif", async (ctx) => {
 router.get("/dict", async(ctx) => {
     ctx.response.redirect('/');
 });
+router.get('/game', async(ctx) => {
+    ctx.response.redirect('/');
+});
 
 // Define /version route
 router.get("/version", async (ctx) => {

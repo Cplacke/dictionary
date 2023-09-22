@@ -42,7 +42,7 @@ const App = () => {
   const [ src, setSrc ] = useState('');
   const [ themeColor, setThemeColor ] = useState('');
   const [ darkMode, setDarkMode ] = useState('');
-  const [ gold, setGold ] = useState(0);
+  const [ gold, setGold ] = useState(null);
   const [ backEnabled, setBackEnabled ] = useState(false);
   const [ navStack, setNavStack ] = useState(new Set());
 

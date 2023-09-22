@@ -1,12 +1,21 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Modal from 'react-modal'
 import { AppContext } from "../../App";
 import { SettingsModal } from '../index'
+import { setGold } from '../../services/local-storage-service'
 
 export const Navigation = () => {
 
     const { gold } = useContext(AppContext)
     const [ showMenu, setShowMenu ] = useState(false);
+
+    // sync gold with local storage
+    useEffect(() => {
+        if (gold === null) {
+            return;
+        }
+        setGold(gold);
+    },[gold])
 
     const getRandomName = () => {
         const names = [

@@ -59,9 +59,8 @@ export const removeTermFromLocal = (term) => {
     writeToLocalStorage(value);
 }
 
-export const addGold = (n) => {
-    let value = getLocalStorage();
+export const setGold = (count) => {
     patchLocalStorage({
-        gold: value.gold + n
-    })
+        gold: count
+    });
 }

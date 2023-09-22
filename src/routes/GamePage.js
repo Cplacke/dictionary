@@ -1,6 +1,9 @@
 import { Navigation, Footer, GameSelectionCard, VocabColosseum } from "../components"
 import { getDataSetByName, getDataSets } from '../services/backend-service'
-import { useState, createContext, useEffect } from "react"
+import { useState, createContext, useEffect, useContext } from "react"
+import { AppContext } from "../App";
+import { generateQuestionSet } from "../services/game-questoin-service";
+
 
 export const GameContext = createContext();
 export const GameConfig = [
@@ -34,9 +37,30 @@ export const GameConfig = [
 
 export const GamePage = () => {
 
+    const { dataSet, setDataSet, gold, setGold } = useContext(AppContext)
     const [ page, setPage ] = useState('level-select');
     const [ selectedLevel, setSelectedLevel ] = useState(null);
+    const [ questionSet, setQuestionSet ] = useState(0);
     const [ questionIndex, setQuestionIndex ] = useState(0);
+    const [ correctCount, setCorrectCount ] = useState(0);
+    const [ score, setScore ] = useState(0);
+
+    const playGame = (gameTitle) => {
+        console.info('paly game data set', {dataSet});
+        const gameQuestions = generateQuestionSet(dataSet, 5);
+        setQuestionSet(gameQuestions);
+        setQuestionIndex(0);
+        setPage(gameTitle);
+    }
+
+    const scoreQuestion = (selectedAnswer) => {
+        if (selectedAnswer.answer === true) {
+            setScore(score+1000);
+            setGold(gold+75)
+            setCorrectCount(correctCount+1);
+        }
+        setQuestionIndex(questionIndex+1);
+    }
 
     const renderPage = () => {
         switch (page) {
@@ -46,29 +70,29 @@ export const GamePage = () => {
                         <GameSelectionCard key={`game_${i}`}
                             title={game.title} term={game.term} 
                             icon={game.icon} description={game.description} 
-                            play={() => setPage(game.page)}
+                            play={() => playGame(game.title)}
                         /> 
                     ))
                 )
-            case 'vocab':
+            case "Vocab Colosseum":
                 return (
-                    <VocabColosseum />
+                    <VocabColosseum questionSet={questionSet}/>
                 )
-            case 'sentence':
+            case "Sentence Sherlock":
                 return (
-                    <VocabColosseum />
+                    <div className="text-center text-2xl text-primary-400"> Sentence Sherlock is in development</div>
                 )
-            case 'gif':
+            case "Gif Detective Elite":
                 return (
-                    <VocabColosseum />
+                    <div className="text-center text-2xl text-primary-400"> Gif Detective Elite is in development</div>
                 )
-            case 'bank':
+            case "Words in the Bank":
                 return (
-                    <VocabColosseum />
+                    <div className="text-center text-2xl text-primary-400"> Words in the Bank is in development</div>
                 )
-            case 'rabbit_hole':
+            case "Rabbit Hole":
                 return (
-                    <VocabColosseum />
+                    <div className="text-center text-2xl text-primary-400"> Rabbit Hole is in development</div>
                 )
         
             default:
@@ -82,7 +106,10 @@ export const GamePage = () => {
                 value={{
                     page, setPage,
                     selectedLevel, setSelectedLevel,
-                    questionIndex, setQuestionIndex
+                    questionIndex,
+                    scoreQuestion,
+                    questionSet,
+                    score, setScore
                 }}
             >
                 <Navigation />

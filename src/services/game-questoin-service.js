@@ -10,11 +10,11 @@ export const generateQuestionSet = (
         let answerTerm = JSON.parse(
             JSON.stringify(data[index])
         )
+        // sanitize text and remove term from def NO FREEBIES;
         answerTerm = sanitizeTermFromDefinitions(answerTerm);
         answerTerm.answer = true;
         const answerPosition = getRandomSet(1, 3)[0];
         const decoyPositions = getRandomSet(3, data.length, new Set(), [index]);
-        // sanitize text and remove term from def NO FREEBIES;
 
         return answerAt(
             answerPosition, answerTerm,
