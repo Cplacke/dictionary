@@ -9,15 +9,15 @@ import { useEffect, useContext } from "react";
 export const SearchPage = () => { 
 
     const {
-        searchTerm, setSearchTerm,
+        setSearchTerm,
     } = useContext(AppContext)
 
     useEffect(() => {
-        const searchTerm = /term=(.*)/i.exec(
+        const queryTerm = /term=(.*)/i.exec(
             window.location.search
         );
-        if (searchTerm[1]) {
-            setSearchTerm(searchTerm[1])
+        if (queryTerm && queryTerm[1]) {
+            setSearchTerm(queryTerm[1])
         }
     }, [])
 
