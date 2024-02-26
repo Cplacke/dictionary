@@ -16,7 +16,7 @@ export const SearchPage = () => {
         const queryTerm = /term=(.*)/i.exec(
             window.location.search
         );
-        if (queryTerm && queryTerm[1]) {
+        if (queryTerm && queryTerm.length > 1) {
             setSearchTerm(queryTerm[1])
         }
     }, [])
